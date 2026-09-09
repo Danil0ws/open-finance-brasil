@@ -1,0 +1,3 @@
+# [Open Finance] Informa #260
+
+Atualização do Guia de Experiência do Usuário O Grupo Técnico de Experiência do Usuário disponibilizou no dia 27/10/2022 **uma nova versão do Guia** de Experiencia (Versão 3.07.01).  A principal atualização desta nova versão é a **revisão da tabela de status de fase 2**, por conta da V2 das APIs.  Além disso, foram realizados os seguintes ajustes, conforme detalhado no anexo da nova versão do Guia:   - Remoção do status “AUTHORISED” da tabela de status da iniciação de pagamento; - O redirecionamento para a iniciadora ou para a receptora, no caso em que o usuário cancela a operação, foi atualizado para requisito. |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #275
+
+Atualização da planilha de problemas conhecidos da fase 2  O Grupo Técnico de Especificações Dados do cliente comunica que foi incluído um item à planilha de problemas conhecidos da versão 2.0.1 da fase 2, conforme segue:   - **Planilha de problemas conhecidos da fase 2**   - **BCLOG-F02-225**   - **API/Sessão:** Invoice Financings   - **Endpoints:** /contracts/{contractId}/payments   - **Campo:** paymentId   - **Qual o problema:** O pattern aplicado para paymentId diverge do utilizado para o mesmo campo em outros endpoints das demais APIs de operações de crédito   - **Como deveria ser:** O correto deveria ser ^[a-zA-Z0-9][a-zA-Z0-9-]{0,99}$   - **Orientação:** Considerar o pattern ^[a-zA-Z0-9][a-zA-Z0-9-]{0,99}$ |

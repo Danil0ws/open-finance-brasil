@@ -1,0 +1,5 @@
+# [Open Finance] Informa #861
+
+Disponibilização dos motores das APIs de Dados Cadastrais v2.3.0 e Câmbio v1.1.0 |
+
+ Conforme compartilhado no Informa #789 *(“Divulgação dos cronogramas de versionamento minor para as APIs de Dados do cliente”),* divulgado em 25/09/2025*,* os motores de conformidade das APIs de Dados Cadastrais v2.3.0  e Câmbio v1.1.0  foram disponibilizados em **16/03/2026**  e serão utilizados para o marco de 100%  em  **28/04/2026**.     Para o marco de 100%, as instituições devem obter sucesso nos seguintes planos de testes:       **API Dados Cadastrais v2.3.0**  - Functional Tests for Customer - Business API - Based on Swagger version: 2.3.0; - Functional Tests for Customer - Personal API - Based on Swagger version: 2.3.0  **API Câmbio v1.1.0**  - Functional Tests for Exchange API - Based on Swagger version: 1.1.0    As instituições que não atingirem sucesso no marco serão notificadas via tickets do Service Desk.      Mais detalhes sobre os testes podem ser consultados na página de plano de testes. |

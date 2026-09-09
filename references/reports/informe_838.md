@@ -1,0 +1,5 @@
+# [Open Finance] Informa #838
+
+Orientações quanto ao prazo de adequação para as instituições passarem a enviar notificações via Webhook para edição de consentimentos da API pagamentos automáticos: |
+
+ Devido as alterações realizadas em paralelo na API Webhook por duas outras frentes, Serviços e JSR, a DTO optou por não realizar o lançamento de duas especificações em um curto intervalo de tempo para essa mesma API.      Sendo assim, conforme informado ao GT Serviços, as funcionalidades de notificação relacionadas a edição do consentimento de Transferências Inteligentes só serão cobradas a partir 07/05/2026.     Demais informações sobre o cronograma de implementação, certificação, bem como a data de *go live*, podem ser encontradas no Informa #789 (“Jornada sem redirecionamento (JSR) - Divulgação do cronograma de implementação da v2.2.0 (*minor*) da API Vínculo de dispositivo e v1.3.0 (*minor*) da API Webhook”, enviado em 25/09/2025)      Em caso de dúvidas, recomendamos abertura de ticket no Service Desk. |

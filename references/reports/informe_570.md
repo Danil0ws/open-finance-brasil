@@ -1,0 +1,3 @@
+# [Open Finance] Informa #570
+
+Disponibilização de novo campo de *flags* no Diretório de Participantes Comunicamos que, em 25/04/2024, foi disponibilizado um novo campo *flag* no Diretório de Participantes, que será utilizado para identificar informações gerais das instituições a nível de organização, servidor de autorização *(authorisation server)* e declaração de software *(software statement).*     Nessa atualização, foram disponibilizadas opções de *flags* para segmento de atuação a nível de servidor de autorização e todos os servidores cadastrados no Diretório foram atualizados com as opções “Suporta conta PF” e “Suporta conta PJ”. **As instituições deverão atualizar as *flags* de segmento de atuação dos seus respectivos servidores até 10/05/2024.** |

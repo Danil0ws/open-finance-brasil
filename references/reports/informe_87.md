@@ -1,0 +1,3 @@
+# [Open Banking] Informa #87
+
+Atualização de versionamento das Especificações da Fase 3A para 1.0.1 Com a abertura das certificações do 1º ciclo T0 da Fase 3A, a versão das especificações abrangidas pelo processo de certificação será atualizada de **1.0.1-rc1.2** para **1.0.1**.    Essa modificação formaliza que as especificações atualmente previstas deixam de estar em uma versão *release candidate*, passando a ser uma versão definitiva.    Nesta versão, estão presentes os recursos: (i) Iniciação e inserção manual de dados (“MANU”), (ii) Iniciação e inserção de chave PIX (“DICT”) e (iii) Iniciação pelo recebedor (“INIC”). |

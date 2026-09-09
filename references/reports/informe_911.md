@@ -1,0 +1,5 @@
+# [Open Finance] Informa #911
+
+Aviso de atualização programada do Diretório de Participantes |
+
+ Informamos que o **Diretório de Participantes em ambiente de Produção** passará por uma atualização programada.  A atualização ocorrerá na seguinte janela:   - **Produção: 25/06/2026, quinta-feira, das 6h às 7h.**   Durante a janela de atualização, **as APIs públicas de consulta de participantes e keystores não serão afetadas.**  Itens que não serão afetados:   - APIs públicas de consulta de participantes; - Keystores.   Itens que poderão apresentar lentidão ou indisponibilidade momentânea:   - Interface do usuário (UI) do Diretório; - APIs restritas.  **Atenção:** Durante a atualização, a interface do usuário e as APIs restritas poderão apresentar lentidão ou indisponibilidade momentânea por um período breve, estimado em até **15 minutos.**    Participantes que utilizam APIs restritas do Diretório para operações administrativas ou obtenção de dados cadastrais poderão observar degradação temporária durante esse período.  Participantes que utilizam as APIs públicas de consulta de participantes e keystores **não serão impactados.** |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #410
+
+Cadeias V4/G4 dos certificados de transporte já se encontram em utilização no ecossistema    Em complemento ao Informa #374 ("Novas cadeias intermediárias para certificados ICP-Brasil", enviado em 10/05/2023), informamos que novas cadeias intermediárias (V4/G4) foram incluídas na cadeia de confiança do Repositório ICP-Brasil.     Ressaltamos que já existem Autoridades Certificadoras com a cadeia cadastrada no Diretório do Open Finance Brasil realizando a emissão de certificados nessa cadeia. Portanto, as instituições que não estiverem adequadas para aceitar o certificado da nova cadeia já estão sujeitas a problemas de interoperabilidade. |

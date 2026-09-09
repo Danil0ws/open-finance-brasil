@@ -1,0 +1,3 @@
+# [Open Finance] Informa #511
+
+Prorrogação do marco de 40% da API de Pagamentos automáticos v1.0.0 (transferências inteligentes) Conforme comunicado no Informa #509 (“Ajustes no motor de conformidade das APIs de Pagamentos”, enviado em 08/01/2024), em 09/01/2024 foram realizados ajustes em 5 módulos de teste da API de Pagamentos automáticos v1.0.0, para torná-los menos restritivos.     Informamos que o marco de 40% que ocorreria hoje, 10/01/2024, foi prorrogado para 15/01/2024.     Reforçamos que a data da API de Pagamentos v4.0.0 se mantém, e as instituições deverão executar 40% de sucesso dos testes desta API até hoje, 10/01/2024, às 23h59. |

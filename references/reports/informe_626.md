@@ -1,0 +1,3 @@
+# [Open Finance] Informa #626
+
+Esclarecimentos sobre o descredenciamento de instituições no Open Finance Brasil Informamos que, conforme os Regulamentos da Estrutura Inicial do Open Finance Brasil, o processo de descredenciamento não estabelece o ressarcimento das despesas de manutenção do Open Finance Brasil, tendo em vista que as participações são previstas em regulamentação pelo Banco Central.    Adicionalmente, segundo o disposto na Circular nº 4.032 de 23 de junho de 2020, e na Resolução BCB nº 32 de 29 de outubro de 2020, os participantes do Open Finance Brasil são responsáveis por custear a sua implementação e manutenção. |

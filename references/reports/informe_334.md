@@ -1,0 +1,5 @@
+# [Open Finance] Informa #334
+
+Importante: Marco para 25% de sucesso nos testes beta do motor de conformidade de dados abertos (APIs de Investimentos, Câmbio e Credenciamento)    Reforçando o Informa #332 (“Importante: datas para sucesso nos testes beta do motor de conformidade de dados abertos (APIs de Investimentos, Câmbio e Credenciamento)”, enviado em 02/03/2023), **hoje, 08/03/2023, é a data limite para que as instituições atinjam 25% de sucesso nos testes beta do motor de conformidade de dados abertos – primeira onda**.     **Para possibilitar a contabilização das execuções, é necessário identificar a instituição de maneira clara na URL e/ou na descrição do teste.**     O cálculo da porcentagem está sendo feito baseado no total de *endpoints* que a instituição disponibilizará para a primeira onda da fase 4A e os respectivos sucessos, arredondando para baixo. |
+
+ ¹ Para os casos em que a quantidade de *endpoints* esperada para o marco for zero, é esperado que a instituição esteja executando os testes, mesmo sem ter obtido sucesso ainda. |

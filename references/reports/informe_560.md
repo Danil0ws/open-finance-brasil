@@ -1,0 +1,3 @@
+# [Open Finance] Informa #560
+
+Alteração relevante e lembrete do marco de 100% para a API de Pagamentos automáticos Informamos que o módulo de teste automatic-payments\_api\_webhook-multiple-consents\_test-module\_v1 sofreu uma alteração relevante em 02/04/2024 e por esse motivo, não será contabilizado para o novo marco de 100% que ocorrerá em 03/04/2024.    Lembramos que, para o marco de 100% de sucesso, é necessária a execução com sucesso dos testes nos seguintes planos:   - automatic-payments-webhook\_test-plan\_v1: Módulos relacionados a *Webhook* são obrigatórios para todas as instituições - automatic-payments\_test-plan\_v1: Módulos de CNPJ e múltiplas alçadas são obrigatórios apenas para instituições que ofertam essas funcionalidades |

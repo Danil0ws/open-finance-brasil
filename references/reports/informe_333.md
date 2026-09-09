@@ -1,0 +1,3 @@
+# [Open Finance] Informa #333
+
+Prazo final para reemissão de certificados emitidos pelas ACs Serasa, Soluti e Certisign    Conforme determinação do ITI, em 10/03/2023 todos os certificados das cadeias V1 e V2 das ACs Serasa, Soluti e Certisign serão revogados. As orientações referentes ao processo de substituição dos certificados no Diretório de Participantes e da necessidade de realização de processo DCM, encontram-se disponíveis nos Informas 299 e 305.     Assim, reforçamos que, caso os procedimentos não sejam realizados até esta data, a instituição ficará inoperante no ecossistema do Open Finance Brasil, até que seja realizada a adequação. |

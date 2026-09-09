@@ -1,0 +1,3 @@
+# [Open Finance] Informa #316
+
+Lembrete: Envio de pedidos de certificação para a API de Pagamentos v2.0.0    A IN 326 estabeleceu 01/02/2023 como data limite para submissão de pedidos de certificação da API de Pagamentos v2.0.0 e não há garantia de que os pedidos realizados após essa data serão processados antes do *go live* em 15/02/2023.     **As instituições que ainda não submeteram os pedidos de certificação foram notificadas por ticket no service desk e devem fazê-lo assim que possível.**      Maiores informações sobre o processo estão no Informa #307 (“Abertura da certificação da API Payments v2.0.0”, enviado em 23/01/2023). |

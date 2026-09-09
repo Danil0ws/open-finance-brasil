@@ -1,0 +1,7 @@
+# [Open Finance] Informa #792
+
+Novas instituições aptas a iniciar serviço de iniciação de pagamentos Pix – KLAVI IP e WE PAY OUT  A Associação Open Finance informa que a seguintes instituições cumpriram todas as etapas do processo de *onboarding* de iniciadoras com sucesso e, portanto, estão aptas a iniciar o serviço de iniciação de transações de pagamento Pix no contexto do Open Finance Brasil: KLAVI IP e WE PAY OUT     Com essa atualização, há atualmente 57 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix: |
+
+ •    Accesstage  •    Adyen  •    B3  •    Banco BMG S.A  •    Banco do Brasil  •    Banco Genial  •    Banco Inter  •    Banco Mercantil  •    Banco Ribeirão Preto  •    Banco Santander  •    Banco Semear  •    Banco XP  •    Banrisul  •    Beeteller  •    Belvo  •    Bradesco  •    BRB - Banco de Brasília S.A.  •    BTG  •    BV  •    Caixa  •    Central Ailos  •    Cielo  •    Crystal BMC  •    Cumbuca  •    dLocal  •    DOCK  •    EBANX  •    Efí S.A. |
+
+ •    Finnet  •    Google Pay (exclusivamente via jornada sem redirecionamento)  •    Hub Pagamentos  •    Iniciador  •    Itaú Unibanco  •    Klavi IP  •    Lend  •    Lina  •    Mercado Pago  •    MUEVY  •    Neon  •    Nubank  •    Omie  •    Ótimo SCD  •    OKTO  •    PAGSEGURO  •    Parati CFI  •    PicPay  •    Pluggy  •    PROTOTYPE IP  •    Quanto Network  •    Rede Celcoin  •    Rendimento  •    Safra  •    Sicoob  •    Sicredi  •    Stark Bank  •    Unicred  •    We Pay Out |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #596
+
+Lançamento do Piloto do Portal de Dados do Open Finance Brasil Informamos o início do piloto do Portal de Dados do Open Finance Brasil. Esta etapa marca um progresso significativo na evolução de um ecossistema financeiro mais aberto, inovador e acessível.  Nos próximos 15 dias, o objetivo principal será coletar feedbacks e esclarecer dúvidas para assegurar que o portal atenda efetivamente às necessidades e expectativas de todos os envolvidos.  Durante esta fase, é necessário utilizar a *passphrase*  “**piloto-portal-dados”** para acesso ao portal. Os *feedbacks* e comentários podem ser enviados para o endereço de e-mail: plataforma@openfinancebrasil.org.br . |

@@ -1,0 +1,3 @@
+# [Open Banking] Informa #148
+
+Nova instituição apta a iniciar serviço de iniciação de pagamento Pix – Banco BTG Pactual  A Estrutura do Open Banking Brasil informa que a seguinte instituição cumpriu todas as etapas do processo de onboarding de iniciadoras com sucesso e, portanto, está apta a iniciar o serviço de iniciação de transações de pagamento Pix no contexto do Open Banking Brasil: Banco BTG Pactual.     Com essa atualização, há atualmente 3 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix:  - Mercado pago - Banco do Brasil - Banco BTG Pactual    Novas instituições serão incluídas na listagem oportunamente. |

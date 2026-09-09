@@ -1,0 +1,3 @@
+# [Open Finance] Informa #312
+
+PCM: Orientação para participantes que não possuem certificado ICP-Brasil BRCAC Após análise procedimental, foi verificado que qualquer participante do Open Finance Brasil pode adquirir certificado ICP-Brasil BRCAC desde que possua um *Software Statement* cadastrado no Diretório.    Portanto, para que sua instituição possa se integrar à PCM em ambiente produtivo, será necessária a aquisição do certificado nos moldes regulamentares junto às Autoridades Certificadoras homologadas pelo Open Finance Brasil.    Para mais informações sobre o padrão de certificados, consulte o link da especificação de segurança: |

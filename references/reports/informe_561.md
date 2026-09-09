@@ -1,0 +1,3 @@
+# [Open Finance] Informa #561
+
+Exceção do período de convivência das APIs Seguros, Previdência e Títulos de Capitalização (Fase 4A)  Informamos que não haverá período de convivência entre a v2.0.0 e a v1.0.1 das APIs Seguros, Previdência e Títulos de Capitalização, de modo que as instituições não precisarão manter as duas versões disponíveis pelo prazo de 90 dias para consumo.       O*go live* das versões v2.0.0 se mantém programado para 31/05/2024, conforme o Informa #538 (“Lançamento da versão beta (v2.0.0-beta.1) das APIs de Títulos de Capitalização e Previdência (fase 4A)”, enviado em 04/03/2024). |

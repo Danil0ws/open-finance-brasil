@@ -1,0 +1,5 @@
+# [Open Finance] Informa #309
+
+Retirada dos campos totalPages e totalRecords de *endpoints* da API de Iniciação de Pagamentos  Reforçamos que os campos totalPages e totalRecords foram retirados dos *endpoints* da v2.0.0 da API de Iniciação de Pagamentos, conforme proposta intitulada “Proposta para retirada dos campos totalPages e totalRecords na API de Iniciação de Pagamentos – P39” aprovada na 128ª Reunião do Conselho Deliberativo do dia 11/08/2022, pois não retornam resultados pagináveis. Favor verificar abaixo:     Retirar os campos totalPages e totalRecords de todos os *responses* de sucesso e de exceção para os *endpoints*:  •  payments/v2/consents  •  payments/v2/consents/{consentId}  •  payments/v2/pix/payments  •  payments/v2/pix/payments/{paymentId} |
+
+ Validação de vínculo de registration\_access\_token nos certificados SSL/TLS  Informamos que houve alteração da documentação de DCR do Open Finance Brasil ajustando as orientações de validação dos certificados SSL/TLS para o processo de DCM.  O subitem 1 da seção 9.3.2 foi removido e foi adicionado o subitem 3, detalhando as validações necessárias no processo de DCM. |

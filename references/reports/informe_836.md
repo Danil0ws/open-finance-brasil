@@ -1,0 +1,5 @@
+# [Open Finance] Informa #836
+
+Alterações da Versão Estável aplicáveis à API de Vínculo de Dispositivo v2.2.0 e API Webhook v1.3.0 |
+
+ Conforme compartilhado no Informa #789 (“Jornada sem redirecionamento (JSR) - Divulgação do cronograma de implementação da v2.2.0 (minor) da API Vínculo de dispositivo e v1.3.0 (minor) da API Webhook”, enviado em 25/09/2025), comunicamos algumas orientações para a versão estável do motor que será disponibilizado em **27/01/2026**, dentre as alterações seguem os principais itens:      **Mudança no comportamento do cenário:**   - enrollments\_automatic-payments\_authorised-executed-scheduled-successfully\_v2-2; - enrollments\_automatic-payments\_sweeping-consent-not-authorised\_v2-2   **Novo módulo de teste:**      - enrollments\_api\_recurring-initiate\_unhappy-missing-permission\_sign-options-422\_test-module\_v2-2      **Importante:**    A atualização do cenário de teste: enrollments\_automatic-payments\_sweeping-consent-not-authorised\_v2-2, encontra-se em andamento e passará a ser exigida somente a partir da disponibilização do motor com os ajustes na versão estável, prevista para 27/01/2026. |

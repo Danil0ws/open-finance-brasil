@@ -1,0 +1,3 @@
+# [Open Finance] Informa #706
+
+Alteração da categoria de frequência das APIs Admin e Comum O GT Arquitetura comunica que as APIs Admin e Comum passam a ser monitoradas considerando uma nova classificação de frequência, conforme níveis de classificação disponíveis na IN 574 Item 5: “Requisitos não funcionais”.    Anteriormente eram consideradas como “alta frequência” (SLA 1500 ms) e, a partir de hoje, 28/02/2025, serão monitoradas como sendo de “baixa frequência” (SLA de 4000 ms).    Essas alterações foram aprovadas pelas deliberações PAR-105 e PAR-112 e não causarão nenhuma desconformidade para aqueles participantes que já estiverem sinalizados como CONFORME. |

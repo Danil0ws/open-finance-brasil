@@ -1,0 +1,5 @@
+# [Open Banking] Informa #125
+
+Cartilha explicativa - processo de onboarding de iniciadoras de pagamento Informamos a todos os participantes do Open Banking Brasil e interessados em participar do processo de onboarding de iniciadoras, que foi elaborada uma cartilha explicativa para auxiliar as iniciadoras e detentoras com todo o processo de onboarding. A abertura do processo será na próxima segunda feira, 07/02/2022. |
+
+ Ambiente Open Banking – Gestão de Pagamentos Em relação ao Requisito 3 da página 261 do Guia de Experiência do Usuário, versão 3.05.01 de 14/01/2022, informamos que:  Instituições Detentoras de Conta que são participantes apenas da fase 3 não precisam desenvolver a área de gestão de pagamentos, desde que cumpram todos os requisitos atrelados à gestão de pagamentos nas jornadas já existentes em seus canais digitais.  \* Para participantes de fase 2 é obrigatório o desenvolvimento da área de OPB que contempla a gestão de compartilhamento de dados e gestão de pagamentos - se também for participante da fase 3.  \*\* Na próxima versão do Guia, esta informação será atualizada. |

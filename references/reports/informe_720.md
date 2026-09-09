@@ -1,0 +1,3 @@
+# [Open Finance] Informa #720
+
+Atualização do Guia de Experiência do Usuário do Open Finance Brasil  O Grupo Técnico de Experiência do Usuário disponibilizou hoje, dia 04/04/25, uma nova versão do Guia de Experiência (Versão 11.00.00).  Esta atualização de versão inclui:   - Adição da jornada de Portabilidade de Crédito Pessoal C*lean* (CPC).   Aproveitamos para informar que esta é uma versão inicial e o GT UX prevê mais dois momentos de atualização para este produto no Guia sendo:   - Versão intermediária em 18/06/25; - Versão final em 26/08/25.   Os ajustes presentes nesta atualização do Guia encontram-se na página “*Changelog* - Guia de Experiência do Usuário”. |

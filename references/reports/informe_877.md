@@ -1,0 +1,3 @@
+# [Open Finance] Informa #877
+
+|  |  | | --- | --- | | |  | | --- | | [Clique para acessar o informa #812](https://us5.campaign-archive.com/?u=49f5ff8910ce85bdb1d9a7864&id=e1c812dbf5 "Clique para acessar o informa #812") | |  |  |  | | --- | --- | | |  | | --- | | [Clique para acessar o informa #858](https://us5.campaign-archive.com/?u=49f5ff8910ce85bdb1d9a7864&id=4cd1a06b07 "Clique para acessar o informa #858") | |  |  |  | | --- | --- | | |  | | --- | | [Clique aqui para acessar o Plano de Testes](https://gitlab.com/raidiam-conformance/open-finance/certification/-/wikis/Phase-3-Release-Notes?redirected_from=Phase-3v4-Release-Notes#test-plan-list "Clique aqui para acessar o Plano de Testes ") | | |

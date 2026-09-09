@@ -1,0 +1,5 @@
+# [Open Finance] Informa #636
+
+Atualização do Guia de Experiência do Usuário do Open Finance Brasil O Grupo Técnico de Experiência do Usuário disponibilizou hoje, dia 30/09/2024, nova versão do Guia de Experiência (versão 08.00.00).     Essa atualização inclui:   - Adição de ajustes na Jornada Sem Redirecionamento (JSR)   As atualizações presentes nessa versão do Guia encontram-se na página “*Changelog* - Guia de Experiência do Usuário”. |
+
+ Publicação do código-fonte para estimular o uso das APIs de Dados abertos Informamos que a área do desenvolvedor foi atualizada, em 30/09/2024, com a disponibilização do código-fonte de domínio público, que viabiliza a extração de dados para conexão com *softwares* de *analytics* ou integração com outros microsserviços.    O objetivo é estimular o uso das APIs de Dados abertos e promover a criação de novas ferramentas para apoiar o cidadão na escolha de produtos financeiros.      O código-fonte foi disponibilizado no GitHub e pode ser localizado na página: [Disponibilização de código-fonte para auxiliar na construção de ferramentas de DA](data/references/guides/disponibiliza.md). |

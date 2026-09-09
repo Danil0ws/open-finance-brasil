@@ -1,0 +1,3 @@
+# [Open Finance] Informa #722
+
+Qualidade de dados – Inconsistência no envio de *payloads* para validação pelo MQD - *status code* 202  Informamos que foram identificadas inconsistências no tratamento do *status code* 202 na API Recursos pelo Motor de Qualidade de Dados (MQD).    De acordo com as especificações técnicas, esse código não deve conter *payload* em suas respostas, comportamento que a API já está seguindo corretamente.    No entanto, atualmente, o MQD apenas realiza validações em respostas do *type* 200. Por isso, solicitamos que as instituições não enviem *payloads* para validações que envolvam outros códigos de status, a fim de evitar análises incorretas pelo mecanismo. |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #311
+
+Esclarecimento sobre o envio do campo fapiInteractionId para a Plataforma de Coleta de Métricas – PCM Conforme comportamento descrito na documentação funcional da PCM, [https://openfinancebrasil.atlassian.net/wiki/](data/references/guides/Reporte.md)[spaces](data/references/guides/Reporte.md)[/OF/](data/references/guides/Reporte.md)[pages](data/references/guides/Reporte.md)[/37879861/](data/references/guides/Reporte.md)[Reporte#fapiInteractionId](data/references/guides/Reporte.md), esclarecemos que se o consumidor dos serviços de uma transmissora ou detentora de conta não enviar o x-fapi-interaction-id para o server, ele deverá enviar no reporte da PCM o valor x-fapi-interaction-id devolvido pelo server. |

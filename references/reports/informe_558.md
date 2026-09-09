@@ -1,0 +1,5 @@
+# [Open Finance] Informa #558
+
+Service Desk – Alteração do nome da categoria de acesso ao Power BI de certificação Informamos que, no dia 08/04/2024, a atual categoria de **concessão e revogação de acesso ao Power BI de acompanhamento de certificação** terá seu nome **alterado**: |
+
+ Dessa forma, as instituições que fazem o uso de **integrações** com o Service Desk deverão estar atualizadas para a abertura e consulta de chamados nesta categoria.     Para consultar informações adicionais sobre os campos personalizados, acesse os artigos disponíveis na [FAQ](https://bra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fservicedesk.openbankingbrasil.org.br%2FKBFAQTree.jsp&data=05%7C02%7Cnaiara.cavalaro%40chicagoadvisory.com.br%7Cc25931ebfee04bda6bad08dc527d9e88%7C7531e8b3c928494b9b897ee3d353272d%7C0%7C0%7C638475946690286776%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=olTnD9FHfKAMiE3%2BP7nHunQLZBa116yrn0O%2F4Gfa%2B2c%3D&reserved=0): API SYSAID > Formulários Customizados     Em caso de dúvidas referentes a esta atualização, recomendamos a abertura de um chamado na plataforma do Service Desk. |

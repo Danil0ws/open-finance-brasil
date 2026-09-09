@@ -1,0 +1,3 @@
+# [Open Finance] Informa #525
+
+Lançamento da versão *release candidate* (1.0.0-rc.2) da API de Pagamentos automáticos  Informamos que a área do desenvolvedor do Portal do Open Finance Brasil foi atualizada, em 08/02/2024, com a **versão *release candidate* (1.0.0-rc.2) da API de Pagamentos automáticos.**   - Sugerimos consultar o *changelog* para visualizar as alterações entre versões 1.0.0-rc.1 e 1.0.0-rc.2.  A versão estável da API será publicada em 16/03/2024 e a entrada em produção (*go live*) será em 15/04/2024, conforme Informa #519 (“Alteração do cronograma da API de Pagamentos automáticos (transferências inteligentes)”, enviado em 26/01/2024). |

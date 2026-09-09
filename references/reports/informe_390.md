@@ -1,0 +1,3 @@
+# [Open Finance] Informa #390
+
+Lançamento da versão release candidate (v1.0.0-rc1.0) da API Câmbio fase 4B              A área do desenvolvedor do Portal do Open Finance Brasil foi atualizada no dia 31 de maio de 2023 com a documentação da nova versão *release candidate* v1.0.0-rc1.0 da API Câmbio da fase 4B.    O *go-live* desta API está previsto para 30/03/2024, conforme cronograma apresentado pelo Banco Central na 163ª Reunião do Conselho Deliberativo, no dia 11/05/2023. Desta forma, o cronograma detalhado de certificação, implementação e consulta pelas instituições será divulgado posteriormente. |

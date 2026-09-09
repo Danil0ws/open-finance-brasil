@@ -1,0 +1,16 @@
+# Solicitação de participação de processo de onboarding de novos entrantes
+
+**Processo de solicitação de** _**onboarding**_
+
+-   O processo de onboarding será conduzido através do service desk. As instituições interessadas deverão abrir um chamado na categoria Requisições > Processo de onboarding > Solicitação de interesse de participação;
+    
+-   Após validação das informações do formulário, o atendimento de nível 1 irá adicionar uma nota com orientação para inicio dos testes pelas instituições e alterar o status do ticket para ‘Aguardando requisitante’;
+    
+-   Após atualização do status do ticket para ‘Aguarda requisitante’, a instituição poderá iniciar os testes. Assim que identificar sucesso em todos os indicadores, a instituição deverá retornar o ticket para avaliação da Associação através do status ‘Encaminhado N2’
+    
+    -   Critérios de comportamento funcional, integração com ferramentas, testes bilaterais e incidentes bilaterais poderão ser acompanhados pela instituição através dos Painéis de produto disponibilizados na Plataforma de Visualização de Dados;
+        
+-   Caso a instituição obtiver sucesso em todos os indicadores do onboarding, ela será autorizada a disponibilizar seus produtos e serviços à população. Caso contrário, o ticket será retornado para a instituição até atingimento de todos os critérios
+    
+
+![image-20251030-132203.png](images/image-20251030-132203.png)

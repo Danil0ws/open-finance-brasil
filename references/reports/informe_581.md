@@ -1,0 +1,3 @@
+# [Open Finance] Informa #581
+
+Data limite para atualização das versões 1.0.3 da API Renda fixa bancária e 1.0.2 da API Renda fixa crédito no Diretório Informamos que **as instituições deverão atualizar as versões das APIs Renda fixa bancária (v1.0.3) e Renda fixa crédito (v1.0.2) no Diretório até o dia 08/07/2024**. As APIs já foram publicadas na Área do desenvolvedor conforme divulgado no Informa #562 ("Lançamento das versões patch das APIs Renda Fixa Crédito (v1.0.2) e Renda Fixa Bancária (v1.0.3)", enviado em 08/04/2024).   - Essas versões estarão disponíveis para seleção no diretório a partir de 23/05/2024; - Reforçamos que o motor será atualizado para tornar os testes menos restritivos, portanto, não será necessária a recertificação. |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #345
+
+Disponibilização da gravação do workshop sobre a Ferramenta de Validação em Produção (FVP 2.0)   Em 24/03/2023, o Squad Sandbox promoveu um workshop para apresentar a Ferramenta de Validação em Produção (FVP 2.0) ao ecossistema.     A nova versão é uma expansão do escopo da FVP atual e visa testar a autenticação das transmissoras de dados e detentoras de conta. Desta forma, será necessário que um representante de cada instituição execute a ferramenta utilizando uma conta própria da marca a ser testada.     O workshop discorreu sobre conceito, escopo de testes, demonstração e passos esperados pelas instituições participantes.     **O evento foi gravado e** **encontra-se disponível ao ecossistema no site do YouTube**. |

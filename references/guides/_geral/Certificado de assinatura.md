@@ -1,0 +1,19 @@
+# Certificado de assinatura
+
+A documentação de segurança do Open Finance Brasil estabelece que as organizações devem emitir um certificado de assinatura (BRSEAL) por Autoridades Certificadoras (ACs) reconhecidas pela cadeia ICP Brasil e em seguida, inseri-lo no Diretório de participantes com a opção EXTERNAL BRSEAL.
+
+Ao adicionar o certificado no Diretório duas validações serão feitas:
+
+1.  O Diretório validará que o certificado foi assinado por uma das ACs credenciadas ao Open Finance Brasil, cuja lista [completa pode ser encontrada na documentação de segurança.](https://openbanking-brasil.github.io/specs-seguranca/open-banking-brasil-certificate-standards-1_ID1-ptbr.html) – É possível executar essa consulta avaliando se o issuer do certificado está na lista citada, que pode ser obtido utilizando a ferramenta openssl com o seguinte commando: openssl - openssl x509 -in brcac.pem -noout -issuer
+    
+
+2.  O Diretório validará que o certificado possui UID em seu subject igual ao Organisation ID no caso do BRSEAL – É possível executar essa consulta avaliando se o UID do subject é igual ao UID apresentado no diretório, que pode ser obtido utilizando a ferramenta openssl com o seguinte commando: openssl x509 -in brcac.pem -noout –subject
+    
+
+No ambiente sandbox, é possível a geração de certificados de assinatura emitidos pelo próprio Diretório para uso exclusivo neste ambiente.
+
+[Clique para conferir o passo a passo para registro de certificado de assinatura](data/references/guides/08.md)
+
+[Clique para conferir o passo a passo para emissão de certificados no Diretório para uso exclusivo do ambiente sandbox](data/references/guides/07.md)
+
+* * *

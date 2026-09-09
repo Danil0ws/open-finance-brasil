@@ -1,0 +1,3 @@
+# [Open Finance] Informa #742
+
+Qualidade de Dados – Adoção obrigatória do MQD por novos conglomerados  Informamos que, com relação às alterações promovidas pela Resolução Conjunta nº 10, de 4 de julho de 2024, na Resolução Conjunta nº 1, de 4 de maio de 2020, as instituições pertencentes aos seguintes conglomerados devem implementar o Motor de Qualidade de Dados (MQD) a partir de 1º de julho de 2025:   - C6 - Inter - Neon - Pagseguro   Adicionalmente, destacamos que, de acordo com o disposto no Manual de Monitoramento (IN BCB nº 575), todas as instituições participantes do Open Finance na modalidade de compartilhamento de dados precisarão implementar o MQD a partir de 2 de janeiro de 2026. |

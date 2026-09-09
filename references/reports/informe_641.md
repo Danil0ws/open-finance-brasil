@@ -1,0 +1,3 @@
+# [Open Finance] Informa #641
+
+Atualização dos IPs da Estrutura que acessam a API Admin dos participantes As instituições que desejarem restringir o acesso à API Admin, por questões de segurança cibernética, deverão liberar o acesso aos seguintes endereços de IPs conforme tabela abaixo. Os IPs estão sendo atualizados e o período de convivência será até 31/10/2024.    Pedimos que todas as instituições que restrinjam o acesso à API Admin façam os devidos ajustes até o prazo final da convivência.   |  | | --- | | **Lista de IPs** | | - 54.184.72.46 | | - 44.236.37.249 | | - 44.225.153.192 | | - 34.218.96.135 | | - 18.229.115.248 | | - 18.229.193.105 | | - 18.229.12.101 | | - 18.229.190.79 | | - 52.67.100.177 | | - 52.67.104.190 | | - 52.67.173.76 | | - 54.233.174.43 | |

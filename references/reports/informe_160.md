@@ -1,0 +1,3 @@
+# [Open Banking] Informa #160
+
+Declaração de certificado de segurança no Authorisation Server  Como melhoria do ecossistema, buscando garantir a aderência das instituições às certificações obrigatórias, foi adicionada na nova U.I. do Diretório uma funcionalidade para vincular o link do zip das certificações de segurança (FAPI e DCR) de cada Authorisation Server.     **Pedimos que todas as instituições com Authorisation Servers publicados em produção façam o preenchimento desse campo até 31/05/2022.**     O procedimento detalhado está descrito no Guia Operacional do Diretório, a partir da página 52. |

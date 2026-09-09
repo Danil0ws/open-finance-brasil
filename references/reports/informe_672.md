@@ -1,0 +1,3 @@
+# [Open Finance] Informa #672
+
+*Workshop* sobre API Pagamentos automáticos             Informamos que a Estrutura irá realizar um *workshop* em 17/12/2024, das 14h às 16h, para compartilhar orientações sobre a API Pagamentos automáticos.    Orientamos que a especificação para a versão beta.2 do motor de conformidade já está disponível e, conforme comunicado no Informa #661 (“Novo cronograma de implementação da v2.0.0 da API Pagamentos automáticos (Transferências inteligentes + Pix automático)”, enviado em 14/11/2024), o primeiro marco do cronograma de implementação da v2.0.0 da API Pagamentos automáticos ocorrerá em 14/01/2024. |

@@ -1,0 +1,3 @@
+# [Open Banking] Informa #76
+
+Workshop de Certificação Funcional Fase 3A - 1ª Onda Convidamos as instituições participantes da Fase 3A - 1ª Onda (Pix manual, chave e recebedor) para um workshop sobre a certificação funcional que será realizado no dia 27/10 (Quarta-feira), das 14h às 15h30.    Esse workshop será ministrado por profissionais da Raidiam, fornecedora responsável pelo desenvolvimento dos testes de conformidade funcional. O objetivo é detalhar os cenários de testes desenvolvidos e responder às dúvidas das instituições.    Sintam-se à vontade para encaminhar o convite para os responsáveis técnicos e a quem possa interessar esse tópico. |

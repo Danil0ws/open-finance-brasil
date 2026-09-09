@@ -1,0 +1,3 @@
+# [Open Banking] Informa #162
+
+Atualização da documentação de certificados de Segurança do Open Finance  Informamos que a documentação de certificados de segurança do Open Finance Brasil foi atualizada, alterando o formato do campo string\_mask dos certificados de cliente e de assinatura para o formato printable string (nombstr). Essa alteração foi realizada de modo a adequar o padrão do Open Finance ao padrão do ICP-Brasil, uma vez que anteriormente a documentação instruía configuração UTF8 Only.    Para instituições enfrentando problema com termos configurados no DN apenas a string\_mask em UTF8, favor emitir novos certificados com a correção acima. |

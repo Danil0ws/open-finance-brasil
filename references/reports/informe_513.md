@@ -1,0 +1,3 @@
+# [Open Finance] Informa #513
+
+Novas informações sobre o reprocessamento de histórico do campo /transactionDateTime   Em complemento ao Informa #507 (“Lançamento da *minor* (v2.2.0) das APIs Contas e Cartão de Crédito (Fase 2)”, enviado em 22/12/2023), comunicamos que não será necessário o reprocessamento do histórico do campo /transactionDateTime nas APIs de Contas e Cartão de Crédito (Fase 2).    Reforçamos que, para transações que ocorrerem a partir de 31/01/2024, é esperado que o campo /transactionDateTime seja preenchido com informações reais e não mais que as instituições complementem as informações faltantes com 0 (zero). |

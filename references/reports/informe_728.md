@@ -1,0 +1,3 @@
+# [Open Finance] Informa #728
+
+*Workshop* para novos entrantes na Fase de Compartilhamento de Dados  Conforme a Resolução Conjunta nº 10 do Banco Central, a partir de 01/01/2025, a obrigatoriedade de participação na fase de compartilhamento de dados foi ampliada para instituições individuais ou participantes de conglomerado com mais de 5 milhões de clientes, concedendo um prazo de seis meses até a entrada em produção.     Portanto, **a Associação Open Finance, com intuito de suportar os novos entrantes, realizará um *workshop* em 28/04/2025,** **das** **14h às 15h**, para compartilhar informações e orientações sobre essa fase. |

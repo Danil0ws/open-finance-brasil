@@ -1,0 +1,5 @@
+# [Open Finance] Informa #887
+
+Disponibilização do Motor de Conformidade das APIs de Dados Abertos |
+
+ Conforme o compartilhado no informe #868 *(“Divulgação do Cronograma de Dados Abertos”)*, divulgado em **01/04/2026**, informamos a disponibilização do Motor de Conformidade das APIs de Dados Abertos:   - API Adiantamento a Depositantes v1.1.0  - API Câmbio v1.1.0  - API Canais de Atendimento v2.1.0  - API Cartões de Crédito v1.1.0  - API Contas v1.1.0  - API Credenciamento v1.1.0  - API Direitos Creditórios Descontados v1.1.0  - API Empréstimos v1.1.0  - API Financiamentos v1.1.0  - API Investimentos v1.1.0  - API Previdência v2.1.0  - API Seguros v2.1.0  - API Títulos de Capitalização v2.1.0   Para atingir o marco de 100%, previsto para **04/06/2026**, as instituições devem obter sucesso em todos os módulos de testes.  As instituições que não atingirem sucesso no marco serão notificadas via tickets do Service Desk.  Para mais detalhes, bem como para acesso à documentação completa e ao histórico de alterações, recomendamos a consulta aos links abaixo: |

@@ -1,0 +1,762 @@
+# 📑 Índice do Acervo Local - Open Finance Brasil
+
+> **Última atualização:** 09/09/2026, 11:21:50
+> **Total de diretórios:** 789
+> **Total de arquivos:** 5959
+
+Este índice lista todos os diretórios disponíveis em `references/`.
+
+## 📊 Visão Geral
+
+| Categoria | Diretórios | Arquivos |
+|-----------|------------|----------|
+| Outros | 784 | 2 |
+| Guias | 1 | 4696 |
+| Informes | 2 | 845 |
+| OpenAPI | 1 | 53 |
+| Regulatório | 1 | 267 |
+| **Total** | **789** | **5959** |
+
+## 📁 Estrutura Principal
+
+```
+references/
+├── guides/           # Guias e documentação técnica
+├── openapi/          # Especificações Swagger/OpenAPI
+├── regulatory/       # Normativos BCB
+├── reports/          # Informes e comunicados
+├── llms.txt          # Índice para LLMs (resumido)
+├── llms-full.txt     # Índice para LLMs (completo)
+└── INDEX.md          # Este arquivo
+```
+
+## 📂 Lista Completa de Diretórios
+
+- 📂 `guides/`
+  - 📂 `API Admin/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `API Comum/`
+    - 📄 `images/`
+    - 📄 `old/`
+  - 📂 `API Comum (Discovery)/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `API Pagamentos automáticos Webhook/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `API Portabilidade de Crédito/`
+    - 📄 `old/`
+  - 📄 `API Resources/`
+  - 📂 `APIs Admins/`
+    - 📄 `images/`
+    - 📄 `old/`
+  - 📂 `APIs Service Desk/`
+    - 📄 `images/`
+  - 📂 `APIs da PCM/`
+    - 📄 `pdfs/`
+  - 📄 `APIs do Diretório/`
+  - 📂 `Acesso e gestão do Open Finance/`
+    - 📄 `images/`
+  - 📄 `Adaptações para Consultas de Recursos na API Pagamentos entre Versões e/`
+  - 📂 `Adaptações para consultas de recursos entre as versões e ou superiores da API Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Adiantamento a Depositantes/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Adiantamento a Depositantes OpenData/`
+  - 📄 `Adiantamentos a Depositantes/`
+  - 📂 `Admin/`
+    - 📄 `old/`
+  - 📂 `Admins/`
+    - 📄 `old/`
+  - 📄 `Ambiente Open Finance/`
+  - 📄 `Analise requisitos de criptografia ID_TOKEN/`
+  - 📄 `Anexos/`
+  - 📂 `Assinatura de Mensagem vs Idempotência Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Assinatura de Mensagem vs Idempotência Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Assinatura de Mensagem vs Idempotência [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Assinatura de Mensagem vs Idempotência [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📄 `Assinaturas/`
+  - 📂 `Boas práticas para desktop/`
+    - 📄 `images/`
+  - 📂 `CIBA BR Guia de Implantação/`
+    - 📄 `old/`
+  - 📂 `CIBA BR Open Finance Brasil Client Initiated Backchannel Authentication/`
+    - 📄 `old/`
+  - 📂 `Canais de Atendimento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Canais de Atendimentos/`
+    - 📄 `old/`
+  - 📂 `Cartão de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Cartão de Crédito OpenData/`
+  - 📄 `Casos de Erro/`
+  - 📂 `Casos de erro da Jornada Otimizada na Vinculação de Conta/`
+    - 📄 `images/`
+  - 📄 `Casos de erro de Compartilhamento de Dados PF/`
+  - 📄 `Casos de erro de Compartilhamento de Dados PJ/`
+  - 📂 `Casos de erro de Pix/`
+    - 📄 `images/`
+  - 📂 `Casos de erro de Pix Agendado/`
+    - 📄 `images/`
+  - 📂 `Casos de erro de Pix Automático/`
+    - 📄 `images/`
+  - 📂 `Casos de erro de Pix Saque e Pix Troco/`
+    - 📄 `images/`
+  - 📂 `Casos de erro de Pix com vencimento através de QR Code dinâmico/`
+    - 📄 `images/`
+  - 📂 `Casos de erro de Transferências Inteligentes/`
+    - 📄 `images/`
+  - 📂 `Casos de erro na Jornada Otimizada em Transferências Inteligentes/`
+    - 📄 `images/`
+  - 📂 `Casos de erro na Vinculação de Conta (JSR)/`
+    - 📄 `images/`
+  - 📄 `Cenário 1- credit portability_api_core_test module CPC/`
+  - 📂 `Cenário 1- credit portability_api_core_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 1- payroll credit portability_api_contract invalid status_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 10- credit portability_api_x fapi_test module CPC/`
+  - 📂 `Cenário 10- credit portability_api_x fapi_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 10- payroll credit portability_api_creditor rejected portability_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 11- credit portability_api_expired consent_test module CPC/`
+  - 📂 `Cenário 11- credit portability_api_expired consent_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 11- payroll credit portability_api_creditor rejected payment nofound_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 12- credit portability_api_invalid token_test module CPC/`
+  - 📂 `Cenário 12- credit portability_api_invalid token_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 12- payroll credit portability_api_creditor rejected payment error_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 13- credit portability_api_invalid consent_test module CPC/`
+  - 📂 `Cenário 13- credit portability_api_invalid consent_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 13- payroll credit portability_api_proposer rejected discharged_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 14- credit portability_api_portability idempotency_test module CPC/`
+  - 📂 `Cenário 14- credit portability_api_portability idempotency_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📄 `Cenário 15- credit portability_api_portability invalid payment_test module CPC/`
+  - 📂 `Cenário 15- credit portability_api_portability invalid payment_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 15- payroll credit portability_api_proposer rejected_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 16- credit portability_api_portability patch unhappy_test module CPC/`
+  - 📂 `Cenário 16- credit portability_api_portability patch unhappy_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 16- payroll credit portability_api_portability_completed_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 17- payroll credit portability_api_payment issue completed_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 18- payroll credit portability_api_x fapi_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 19- payroll credit portability_api_expired consent_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 2- credit portability_api_invalid status_test module CPC/`
+  - 📂 `Cenário 2- credit portability_api_invalid status_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 2- payroll credit portability_api_contract invalid terms_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 20- payroll credit portability_api_invalid consent_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 21- payroll credit portability_api_invalid token_test module CF/`
+    - 📄 `images/`
+  - 📂 `Cenário 22- payroll credit portability_api_portability idempotency_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 3- credit portability_api_contract term_test module CPC/`
+  - 📂 `Cenário 3- credit portability_api_contract term_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 3- payroll credit portability_api_contract no sign_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 4- credit portability_api_invalid contract terms_test module CPC/`
+  - 📂 `Cenário 4- credit portability_api_invalid contract terms_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 4- payroll credit portability_api_user create portability_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 5- credit portability_api_negative_test module CPC/`
+  - 📂 `Cenário 5- credit portability_api_negative_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 5- payroll credit portability_api_user cancelled portability_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 6- credit portability_api_accepted_settlement_test module CPC/`
+  - 📂 `Cenário 6- credit portability_api_accepted_settlement_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 6- payroll credit portability_api_user cancelled counteroffer_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 7- credit portability_api_rejected portability_test module CPC/`
+  - 📂 `Cenário 7- credit portability_api_rejected portability_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 7- payroll credit portability_api_user cancelled counteroffer progress_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 8- credit portability_api_cancelled portability_test module CPC/`
+  - 📂 `Cenário 8- credit portability_api_cancelled portability_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 8- payroll credit portability_api_user accepted counteroffer_test module CF/`
+    - 📄 `images/`
+  - 📄 `Cenário 9- credit portability_api_portability payment_core_test module CPC/`
+  - 📂 `Cenário 9- credit portability_api_portability payment_core_test module Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Cenário 9- payroll credit portability_api_user cancelled settlement completed_test module CF/`
+    - 📄 `images/`
+  - 📂 `Como Assinar o Payload Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Como Assinar o Payload Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Como Assinar o Payload [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Como Assinar o Payload [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📄 `Como assinar o payload [PC] Portabilidade de Crédito CF/`
+  - 📄 `Como assinar o payload [PC] Portabilidade de Crédito CPC/`
+  - 📄 `Como ler o Guia de UX do Open Finance/`
+  - 📄 `Compartilhamento de Dados/`
+  - 📄 `Compartilhamento de Dados PF/`
+  - 📂 `Compartilhamento de Dados PF com fallback/`
+    - 📄 `images/`
+  - 📂 `Compartilhamento de Dados PF via CIBA/`
+    - 📄 `images/`
+  - 📂 `Compartilhamento de Dados PF via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Compartilhamento de Dados PF via hybrid flow com hand off/`
+    - 📄 `images/`
+  - 📄 `Compartilhamento de Dados PJ/`
+  - 📂 `Compartilhamento de Dados PJ com múltiplos aprovadores/`
+    - 📄 `images/`
+  - 📂 `Compartilhamento de Dados PJ via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Compartilhamento de Dados PJ via hybrid flow com hand off/`
+    - 📄 `images/`
+  - 📂 `Consentimento/`
+    - 📄 `old/`
+  - 📄 `Consignado Federal/`
+  - 📂 `Contas/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Convenções de formatação e fuso horário de campos de data e hora Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Convenções de formatação e fuso horário de campos de data e hora Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Convenções de formatação e fuso horário de campos de data e hora [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Convenções de formatação e fuso horário de campos de data e hora [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Credenciamento/`
+    - 📄 `old/`
+  - 📄 `Crédito Pessoal sem Consignação/`
+  - 📂 `Câmbio/`
+    - 📄 `old/`
+  - 📄 `DCR BR Open FinanceBrasil Dynamic Client Registration/`
+  - 📂 `Dados Cadastrais/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diagrama de Sequência API Pagamentos sem Redirecionamento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diagrama de Sequência Pagamentos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diagrama de Sequência Vínculo de dispositivo/`
+    - 📄 `images/`
+  - 📂 `Diagrama de Sequência [SV] Pagamentos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diagrama de Sequência [SV] Vínculo de dispositivo/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diagrama de atividades API Portabilidade de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Diferenciação entre -marca- e -instituição- para o usuário/`
+    - 📄 `images/`
+  - 📂 `Direitos Creditórios Descontados/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Diretrizes para validação de certificados digitais no Open Finance Brasil/`
+  - 📄 `Documento de Requisito do Produto (PRD) API de Cartão de Crédito/`
+  - 📄 `Documento de Requisito do Produto (PRD) API de Contas/`
+  - 📂 `Documento de Requisitos do Produto PRD API Portabilidade de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Edição do consentimento Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Edição do consentimento [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📄 `Edição do vínculo de dispositivo [SV] Pagamentos Automáticos/`
+  - 📂 `Edição do vínculo de dispositivo [SV] Vínculo de dispositivo/`
+    - 📄 `old/`
+  - 📂 `Empréstimos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Escopo da API Pagamentos [SV] Pagamentos/`
+  - 📄 `Escopo da API de Pagamentos [SV] Pagamentos/`
+  - 📄 `Experiência do Usuário/`
+  - 📂 `FAPI BR Open Finance Brasil Financial grade API Security Profile/`
+    - 📄 `old/`
+  - 📂 `FAQ JSR [SV] Vínculo de dispositivo/`
+    - 📄 `old/`
+  - 📂 `Financiamento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Fluxograma API Pagamentos sem Redirecionamento/`
+    - 📄 `images/`
+  - 📂 `Fundos de Investimento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Gestão de Compartilhamento de Dados PF/`
+    - 📄 `images/`
+  - 📂 `Gestão de Compartilhamento de Dados PJ/`
+    - 📄 `images/`
+  - 📂 `Gestão de Consignado Federal/`
+    - 📄 `images/`
+  - 📂 `Gestão de Contas Salvas via CIBA/`
+    - 📄 `images/`
+  - 📂 `Gestão de Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Gestão de Pix/`
+    - 📄 `images/`
+  - 📂 `Gestão de Pix Agendado/`
+    - 📄 `images/`
+  - 📂 `Gestão de Pix Automático/`
+    - 📄 `images/`
+  - 📂 `Gestão de Pix Saque e Pix Troco/`
+    - 📄 `images/`
+  - 📂 `Gestão de Pix com vencimento através de QR Code dinâmico/`
+    - 📄 `images/`
+  - 📂 `Gestão de Transações Temporizadas/`
+    - 📄 `images/`
+  - 📂 `Gestão de Transferências Inteligentes/`
+    - 📄 `images/`
+  - 📂 `Gestão de Vinculação de Conta (JSR)/`
+    - 📄 `images/`
+  - 📄 `Glossário/`
+  - 📄 `Glossário de Segurança/`
+  - 📄 `Guia de Experiência do Usuário/`
+  - 📂 `Guia de Implementação CIBA OpenID Provider (RP)/`
+    - 📄 `old/`
+  - 📂 `Guia de UX API Portabilidade de Crédito/`
+    - 📄 `old/`
+  - 📂 `Idempotência API Portabilidade de Crédito/`
+    - 📄 `images/`
+    - 📄 `old/`
+  - 📂 `Idempotência Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Idempotência Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Idempotência [PC] Portabilidade de Crédito CF/`
+    - 📄 `images/`
+  - 📄 `Idempotência [PC] Portabilidade de Crédito CPC/`
+  - 📂 `Idempotência [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Idempotência [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Introdução Segurança/`
+    - 📄 `pdfs/`
+  - 📂 `Investimentos/`
+    - 📄 `old/`
+  - 📂 `Jornada Otimizada em Transferências Inteligentes/`
+    - 📄 `images/`
+  - 📂 `Jornada Otimizada em Vinculação de Conta (JSR)/`
+    - 📄 `images/`
+  - 📂 `Jornada de Consignado Federal/`
+    - 📄 `images/`
+  - 📂 `Jornada de Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Jornada de Dados do Cliente com CIBA/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Jornada de Iniciação de Pagamento Whitelabel/`
+    - 📄 `images/`
+  - 📄 `Jornada sem Redirecionamento [JO] Jornada Otimizada/`
+  - 📄 `MQD Documentação da API versão/`
+  - 📂 `Manual de uso da marca Open Finance Brasil/`
+    - 📄 `images/`
+  - 📄 `Modalidades de Crédito/`
+  - 📄 `Motivos de Cancelamento do Pedido de Portabilidade (UX)/`
+  - 📂 `Máquina de Estados API Portabilidade de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Máquina de Estados Pagamentos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Máquina de Estados Pagamentos Automáticos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Máquina de Estados [PC] Portabilidade de Crédito CF/`
+  - 📄 `Máquina de Estados [PC] Portabilidade de Crédito CPC./`
+  - 📂 `Máquina de Estados [SV] Pagamentos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Máquina de Estados [SV] Pagamentos Automáticos/`
+    - 📂 `old/`
+  - 📂 `Máquina de estados API Pagamentos sem Redirecionamento/`
+    - 📂 `old/`
+  - 📄 `Máquina de estados Vínculo de dispositivo/`
+  - 📂 `Máquina de estados [SV] Vínculo de dispositivo/`
+    - 📄 `old/`
+  - 📂 `Notificações de Consignado Federal/`
+    - 📄 `images/`
+  - 📂 `Notificações de Crédito Pessoal sem Consignação/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pagamentos com Múltiplos Aprovadores/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pix/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pix Agendado/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pix Automático/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pix Saque e Pix Troco/`
+    - 📄 `images/`
+  - 📂 `Notificações de Pix com vencimento através de QR Code dinâmico/`
+    - 📄 `images/`
+  - 📂 `Notificações de Transações Temporizadas/`
+    - 📄 `images/`
+  - 📂 `Notificações de Transferências Inteligentes/`
+    - 📄 `images/`
+  - 📂 `Notificações de Vinculação de Conta (JSR)/`
+    - 📄 `images/`
+  - 📄 `Open Finance Brasil/`
+  - 📄 `Orientações/`
+  - 📄 `Orientações Gerais [JO] Jornada Otimizada/`
+  - 📄 `Orientações transversais/`
+  - 📄 `PDF da versão/`
+  - 📄 `PDFs dos catálogos de requisitos/`
+  - 📄 `Padrão de Certificados/`
+  - 📂 `Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Pagamentos No Debtor Account/`
+    - 📄 `images/`
+  - 📂 `Pagamentos Not Cancelled/`
+    - 📄 `images/`
+  - 📂 `Pagamentos Pix Agendado Longa Duração/`
+    - 📄 `images/`
+  - 📂 `Pagamentos Webhook/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Pagamentos automáticos Webhook/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Pagamentos com Múltiplos Aprovadores/`
+    - 📄 `images/`
+  - 📂 `Pagamentos com Múltiplos Aprovadores via JSR/`
+    - 📄 `images/`
+  - 📂 `Pagamentos com Múltiplos Aprovadores via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Pagamentos sem Redirecionamento/`
+    - 📄 `old/`
+  - 📂 `Pagamentos sem redirecionamento Webhook/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Pagamentos via CIBA/`
+    - 📄 `images/`
+  - 📂 `Pagamentos via hybrid flow com hand off/`
+    - 📄 `images/`
+  - 📂 `Período de Convivência FAPI BR (FAPI Único)/`
+    - 📄 `images/`
+  - 📄 `Pesquisa- Avalie a sua experiência com o Guia de UX/`
+  - 📂 `Piloto de Jornada sem redirecionamento (JSR)/`
+    - 📄 `images/`
+  - 📄 `Pix/`
+  - 📄 `Pix Agendado/`
+  - 📂 `Pix Agendado via JSR/`
+    - 📄 `images/`
+  - 📂 `Pix Agendado via hybrid flow/`
+    - 📄 `images/`
+  - 📄 `Pix Automático/`
+  - 📂 `Pix Automático Guia para versão e anteriores/`
+    - 📄 `images/`
+    - 📄 `pdfs/`
+  - 📂 `Pix Automático via JSR/`
+    - 📄 `images/`
+  - 📂 `Pix Automático via hybrid flow/`
+    - 📄 `images/`
+  - 📄 `Pix Saque e Pix Troco/`
+  - 📂 `Pix Saque e Pix Troco via JSR/`
+    - 📄 `images/`
+  - 📂 `Pix Saque e Pix Troco via hybrid flow/`
+    - 📄 `images/`
+  - 📄 `Pix com vencimento através de QR Code dinâmico/`
+  - 📂 `Pix com vencimento através de QR Code dinâmico via JSR/`
+    - 📄 `images/`
+  - 📂 `Pix com vencimento através de QR Code dinâmico via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Pix via JSR/`
+    - 📄 `images/`
+  - 📂 `Pix via hybrid flow/`
+    - 📄 `images/`
+    - 📄 `pdfs/`
+  - 📄 `Portabilidade de Crédito/`
+  - 📂 `Premissas de implementação/`
+    - 📄 `images/`
+  - 📂 `Previdência/`
+    - 📄 `old/`
+  - 📄 `Princípios de Experiência no Open Finance Brasil/`
+  - 📂 `Problemas conhecidos/`
+    - 📄 `old/`
+  - 📂 `Produtos e Serviços/`
+    - 📄 `old/`
+  - 📂 `Proto personas e Casos de uso/`
+    - 📄 `images/`
+  - 📂 `Recomendação Uso de Polling e Controle de Acesso Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Recomendação Uso de Polling e Controle de Acesso Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `Recomendação Uso de Polling e Controle de Acesso [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Recomendação Uso de Polling e Controle de Acesso [SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📄 `Redirecionamento App to App/`
+  - 📄 `Referências informativas/`
+  - 📄 `Referências normativas/`
+  - 📂 `Registro do Webhook Webhook/`
+    - 📄 `old/`
+  - 📂 `Renda Fixa Bancária/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Renda Fixa Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Renda Variável/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `Reporte de Informações/`
+    - 📄 `images/`
+  - 📂 `Requisitos para uso e disponibilização de logotipos/`
+    - 📄 `images/`
+  - 📄 `Requisitos, recomendações, telas ilustrativas e instituições fictícias/`
+  - 📂 `Resources/`
+    - 📄 `old/`
+  - 📂 `Seguros/`
+    - 📄 `old/`
+  - 📄 `Sobre o Guia/`
+  - 📄 `Swagger API Cartão de Crédito/`
+  - 📂 `Swagger API Consentimento/`
+    - 📄 `old/`
+  - 📂 `Swagger API Contas/`
+    - 📄 `old/`
+  - 📂 `Swagger API Portabilidade de Crédito/`
+    - 📄 `old/`
+  - 📂 `Swagger [PC] Portabilidade de Crédito CF/`
+    - 📄 `old/`
+  - 📄 `Tabela de Dados/`
+  - 📂 `Taxa de Conversão/`
+    - 📄 `images/`
+  - 📂 `Tentativas Intradia e Extradia para Pix automático [SV] Pagamentos Automáticos/`
+    - 📂 `old/`
+  - 📄 `Termos e condições de uso/`
+  - 📂 `Transações Temporizadas/`
+    - 📄 `images/`
+  - 📂 `Transações Temporizadas via JSR/`
+    - 📄 `images/`
+  - 📂 `Transações Temporizadas via hybrid flow/`
+    - 📄 `images/`
+  - 📄 `Transferências Inteligentes/`
+  - 📄 `Transferências Inteligentes [JO] Jornada Otimizada/`
+  - 📂 `Transferências Inteligentes via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Títulos de Capitalização/`
+    - 📄 `old/`
+  - 📂 `Títulos do Tesouro Direto/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Validação de erros no funil do consentimento Pagamentos/`
+  - 📂 `Validação de informações no DICT Pagamentos/`
+    - 📄 `old/`
+  - 📂 `Validação de informações no DICT [SV] Pagamentos/`
+    - 📄 `old/`
+  - 📄 `Variações da jornada de Pagamentos/`
+  - 📂 `Versionamento Webhook/`
+    - 📄 `old/`
+  - 📄 `Vinculação de Conta (JSR)/`
+  - 📂 `Vinculação de Conta (JSR) via hybrid flow/`
+    - 📄 `images/`
+  - 📂 `Vinculação de Conta (JSR) via hybrid flow com hand off/`
+    - 📄 `images/`
+  - 📂 `Visão Geral/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📄 `Vínculo de dispositivo/`
+  - 📂 `Webhook/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Adiantamento a Depositantes/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Canais de Atendimento/`
+    - 📄 `images/`
+    - 📄 `old/`
+  - 📂 `[DA] Cartão de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Contas/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Credenciamento/`
+    - 📄 `old/`
+  - 📂 `[DA] Câmbio/`
+    - 📄 `old/`
+  - 📂 `[DA] Direitos Creditórios Descontados​/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Empréstimos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Financiamentos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Investimentos/`
+    - 📄 `old/`
+  - 📂 `[DA] Previdência/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Produtos e Serviços/`
+    - 📄 `images/`
+  - 📂 `[DA] Seguros/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DA] Títulos de Capitalização/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Adiantamento a Depositantes/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Cartão de Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Consentimento/`
+    - 📄 `old/`
+  - 📂 `[DC] Contas/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Câmbio/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Dados Cadastrais/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Direitos Creditórios Descontados/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Empréstimos/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Financiamento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Fundos de Investimento/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Recursos/`
+    - 📄 `old/`
+  - 📂 `[DC] Renda Fixa Bancária/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Renda Fixa Crédito/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Renda Variável/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[DC] Títulos do Tesouro Direto/`
+    - 📄 `images/`
+    - 📂 `old/`
+  - 📂 `[EN] Open Finance Brasil Client Initiated Backchannel Authentication/`
+    - 📄 `old/`
+  - 📂 `[EN] Open Finance Brasil Dynamic Client Registration/`
+    - 📄 `images/`
+    - 📂 `old/`
+    - 📄 `pdfs/`
+  - 📂 `[EN] Open Finance Brasil Financial grade API Dynamic Client Registration Implementers Draft 3/`
+    - 📄 `images/`
+    - 📄 `pdfs/`
+  - 📂 `[EN] Open Finance Brasil Financial grade API Security Profile/`
+    - 📂 `old/`
+  - 📂 `[EN] Open Finance Brasil Financial grade API Security Profile Implementers Draft 3/`
+    - 📄 `pdfs/`
+  - 📂 `[EN] Padrão de Certificados Open Finance Brasil/`
+    - 📂 `old/`
+    - 📄 `pdfs/`
+  - 📄 `[EN] Perfil CIBA de Segurança do Open Finance Brasil/`
+  - 📄 `[PCM] Telemetria/`
+  - 📄 `[PC] Portabilidade de Crédito CPC/`
+  - 📂 `[PRÉVIA SET-26] Taxa de Conversão/`
+    - 📄 `images/`
+  - 📂 `[PT] Open Finance Brasil Client Initiated Backchannel Authentication/`
+    - 📄 `old/`
+  - 📂 `[PT] Open Finance Brasil Dynamic Client Registration/`
+    - 📄 `images/`
+    - 📂 `old/`
+    - 📄 `pdfs/`
+  - 📂 `[PT] Open Finance Brasil Financial grade API Dynamic Client Registration Implementers Draft 3/`
+    - 📄 `images/`
+    - 📄 `pdfs/`
+  - 📂 `[PT] Open Finance Brasil Financial grade API Security Profile/`
+    - 📂 `old/`
+    - 📄 `pdfs/`
+  - 📂 `[PT] Open Finance Brasil Financial grade API Security Profile Implementers Draft 3/`
+    - 📄 `pdfs/`
+  - 📂 `[PT] Padrão de Certificados Open Finance Brasil/`
+    - 📂 `old/`
+    - 📄 `pdfs/`
+  - 📄 `[PT] Perfil CIBA de Segurança do Open Finance Brasil/`
+  - 📂 `[SV] Pagamentos/`
+    - 📄 `old/`
+  - 📂 `[SV] Pagamentos (Piloto JSR)/`
+    - 📄 `old/`
+  - 📂 `[SV] Pagamentos Automáticos/`
+    - 📄 `old/`
+  - 📂 `[SV] Vínculo de dispositivo/`
+    - 📄 `old/`
+  - 📂 `_changelogs/`
+    - 📄 `images/`
+  - 📂 `_geral/`
+    - 📄 `images/`
+    - 📄 `pdfs/`
+  - 📂 `e Resiliência de APIs/`
+    - 📄 `images/`
+  - 📄 `sem-contexto/`
+- 📂 `openapi/`
+  - 📄 `UI/`
+  - 📄 `api_accounts_-_open_finance_brasil/`
+  - 📄 `api_acquiring_services_-_open_finance_brasil/`
+  - 📄 `api_automatic_payments_-_open_finance_brasil/`
+  - 📄 `api_capitalization-bonds_-_open_finance_brasil/`
+  - 📄 `api_consents_-_open_finance_brasil/`
+  - 📄 `api_contas_de_dados_abertos_do_open_finance_brasil/`
+  - 📄 `api_credit-cards-accounts_-_open_finance_brasil/`
+  - 📄 `api_credit_portability_-_open_finance_brasil/`
+  - 📄 `api_customers_-_open_finance_brasil/`
+  - 📄 `api_enrollments_for_payment_initiation_-_open_finance_brasil/`
+  - 📄 `api_exchange_-_open_finance_brasil/`
+  - 📄 `api_exchanges_-_open_finance_brasil/`
+  - 📄 `api_investments_-_open_finance_brasil/`
+  - 📄 `api_loans_-_open_finance_brasil/`
+  - 📄 `api_opendata_channels_do_open_finance_brasil/`
+  - 📄 `api_opendata_credit_cards_do_open_finance_brasil/`
+  - 📄 `api_opendata_financings_do_open_finance_brasil/`
+  - 📄 `api_opendata_invoice_financings_do_open_finance_brasil/`
+  - 📄 `api_opendata_loans_do_open_finance_brasil/`
+  - 📄 `api_opendata_unarranged_account_overdraft_do_open_finance_brasil​/`
+  - 📄 `api_payment_initiation_-_open_finance_brasil/`
+  - 📄 `api_payroll_credit_portability_-_open_finance_brasil/`
+  - 📄 `api_pension_-_open_finance_brasil/`
+  - 📄 `api_seguros_-_open_finance_brasil/`
+  - 📄 `api_webhook_-_open_finance_brasil/`
+- 📄 `regulatory/`
+- 📄 `reports/`
+
+---
+
+**Gerado automaticamente pelo script `generate-index.js`**

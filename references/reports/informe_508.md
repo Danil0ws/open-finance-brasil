@@ -1,0 +1,9 @@
+# [Open Finance] Informa #508
+
+Disponibilização do motor funcional de Câmbio Comunicamos que o motor de conformidade da API de Câmbio será disponibilizado em 22/12/2023 com 8 módulos de teste para o plano exchange\_test-plan    O cronograma completo de certificação das APIs de Consents, Resources e Câmbio pode ser conferido abaixo: |
+
+ Disponibilização do 2º bloco de testes da API de Pagamentos Automáticos v1.0.0   Comunicamos que o 2º bloco de testes do motor da API de Pagamentos Automáticos v1.0.0 (transferências inteligentes) será disponibilizado em 22/12/2023.     Conforme Informa #495 (“Atualização da data de liberação do motor funcional da API de Pagamentos automáticos”, enviado em 01/12/2023), o marco de 40% de sucesso ocorrerá em 10/01/2024. Para este marco, deverá ser obtido sucesso em 6 dos 16 módulos disponibilizados no motor.     O cronograma completo pode ser conferido abaixo: |
+
+ Alteração relevante no motor da API Comum Em decorrência da atualização da especificação da API Comum para a versão beta-2, informamos que o motor funcional desta API passará por uma alteração relevante em 22/12/2024.     A partir dessa data, as instituições deverão criar um novo plano de testes *common-outages\_test-plan*.     Reforçamos que o marco de 25% das APIs Comum e Fase 1 ocorrerá em 08/12/2023. O cronograma completo dessa certificação pode ser conferido abaixo: |
+
+ Suspensão da execução do plano de testes de Fase 3 na FVP 2.0  No Informa #505 (“Atualização de módulo de teste de pagamentos FVP 2.0”, enviado em 20/12/2023) comunicamos que o módulo de teste fvp-payments-consents-core-test-v2 seria atualizado para a versão 3.0.0 da API de Pagamentos. Informamos que essa atualização não ocorreu na data indicada, **e as instituições estão dispensadas da execução com sucesso do plano de testes de fase 3 para o ciclo vigente de execução da FVP 2.0 (04/12/2023 – 25/12/2023).** |

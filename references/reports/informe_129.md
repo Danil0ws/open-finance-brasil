@@ -1,0 +1,3 @@
+# [Open Banking] Informa #129
+
+Realização de workshop de utilização do Mock Bank – 15/02 Conforme Informa #127, convidamos as instituições participantes da Fase 3A para um workshop sobre a utilização do Mock Bank, que será realizado no dia 15/02 (terça-feira), das 11h00 às 13h00. O objetivo é sanar possíveis dúvidas sobre o *setup* da ferramenta e esclarecer a utilização, configuração e possibilidades de alteração desta.  Para melhor aproveitamento do workshop, recomendamos que a instituições acessem essa documentação e executem o mock bank anteriormente para se familiarizarem e já elencarem possíveis dúvidas, que podem ser enviadas até o início do workshop pelo formulário abaixo. |

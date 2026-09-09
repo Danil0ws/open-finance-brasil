@@ -1,0 +1,7 @@
+# v.23.00.00 Guia de Experiência do Usuário
+
+**Data da publicação:** 27/08/2026
+
+Explore o Guia em um [novo formato](https://guia-de-ux-open-finance-brasil.scroll.site/guia-de-experi-ncia-open-finance-brasil/v.23.00.00), com melhor legibilidade, busca mais eficiente e navegação aprimorada.
+
+Acesse o [repositório](https://openfinancebrasil.sharepoint.com/sites/OPENBANKINGDocumentaoParticipantes/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FOPENBANKINGDocumentaoParticipantes%2FShared%20Documents%2FGuia%20de%20Experi%C3%AAncia%20do%20Usu%C3%A1rio%20Open%20Finance&p=true&ga=1&xsdata=MDV8MDJ8fDcyZjFkM2ExOTBjNjQ3YWYxNTQ0MDhkZjA0N2IzMzUyfDhmN2EwMDY0MGQwMDQ5YzdiNmI4MzNjZDcxYjY1NDI5fDB8MHw2MzkyMzQ1OTkyOTg0MDU3MDB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T21VNU9EUmpaV1l5T1RKak1UUmtabU5pT0RGbU16QmpOVE5rTWpCak1tRTFRSFJvY21WaFpDNTJNaTl0WlhOellXZGxjeTh4TnpnM09EWXpNVEkzT0RjeXxlYzdhMzRmNGJjYTA0NDk2YjU1YjA4ZGYwNDdiMzM1MXxjYTUyYTRlMmFmN2Q0NzdjODcyNzA4N2VhN2E0MTkxOQ%3D%3D&sdata=a2ZpMVlWd2Z4Nlp4UWhyWHp4b1FkbzhwMUhzR0NOWXR4Wmd0VVVFU1hETT0%3D&ovuser=8f7a0064-0d00-49c7-b6b8-33cd71b65429%2Ccleber.almeida%40openfinancebrasil.org.br) com as versões anteriores do Guia.

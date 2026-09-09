@@ -1,0 +1,5 @@
+# [Open Finance] Informa #587
+
+Publicação das versões *patch* (2.0.1) das APIs Admin e Comum Informamos que a área do desenvolvedor foi atualizada em 03/06/2024 com as versões *patch* (2.0.1) das APIs Admin e Comum.   - Dentre as alterações, destacamos as mudanças nos campos do tipo URL e URI das APIs; - Sugerimos consultar os *changelogs* para visualizar as alterações entre as versões 2.0.1 e 2.0.0. das APIs   As novas versões estarão disponíveis no Diretório a partir do dia 06/06/2024, e as instituições devem se atualizar até dia 10/06/2024.  A certificação dessas APIs ocorre automaticamente no momento da sua publicação no Diretório. Com essas novas versões, os testes se tornarão menos restritivos, ou seja, não impactarão as instituições que já apresentavam sucesso na certificação anterior, não exigindo esforço adicional. |
+
+ [PCM] Atualização da documentação da API de *Hybrid Flow* Informamos que a documentação da API *Hybrid Flow* foi atualizada com a inclusão de um fluxograma representando o diagrama de sequência dos reportes da API e os momentos em que ocorrem. |

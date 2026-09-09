@@ -1,0 +1,5 @@
+# [Open Finance] Informa #840
+
+Atualização do Guia de Experiência do Usuário – versão 19.00.01 |
+
+ Informamos que o time de UX disponibilizou, no dia 23/01/26, uma versão patch do Guia de Experiência do Usuário (v19.00.01). Esta atualização de versão inclui:    - Revisão textual e atualização de telas do subcapítulo **Gestão do Consentimento**, sem alteração de requisitos e recomendações.  - Revisão textual e atualização de telas dos subcapítulos J**ornada Básica de Compartilhamento e Jornada de Compartilhamento via Hybrid Flow com Hand-off**, sem alteração de requisitos e recomendações.  - Correção do texto, fluxo e do protótipo na página **Pix Automático - Jornada de Iniciação de Pagamento.**   O detalhamento dos ajustes presentes nesta atualização do Guia encontra-se na página**“Changelog – Guia de Experiência do Usuário”.**  **Importante:**Embora esta versão do Guia possa ser utilizada para monitoramento, as alterações publicadas não criam novos requisitos nem alteram os requisitos vigentes para as instituições. |

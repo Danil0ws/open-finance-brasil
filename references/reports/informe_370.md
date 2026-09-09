@@ -1,0 +1,3 @@
+# [Open Finance] Informa #370
+
+Publicação da Release Candidate do Dashboard do Cidadão Fase 1               Informamos que foi disponibilizado a versão RC do Dashboard do Cidadão incluindo duas novas visões, sendo a evolução do número de chamadas e a taxa de disponibilidade e indisponibilidade em chamadas, ambas de Fase 1. Além disso, será possível realizar filtros por período, participante, API, endpoint e status.         Durante o período de release candidate, os participantes poderão testar e analisar os dados e, em caso de dúvidas, realizar a abertura de um chamado no Service Desk utilizando como "Solicitação de Informações". |

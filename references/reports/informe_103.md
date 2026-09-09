@@ -1,0 +1,5 @@
+# [Open Banking] Informa #103
+
+Condições de participação na Comunidade RP Esclarecemos os seguintes pontos quanto a adesão à Comunidade RP:   - O prazo para adesão é 31 de março de 2022, incluindo os benefícios do grupo do Slack e a taxa de certificação de $1.000 por submissão - Para as instituições que já aderiram ou que realizarem o pagamento até 31 de março de 2022, a certificação poderá ser concluída até 30 de junho de 2022 - O pagamento da certificação não será reembolsável   Além da participação na Comunidade RP, também é possível a subscrição na OpenID Foundation, com os planos e benefícios descritos no link abaixo: |
+
+ Status dos testes beta da Fase 3A - 3º Ciclo (QR Code) Informamos que dois cenários de teste para certificação funcional da Fase 3A – 3º Ciclo (QR Code) serão atualizados até sexta-feira, dia 10/12. Após as modificações, será analisada a maturidade desses e dos demais cenários para que a abertura para certificações seja feita o mais breve possível.  Reforçamos que a certificação do 3º Ciclo englobará também o plano de testes do 1º Ciclo, conforme Informa #100. |

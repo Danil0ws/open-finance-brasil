@@ -1,0 +1,3 @@
+# [Open Finance] Informa #336
+
+Encerramento do período de consulta referente à v1.0.0-rc2.0 das APIs de Câmbio, Investimentos e Credenciamento (Dados Abertos)    Em complemento ao Informa #325 (“Lançamento da nova versão release candidate (v1.0.0-rc2.0) das APIs de Câmbio, Investimentos e Credenciamento da fase 4A (Dados abertos)”, de 15/02/2023), informamos que **o período de consulta ao ecossistema** para as APIs de Câmbio, Investimentos e Credenciamento **se encerrará em 18/03/2023**.    Sugestões encaminhadas fora deste período não serão consideradas para a versão 1.0.0 (estável) destas APIs e serão consideradas apenas para ajustes em versionamentos futuros. |

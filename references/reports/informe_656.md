@@ -1,0 +1,3 @@
+# [Open Finance] Informa #656
+
+*Workshop* sobre o piloto de Jornada sem redirecionamento (JSR) – Disponibilização de gravações e materiais             Conforme comunicado no Informe #650 (“*Workshop* sobre o piloto de Jornada sem redirecionamento (JSR)”, enviado em 28/10/2024), no dia 05/11/2024, às 09:30, foi realizado um *workshop* sobre o piloto de JSR, cuja gravação está publicada no canal do YouTube do Open Finance Brasil. Por sua vez, o conteúdo das apresentações e o FAQ com interações do evento, devidamente respondidas pelos especialistas, estão disponíveis para consulta nos *links* abaixo. |

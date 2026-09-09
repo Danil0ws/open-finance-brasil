@@ -1,0 +1,3 @@
+# [Open Finance] Informa #481
+
+Inclusão de escopos obrigatórios no *.well-known* dos *authorisation servers* Foi feita a inclusão dos seguintes escopos obrigatórios no *.well-known* dos *authorisation servers* como nova seção 5.2.2.4 “Escopos obrigatórios no *endpoint* de descoberta *(.well-known)*” no documento do Perfil de Segurança do Open Finance Brasil:   - **Operações de crédito:**   - *invoice-financings, financings, loans, unarranged-accounts-overdraft*; - **Investimentos:**   - *bank-fixed-incomes, credit-fixed-incomes, variable-incomes, treasure-titles, funds;* - **Câmbio:**   - *exchanges.*   Informamos que a alteração não impacta os testes de segurança do novo perfil único FAPI 1.0. |

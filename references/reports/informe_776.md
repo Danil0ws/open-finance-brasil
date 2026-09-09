@@ -1,0 +1,3 @@
+# [Open Finance] Informa #776
+
+[Errata Informa #772] Disponibilização do motor v2.2.0-rc.1 da API Pagamentos automáticos     Em correção ao Informa #772 (“*Disponibilização do motor v2.2.0-rc.1 da API Pagamentos automáticos*”, enviado em 01/08/2025), informamos que, para contabilização de sucesso no**marco A**, as instituições detentoras de conta devem obter sucesso nos seguintes testes obrigatórios, disponibilizados em **04/08/2025**:   - automatic-payments\_api\_automatic-pix-extraday-core\_test-module\_**v2n2**;  - automatic-payments\_api\_automatic-pix-invalid-dates-sooner\_test-module\_v2n2.   Demais informações divulgadas no Informa #772 permanecem inalteradas. |

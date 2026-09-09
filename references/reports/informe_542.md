@@ -1,0 +1,3 @@
+# [Open Finance] Informa #542
+
+Atualização do Guia de Experiência do Usuário do Open Finance Brasil  O Grupo Técnico de Experiência do Usuário disponibilizou hoje, dia 07/03/2024, uma nova versão do Guia de Experiência (Versão 07.00.00).  Esta atualização de versão inclui:   - Adição do produto 'Jornada sem Redirecionamento' explicitando como deve ser o funcionamento esperado para este serviço; - Adição do produto 'CIBA' explicitando como deve ser o funcionamento esperado para este serviço; - Refinamento de requisitos e recomendações já presentes no Guia de UX.  Aos interessados em acessar a nova versão, todas as atualizações presentes neste Guia encontram-se no anexo “Alterações da versão” na página 368. Para realizar o download do Guia, clicar no botão abaixo. |

@@ -1,0 +1,13 @@
+# [Open Finance] Informa #568
+
+Nova instituição apta a iniciar serviço de iniciação de pagamentos Pix – Google Pay                A Estrutura do Open Finance Brasil informa que a seguinte instituição cumpriu todas as etapas do processo de *onboarding* de iniciadoras com sucesso e, portanto, está apta a iniciar o serviço de iniciação de transações de pagamento Pix exclusivamente via jornada sem redirecionamento no contexto do Open Finance Brasil: Google Pay     Com essa atualização, há atualmente 29 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix: |
+
+ - Banco Bradesco - Banco BTG Pactual - Banco BV - Banco do Brasil - Banco Mercantil do Brasil - Banco Safra - Banco Santander - Banco XP - Belvo - Celcoin - Central Ailos - Crystal BMC - Ebanx - Efí - Genial Investimentos - Google Pay (exclusivamente via jornada sem redirecionamento) |
+
+ - Hub Pagamentos - Iniciador - Inter - Itaú Unibanco - Mercado Pago - Nubank - Parati - PicPay - Quanto Network - Sicoob - SICREDI - U4C - Unicred |
+
+ Novas instituições serão incluídas na listagem oportunamente. |
+
+ Cronograma da *release* 2024-05-06: API *Hybrid Flow* e novos campos *additionalInfo*             Comunicamos que a partir do dia 06/05/2024 a PCM já estará habilitada para recebimentos de reportes na API do *Hybrid Flow*e recebimentos dos novos campos *additionalInfo* necessários para v4 da API de Pagamentos e v1 de Pagamentos automáticos.     O prazo para adequação dos participantes aprovado em conselho, finaliza-se no dia 03/06/24 para todas as implementações desta *release*.     Informamos ainda, que, a partir do dia 27/05/2024, será realizada a análise de qualidade de dados enviados referente as novas implementações e a abertura de tickets será iniciada no dia 03/06/2024.     Toda documentação necessária para implantação pode ser encontrada no Portal do Desenvolvedor conforme as datas previstas em cronograma. |
+
+ Novas instituições com a funcionalidade de transferências inteligentes disponível  Informamos que as seguintes instituições realizaram a publicação da API de Pagamentos automáticos v1.0.0 e já ofertam a funcionalidade de transferências inteligentes desde 18/04/2024:   - ACCREDITO - SOCIEDADE DE CREDITO DIRETO S.A. - BANCO BS2 S.A. - BANCO C6 S.A. - BANCO DO ESTADO DO RIO GRANDE DO SUL S.A. - BANCO FIBRA S.A. - BANCO ORIGINAL S.A. - BANCO RIBEIRAO PRETO S.A. - BANCO VOITER SA - CONFEDERAÇÃO NACIONAL DAS COOPERATIVAS CENTRAIS DE CRÉDITO E ECONOMIA FAMILIAR E SOLIDÁRIA – CRESOL CONFEDERAÇÃO - INDIGO INVESTIMENTOS DTVM LTDA - SUPERLOGICA SOCIEDADE DE CREDITO DIRETO S.A. |

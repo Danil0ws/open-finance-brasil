@@ -1,0 +1,236 @@
+# FAQ - JSR - v2.1.0 - [SV] Vínculo de dispositivo
+
+**Esse conteúdo está em evolução e pode receber atualizações a qualquer momento.**
+
+**Pergunta**
+
+**Resposta**
+
+**Categoria**
+
+**Subcategoria**
+
+Qual código de erro devo utilizar quando a titularidade do usuário logado na instituição detentora for diferente do informado na criação do _enrollment_?
+
+-   Utilizar código REJEITADO\_OUTRO
+    
+-   No campo "data.cancellation.additionalInformation", padronizar o texto "Titularidade divergente"
+    
+
+Fluxo
+
+Operação
+
+A revogação de um vínculo implica no cancelamento de pagamentos agendados onde o consentimento foi autorizado a partir desse vínculo?
+
+O vínculo foi utilizado para autorizar o consentimento, o consentimento permitiu a realização dos pagamentos. Como o vínculo e o consentimento são entidades separadas, a revogação do vínculo não deve implicar no cancelamento dos pagamentos agendados a partir do consentimento autorizado.
+
+Fluxo
+
+Operação
+
+Existe algum tratamento específico a ser dado para algum dos diferentes motivos de rejeição? (Ex: Fraude, Revogação feita pelo cliente)
+
+Não está previsto nenhum tratamento específico para rejeições de solicitações provenientes da Jornada sem redirecionamento, os motivos de rejeição de pagamentos e consentimento devem ser aplicados conforme previstos na versão corrente da API de Pagamentos. Para os motivos de rejeição dos vínculos deve-se seguir os motivos presentes na versão corrente da API de vínculo. 
+
+Fluxo
+
+Operação
+
+Como funciona a múltiplas alçadas para solicitações de pagamento via Jornada sem redirecionamento?
+
+O vínculo é utilizado para aprovação do consentimento. Se o consentimento em si possuir múltiplas alçadas aprovadoras, a aprovação via jornada representará apenas o primeiro aprovador, sendo necessário recolher as demais aprovações conforme processo interno de cada detentora
+
+Fluxo
+
+Operação
+
+É possível autorizar consentimentos da API de Pagamentos Automáticos via jornada sem redirecionamento?
+
+Não, na versão atual da API de vínculo de dispositivo não é possível realizar autorização de um consentimento recorrente ("recurringConsent")
+
+Fluxo
+
+Operação
+
+É necessário disponibilizar ao cliente um ambiente de gestão de vínculos de dispositivo tanto na detentora quanto na iniciadora, já que ambas devem possibilitar a revogação de um vínculo?
+
+Sim. A detentoras de contas e iniciadoras de pagamentos devem prover um ambiente para gestão dos vínculos dos dispositivos de modo a facilitar a interação do cliente. Maiores informações podem ser consultadas no Guia de experiência do usuário do Open Finance.
+
+Fluxo
+
+Operação
+
+Em que momento a detentora tem visão de qual plataforma o usuário está utilizando?
+
+No momento do Vínculo de dispositivo, a plataforma é enviada no endpoint POST /enrollments/{enrollmnentId}/fido-registration-options. Durante o pagamento é registrada no POST /enrollments/{enrollmnentId}/fido-sign-options, ambos endpoints da família enrollments.O processo pode ser observado no diagrama de sequência da API de vínculo.
+
+Fluxo
+
+Operação
+
+Posso rejeitar uma tentativa de vínculo de maneira síncrona?
+
+Sim. É possível retornar qualquer um dos erros presentes na especificação, atentando-se sempre em ser coerente entre as razões e os códigos. Para o código HTTP 422, recomendamos o uso com cautela do motivo "CONTA\_INVALIDA", uma vez que esta pode ser alterada pelo usuário durante o processo de autorização, recomendamos seu uso para casos mais extremos, como ISPB não pertencente a instituição, por exemplo.
+
+Fluxo
+
+Operação
+
+Como eu valido as "origin" para os endpoints  /enrollments/{enrollmentId/}fido-registration e consents/{consentId}/authorise?
+
+Durante o cadastro do cliente (DCR/DCM), o software statement assertion possui um atributo nomeado software\_origin\_uris. Esse atributo armazena as origens permitidas para utilização do protocolo FIDO. Nas chamadas que possuem o argumento clientDataJSON (fido-registration e authorise), o atributo origin deve ser extraído do clientDataJSON e deve ser realizada a verificação se a origin do mesmo está contida no software\_origin\_uris informado no momento do DCR/DCM. Caso a instituição iniciadora altere ou inclua o valor do atributo software\_origin\_uris, será necessária realização de um novo processo de DCM com as detentoras.
+
+Caso a validação da "origin" falhe:
+
+-   Para o endpoint /enrollments/{enrollmentId}/fido-registration, deve rejeitar a solicitação com o código de erro ORIGEM\_FIDO\_INVALIDA.
+    
+-   Para o endpoint /consents/{consentId}/authorise, deve rejeitar a solicitação com o código de erro RISCO.
+    
+
+Fluxo
+
+Operação
+
+A iniciadora de transação de pagamento (ITP) pode ignorar o valor retornado no campo excludeCredentials na resposta do endpoint **/fido-registration-options?**
+
+Sim, a iniciadora pode optar por ignorar o valor retornado no campo excludeCredentials. Esse campo é utilizado para evitar a criação de múltiplas credenciais para a mesma conta em um único autenticador. Caso seja enviado, a iniciadora pode rejeitar o registro se uma das credenciais já existir no dispositivo, ou seguir com a criação e substituir ou não o vínculo já existente. Embora opcional no primeiro registro, seu uso é recomendado ao criar um novo vínculo de conta no mesmo dispositivo. Para mais detalhes, consulte a especificação oficial: [https://www.w3.org/TR/webauthn-2/#dom-publickeycredentialcreationoptions-excludecredentials](https://www.w3.org/TR/webauthn-2/#dom-publickeycredentialcreationoptions-excludecredentials)
+
+Fluxo
+
+Operação
+
+Durante a coleta dos sinais de riscos é possível retornar algum erro síncrono no POST /enrollment/{id}/risk-signals?
+
+Sim, é possível. Em linhas gerais, recomenda-se que o processamento de sinais de riscos ocorra de forma assíncrona, favorecendo o cumprimento dos requisitos não funcionais de desempenho dos endpoints de recursos.
+
+Fluxo
+
+Sinais de riscos
+
+A detentora de contas pode negar algum pagamento caso não tenha recebido todos ou um dos Sinais de risco opcionais?
+
+Sim, o apetite a risco fica a cargo da instituição detentora, caso entenda que as informações não são o suficiente para viabilizar o pagamento. 
+
+Fluxo
+
+Sinais de riscos
+
+Quais certificações são necessárias para a detentora participante da Jornada Sem redirecionamento?
+
+1.1 Certificação Funcional JSR (API de Vínculo de Conta) via Open Finance;  
+1.2 Certificação Funcional Pagamentos (API de Pagamentos) via Open Finance;  
+1.3 Certificação de Segurança FAPI OpenID Providers via OIDF;  
+1.4 Certificação FIDO Server via FIDO Alliance:  
+ 1.4.1 Se a instituição já utiliza FIDO Server certificado, não é necessário obter outra certificação;  
+ 1.4.2 Se a instituição não possui ou utiliza FIDO Server certificado, a instituição deve obtê-las conforme passos descritos nesse link ([https://fidoalliance.org/certification/functional-certification/](https://fidoalliance.org/certification/functional-certification/) ).
+
+Regulatório
+
+Certificação
+
+Quais certificações são necessárias para a Iniciadora que deseja participar da Jornada Sem redirecionamento?
+
+Certificação de Segurança FAPI Relying Party.
+
+Regulatório
+
+Certificação
+
+As Detentoras de Conta são obrigadas implementar a Jornada Sem Redirecionamento?
+
+Sim. Com base na Instrução Normativa, [https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=406](data/references/Resolução_BCB_406.md) . Essa Instrução Normativa apresenta as datas da obrigatoriedade.
+
+Regulatório
+
+Obrigatoriedade
+
+Existe algum prazo máximo que pode ser aplicado para o vínculo da conta dentro do campo data/expirationDateTime no fluxo da jornada sem Redirecionamento?
+
+Não, o campo /data/expirationDateTime consiste na data de expiração do vínculo da conta de fato e não é alterado em cada transição de status definido na máquina de estados do vínculo da conta.
+
+Regulatórios
+
+Prazo
+
+Com relação aos limites definidos para vínculo do dispositivo, é permitido o ajuste para um valor menor ou maior?
+
+Embora não exista no manual de UX, não é vedada a implementação por parte da detentora de conta. Existe liberdade para a implementação deste fluxo, de maneira não obrigatória.
+
+Limites
+
+Existe um limite de vínculo de dispositivo(s) ativo(s) para mesmo CPF, instituição iniciadora, e conta de débito?
+
+Não existe limites de dispositivos que podem ser vínculados entre a ITP, cliente e detentora
+
+Limites
+
+Em qual momento o ITP informar ao detentor os limites e prazo de expiração do vínculo?
+
+Essa informação não é enviada da ITP para detentora de contas. Os limites e prazo devem ser definidos pelo usuário em momento de autorização do vínculo
+
+Limites
+
+Onde o iniciador consegue consultar os limites estabelecidos pelo cliente?
+
+No retorno da consulta de vínculo (GET /enrollments/{enrollmnentId}), pós autorização do consentimento, estarão presentes os campos "dailyLimit" e "transactionLimit", preenchidos com os valores definidos pelo usuário durante autorização do vínculo.
+
+Limites
+
+Como funciona a convivência entre limite do arranjo e do dispositivo vinculado?
+
+Ambos limites precisam ser respeitados, ou seja, para uma transação ser permitida, deverá respeitar tanto o limite do arranjo Pix definido entre cliente e detentora, quanto o limite do vínculo definido durante a autorização do vínculo, também entre o cliente e a detentora. Os momentos de validação e erros relacionados a limites devem ser consultados na documentação da versão vigente da API de Pagamentos.
+
+Limites
+
+Qual é o funcionamento esperado no ambiente das detentoras de conta durante a jornada de vínculo de conta?
+
+Para o limite diário:
+
+1.  Inicialmente, deve ser apresentado ao usuário com o campo não preenchido;
+    
+2.  O cliente deve ser informado que serão respeitados os limites para transações Pix estabelecidos na instituição detentora da conta vinculada;
+    
+3.  O cliente deve ter opção de inserir um valor;
+    
+4.  O valor eventualmente inserido não deve ser submetido a consistência quanto aos limites referenciados no item 2
+    
+5.  Caso o usuário não defina um limite, a instituição detentora de conta deverá considerar que o limite diário é o limite do Pix;
+    
+6.  Caso um limite não tenha sido definido, não se deve considerar que o limite é 0 e rejeitar todos as tentativas de pagamento
+    
+
+Para o limite por transação:
+
+1.  Deve ser apresentado, por padrão, R$ 500,00
+    
+2.  O cliente deve ter opção de reduzir o valor
+    
+3.  Caso haja contrato bilateral entre a iniciadora e a detentora, o valor padrão pode ser maior que R$500,00 (a depender do contrato bilateral);
+    
+
+Limites
+
+Existe algum procedimento para manter atualizada a informação dos status dos vínculos, já que eles podem ser revogados tanto na detentora quanto na iniciadora?
+
+Os procedimentos passiveis de serem realizados para manter a informação do vínculo sincronizada são o polling e Webhook. 
+
+Outros
+
+O que é o campo "Dispositivo Autorizado" presente na tela de autorização de vínculo?
+
+O campo deve permitir que o cliente defina um nome amigável para esse vínculo, permitindo que ele se recorde mais facilmente sobre do que se trata aquela autorização em específico. 
+
+Outros
+
+Existe alguma implementação de referência para ser utilizada no desenvolvimento?
+
+Sim. o próprio motor utiliza o mockbank.
+
+Outros
+
+Caso uma instituição queira participar do piloto da Jornada sem Redirecionamento de forma voluntária qual seria o procedimento a seguir?
+
+A instituição pode entrar em contato diretamente com o BC e com a DTO pelos e-mails [openfinance.denor@bcb.gov.br](mailto:openfinance.denor@bcb.gov.br), [gp\_aceleracao\_interoperabilidade@openfinancebrasil.org.br](mailto:gp_aceleracao_interoperabilidade@openfinancebrasil.org.br) e [gp\_servicos@](mailto:gp_servicos@chicagoadvisory.com.br)[openfinancebrasil.org.br](mailto:gp_aceleracao_interoperabilidade@openfinancebrasil.org.br)  indicando que tem interesse em participar do Piloto de forma voluntária como detentora de conta.
+
+Outros

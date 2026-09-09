@@ -1,0 +1,5 @@
+# [Open Finance] Informa #650
+
+LEMBRETE - Publicação da especificação da versão 2.0.0-beta.1 da API Pagamentos automáticos          Conforme divulgado no informa #642 (“Lançamento da versão beta (v2.0.0-beta.1) da API Pagamentos automáticos”, enviado em 11/10/2024), a especificação da versão 2.0.0-beta.1 da API Pagamentos automáticos foi publicada. Dessa forma, sugerimos o início do desenvolvimento do novo produto Pix automático.     O cronograma completo, contemplando a nova data de publicação do Guia de UX e os marcos de certificação, será divulgado posteriormente. |
+
+ Workshop sobre o piloto de Jornada sem redirecionamento (JSR)    Conforme divulgado no Informa #610 (“Divulgação do cronograma de implementação da jornada sem redirecionamento”, enviado em 29/07/2024), o período de piloto da Jornada sem redirecionamento (JSR) ocorrerá entre 14/11/2024 e 27/02/2025.     Informamos que a Estrutura irá realizar um *workshop* em 05/11/2024, das 09h às 10h30, para detalhar o funcionamento do piloto, as métricas que serão acompanhadas e o que será esperado das instituições. |

@@ -1,0 +1,3 @@
+# [Open Banking] Informa #144
+
+Nova instituição apta a iniciar serviço de iniciação de pagamento Pix – Banco do Brasil  A Estrutura do Open Banking Brasil informa que a seguinte instituição cumpriu todas as etapas do processo de onboarding de iniciadoras com sucesso e, portanto, está apta a iniciar o serviço de iniciação de transações de pagamento Pix no contexto do Open Banking Brasil: Banco do Brasil.     Essa informação será inclusa no Portal do Open Banking.     Com essa atualização, há atualmente 2 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix:  - Mercado pago - Banco do Brasil    Novas instituições serão incluídas na listagem oportunamente. |

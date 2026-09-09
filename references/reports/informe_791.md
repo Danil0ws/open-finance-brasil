@@ -1,0 +1,3 @@
+# [Open Finance] Informa #791
+
+Atualização do Guia de Experiência do Usuário - versão 15.00.00  Informamos que o time de UX disponibilizou hoje, dia 30/09/25, uma nova versão do Guia de Experiência (versão 15.00.00). Esta atualização de versão inclui:  - Alterações nos capítulos de Pix Imediato, Pix Agendado, Pix Automático, Transferências Inteligentes, Gestão de Pagamentos e Gestão Geral; - Inclusão do cenário de Jornada Otimizada em JSR e Transferências Inteligentes.  Os ajustes presentes nesta atualização do Guia encontram-se na página “Changelog - Guia de Experiência do Usuário”.     **Importante:** Esta versão do Guia de UX **será monitorada a partir de 90 dias** da data da sua publicação. |

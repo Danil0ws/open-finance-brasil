@@ -1,0 +1,3 @@
+# [Open Finance] Informa #711
+
+Atualização do Guia de Experiência do Usuário do Open Finance Brasil O Grupo Técnico de Experiência do Usuário disponibilizou em 17/03/2025 uma nova versão do Guia de Experiência (Versão 10.02.00). Porém, em decorrência de ajustes emergenciais, foi disponibilizada uma atualização desta versão do Guia de Experiencia (Versão 10.02.01) em 18/03/2025, a qual inclui:    - Modificações no capítulo 3.4 referentes à API Pagamentos automáticos (Pix automático e Transferências Inteligentes), que deverão ser implementadas pelas instituições até 22/04/2025, quando haverá o início do piloto de Pix automático.   Os ajustes presentes nesta atualização do Guia encontram-se na página “Changelog - Guia de Experiência do Usuário”. |

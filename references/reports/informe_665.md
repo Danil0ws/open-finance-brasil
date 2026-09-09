@@ -1,0 +1,3 @@
+# [Open Finance] Informa #665
+
+Instrução para a consulta da URL do JWKS para validação de assinatura JWS para o piloto da Jornada sem redirecionamento             O Squad Jornada sem redirecionamento comunica que as instituições iniciadoras que estão no piloto da jornada sem redirecionamento devem seguir a instrução preliminar abaixo até que a documentação de segurança seja atualizada:   - O receptor (ou iniciador) deve validar a consistência da assinatura digital da mensagem JWS exclusivamente com base nas informações obtidas do diretório, ou seja, com base nas chaves publicadas no JWKS da instituição no diretório. |

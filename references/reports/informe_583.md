@@ -1,0 +1,5 @@
+# [Open Finance] Informa #583
+
+Lançamento da v1.3.1 (*patch*) da API de Vínculo de dispositivo para pagamentos sem redirecionamento Informamos que foi publicada a versão 1.3.1 das especificações da API de Vínculo de Dispositivo para pagamentos sem redirecionamento.   - Dentre as alterações, destacamos mudanças no campo /challenge e de um rejectionReason; - Sugerimos consultar o *changelog* para visualizar as alterações entre as versões 1.3.0 e 1.3.1. |
+
+ Atualização do Guia de Experiência do Usuário do Open Finance Brasil    O Grupo Técnico de Experiência do Usuário disponibilizou hoje, dia 24/05/2024, uma nova versão do Guia de Experiência (Versão 07.02.00).   Esta atualização de versão inclui:   - Adição de novo escopo de compartilhamento de dados:   - Dados do Empregador - Refinamento de requisitos e recomendações já presentes no Guia de UX:   - Fase 2 - Compartilhamento de Dados   - Fase 3 - Serviços   - Área de Gestão   - Glossário   Aos interessados em acessar a nova versão, todas as atualizações presentes neste Guia encontram-se no anexo “Alterações da versão” na página 376. Para realizar o download do Guia, clicar no botão abaixo. |

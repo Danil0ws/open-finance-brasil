@@ -1,0 +1,165 @@
+# Consentimento - Regras de Validação
+
+v 1.04
+
+**Objetivo desta página**
+
+Demonstrar funcionalmente as regras de validação de qualidade de campos básicos e additionalInfos realizados na PCM. Estas validações são utilizadas para aberturas de tickets e monitoramento através do dashboard de Monitoramento Operacional.
+
+**Guia de leitura**
+
+1.  Nos endpoints, a referência “v_x_” deve ser substituída pela versão da API que está sendo enviada. Por exemplo, para a versão 4 (v4) dos endpoints de pagamento, enviar “open-banking/automatic-payments/**v**_**4**_/recurring-consents/{recurringConsentId}”.
+    
+2.  Nos endpoints, a referência % significa que vale para qualquer conteúdo antes ou depois, de acordo com o endpoint em questão. Por exemplo, “%/automatic-payments/v_x_/recurring-consents%” significa que vale para os endpoints “/open-banking/automatic-payments/v2/recurring-consents” e “/open-banking/automatic-payments/v2/recurring-consents/{recurringConsentId}”.
+    
+
+Dica: não existe a opção de exportar as tabelas para Excel, porém pode-se selecionar o conteúdo da página com CTRL+A, copiar e colar no Excel.
+
+# **Dados Cadastrais e Transacionais**
+
+### Consentimento
+
+**Campo**
+
+**Regra**
+
+companyProfileInfo
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** personType = PJ ou PESSOA\_JURIDICA
+    
+    -   **E** endpoint = %consents/v_X_/consents
+        
+-   **E** método = POST
+    
+
+**ENTÃO**
+
+-   Se naturezaJuridica e porteEmpresa forem simultaneamente nulos ou vazios, retorna Nulo/Vazio
+    
+-   Se naturezaJuridica for nulo ou vazio e porteEmpresa estiver preenchido, retorna Incompleto - sem Natureza Juridica
+    
+-   Se naturezaJuridica estiver preenchido e porteEmpresa estiver nulo ou vazio, retorna Incompleto - sem Porte da Empresa
+    
+
+consentId
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** endpoint = %/consents/%
+    
+-   **E** não é método POST com statusCode 4xx e 5xx
+    
+
+**ENTÃO**
+
+-   Se o consentId for nulo, retorna Nulo
+    
+-   Se o consentId for vazio, retorna Vazio
+    
+-   Se o REGEX do consentId não for ^urn:\[a-zA-Z0-9\]\[a-zA-Z0-9\\-\]{0,31}:\[a-zA-Z0-9()+,\\-.:=@;$\_!\*''%/?#\]+, retorna Invalido
+    
+
+dropReason
+
+**SE**
+
+-   Role = SERVER
+    
+-   **E** endpoint = %/consents/v_x_/consents
+    
+-   **E** método = POST
+    
+
+**ENTÃO**
+
+-   Se o dropReason for nulo, retorna Nulo
+    
+-   Se o dropReason for vazio, retorna Vazio
+    
+-   Se o dropReason não for CREDENTIAL\_UNAVAILABLE, NONE, NO\_CREDENTIAL, NO\_AUTHORITY ou NO\_AUTHORITY\_PERSON\_MISMATCH retorna Invalido
+    
+
+journeyIsLinked
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** endpoint = %/consents/v_x_/consents ou %/consents/v_x_/consents/{consentId}
+    
+-   **E** método = POST ou GET
+    
+
+**ENTÃO**
+
+-   Se o journeyIsLinked for nulo, retorna Nulo
+    
+-   Se o journeyIsLinked for vazio, retorna Vazio
+    
+-   Se o journeyIsLinked não for TRUE ou FALSE, retorna Invalido
+    
+
+personType
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** endpoint = %/consents
+    
+-   **E** método = POST
+    
+
+**ENTÃO**
+
+-   Se o personType for nulo, retorna Nulo
+    
+-   Se o personType for vazio, retorna Vazio
+    
+-   Se o personType não for PF, PJ, PESSOA\_NATURAL ou PESSOA\_JURIDICA, retorna Invalido
+    
+
+status
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** endpoint = %/consents/{consentId}
+    
+-   **E** método = GET
+    
+-   **E** statusCode não é 4xx ou 5xx
+    
+
+**ENTÃO**
+
+-   Se o status for nulo, retorna Nulo
+    
+-   Se o status for vazio, retorna Vazio
+    
+-   Se o status não for AWAITING\_AUTHORISATION, AUTHORISED ou REJECTED retorna Invalido
+    
+
+tokenId
+
+**SE**
+
+-   Role = CLIENT
+    
+-   **E** endpoint = %/consents/%
+    
+-   **E** statusCode não é 4xx ou 5xx
+    
+
+**ENTÃO**
+
+-   Se o tokenId for nulo, retorna Nulo
+    
+-   Se o tokenId for vazio, retorna Vazio

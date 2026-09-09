@@ -1,0 +1,7 @@
+# [Open Finance] Informa #191
+
+Definição sobre Consentimentos Ativos Informamos aos participantes do Open Finance Brasil que, para fins de esclarecimento e padronização, o consentimento será considerado ativo quando a instituição transmissora enviar o *refresh token*. Este *token* de atualização é resultante da troca do *authorisation code* pelo *access token*. |
+
+ Pedimos que as instituições promovam os ajustes necessários em seu ambiente para atender ao padrão até 29/07/2022, de forma a garantir a atualização do dado informado para publicações futuras pelo Painel de Indicadores do ecossistema. Note que essa definição é válida para o reporte de consentimentos ativos tanto na visão transmissora quanto na visão receptora.  Em casos de dúvidas referentes ao tema consentimento, abra um chamado na plataforma do Service Desk. |
+
+ Desativação da área do desenvolvedor no GitHub Pages (openbanking-brasil.github.io/areadesenvolvedor) A nova [área do desenvolvedor](https://openbankingbrasil.atlassian.net/wiki/spaces/OB) no Portal Open Finance, no Confluence, está disponível desde 01/04/2022, completando 105 dias de sustentação de ambos os portais. Desde esta data, a nova área está no ar e com plena disponibilidade, sendo o único ambiente que vem sendo atualizado desde então.    Dessa forma, informamos que temos a previsão de desativar as páginas do GitHub Pages no dia 21/07. Todas as informações serão preservadas.    Acesse a atual área do desenvolvedor clicando no botão abaixo: |

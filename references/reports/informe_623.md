@@ -1,0 +1,7 @@
+# [Open Finance] Informa #623
+
+*Workshop* Jornada sem redirecionamento (JSR) – Disponibilização de gravações e materiais Conforme comunicado no Informe #616 (“*Workshop* sobre a Jornada sem redirecionamento (JSR)”, enviado em 06/08/2024), no dia 13/08/2024, às 14:00, foi realizado um *workshop* sobre Jornada sem redirecionamento.    Informamos que a gravação do *workshop* de JSR está publicada no canal do YouTube do Open Finance Brasil, e os materiais apresentados já estão disponíveis para consulta do ecossistema. Esses materiais incluem o conteúdo das apresentações e o link para o FAQ com interações do evento devidamente respondidas pelos especialistas. |
+
+ Orientações sobre a utilização dos campos de descontinuação do servidor de autorização no Diretório Informamos que as seções “08. Cadastrando um *Authorisation Server*” e “24. Ciclo de Vida de *Authorization Server*” do Guia de Operação do Diretório Central, disponível na área do desenvolvedor do Portal do Open Finance Brasil foram atualizadas. A atualização inclui orientações sobre a utilização dos campos de descontinuação do servidor de autorização disponíveis no Diretório.   Além disso, gostaríamos de reforçar as seguintes orientações em relação ao preenchimento e consumo dos campos abaixo: |
+
+ Instituições que já realizaram o preenchimento destes campos em seus servidores de autorização deverão revisitar as informações preenchidas de acordo com as orientações contidas neste Informa. |

@@ -1,0 +1,5 @@
+# [Open Finance] Informa #358
+
+Service Desk - Nova Categoria    Informamos que será disponibilizada a nova categoria de **Incidentes > APIs/Interoperabilidade > Erro na Jornada ou Dados > Chamadas Indevidas** no Service Desk.     A categoria foi desenvolvida para que os usuários façam o reporte de chamadas de APIs indevidas realizadas por outra instituição participante. Portanto, os campos obrigatórios deverão ser devidamente preenchidos para facilitar e agilizar a análise da equipe de atendimento N2.     Estrutura no catálogo de serviços: |
+
+ A categoria será aplicada no ambiente de Produção do Service Desk no dia 18/04/2023. Dessa forma, as instituições que fazem o uso de integrações com o Service Desk deverão estar preparadas para receber e atender os possíveis tickets nesta categoria.     Para consultar informações adicionais sobre os novos campos personalizados, acesse os artigos disponíveis na [FAQ](https://servicedesk.openfinancebrasil.org.br/KBFAQTree.jsp): API SYSAID > Formulários Customizados.     Em caso de dúvidas referentes à esta categoria, faça a abertura de um chamado na plataforma do Service Desk. |

@@ -1,0 +1,3 @@
+# [Open Banking] Informa #143
+
+Lançamento do Confluence - Ambiente da Área do Desenvolvedor do Portal Open Banking Brasil  Conforme divulgado anteriormente, via Informe #139 - Alteração do ambiente da Área do Desenvolvedor do Portal Open Banking Brasil - a partir de 01/04/2022 (amanhã), a Área do Desenvolvedor passa a ser hospedada no Confluence e não mais no GitPages.     Lembramos que:  - Haverá um período de transição pelos próximos dias. Neste período, o GitPages será congelado, mas ainda estará disponível para consulta. - No cabeçalho da página no GitPages você encontrará um disclaimer indicando que a página está desatualizada a partir deste dia, e será então direcionado para o Confluence.    Acesse o vídeo de navegação para maiores informações. |

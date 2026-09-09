@@ -1,0 +1,3 @@
+# [Open Finance] Informa #591
+
+Publicação do Relatório Anual do Open Finance Brasil de 2023 Foi publicado hoje, dia 07 de junho de 2024, o Relatório Anual do Open Finance Brasil de 2023.  O documento registra a evolução do Open Finance Brasil, apresentando de forma clara como ele funciona e como vem sendo aprimorado. Além disso, traz explicações e exemplos de como o Sistema Financeiro Aberto brasileiro beneficia a sociedade e o ecossistema financeiro do país, reforçando a importância, o valor e o potencial da iniciativa.  A cada ano, o processo de levantamento de informações objetivas, mensuráveis e comparáveis é aperfeiçoado para tornar o conhecimento mais palpável e facilitar o entendimento.  Contamos com a sua colaboração para divulgar e compartilhar o conteúdo. |

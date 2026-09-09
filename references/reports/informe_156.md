@@ -1,0 +1,3 @@
+# [Open Banking] Informa #156
+
+Nova instituição apta a iniciar serviço de iniciação de pagamento Pix – Itaú Unibanco  A Estrutura do Open Banking Brasil informa que a seguinte instituição cumpriu todas as etapas do processo de onboarding de iniciadoras com sucesso e, portanto, está apta a iniciar o serviço de iniciação de transações de pagamento Pix no contexto do Open Banking Brasil: Itaú Unibanco.     Com essa atualização, há atualmente 4 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix:  - Mercado Pago - Banco do Brasil - Banco BTG Pactual - Itaú Unibanco    Novas instituições serão incluídas na listagem oportunamente. |

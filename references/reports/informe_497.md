@@ -1,0 +1,3 @@
+# [Open Finance] Informa #497
+
+Atualização do documento do Perfil de Segurança para adequação à obrigatoriedade de criptografia do *id\_token* Em atendimento ao questionamento endereçado ao GT Segurança, foi feita a alteração do item 1 da seção 5.2.2.1 do documento do novo perfil único FAPI 1.0 para tornar a criptografia do *id\_token*obrigatória nos momentos de *call-back*e chamada do *endpoint.*     Esta alteração se deve ao fato da criptografia condicional do *id\_token* ser um comportamento incomum nas ferramentas de servidor de autorização. Neste caso, o *id\_token* é sempre criptografado ou somente assinado. Também destacamos que esta alteração não impacta a execução dos testes de conformidade de segurança para o novo perfil único FAPI 1.0. |

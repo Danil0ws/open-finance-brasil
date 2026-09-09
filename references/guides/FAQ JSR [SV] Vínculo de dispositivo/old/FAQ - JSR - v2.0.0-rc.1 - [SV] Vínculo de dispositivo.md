@@ -1,0 +1,190 @@
+# FAQ - JSR - v2.0.0-rc.1 - [SV] Vínculo de dispositivo
+
+**Esse conteúdo está em evolução e pode receber atualizações a qualquer momento.**
+
+**Pergunta**
+
+**Resposta**
+
+**Categoria**
+
+**Subcategoria**
+
+A revogação de um vínculo implica no cancelamento de pagamentos agendados onde o consentimento foi autorizado a partir desse vínculo?
+
+O vínculo foi utilizado para autorizar o consentimento, o consentimento permitiu a realização dos pagamentos. Como o vínculo e o consentimento são entidades separadas, a revogação do vínculo não deve implicar no cancelamento dos pagamentos agendados a partir do consentimento autorizado.
+
+Fluxo
+
+Operação
+
+Existe algum tratamento específico a ser dado para algum dos diferentes motivos de rejeição? (Ex: Fraude, Revogação feita pelo cliente)
+
+Não está previsto nenhum tratamento específico para rejeições de solicitações provenientes da Jornada sem redirecionamento, os motivos de rejeição de pagamentos e consentimento devem ser aplicados conforme previstos na versão corrente da API de Pagamentos. Para os motivos de rejeição dos vínculos deve-se seguir os motivos presentes na versão corrente da API de vínculo. 
+
+Fluxo
+
+Operação
+
+Como funciona a múltiplas alçadas para solicitações de pagamento via Jornada sem redirecionamento?
+
+O vínculo é utilizado para aprovação do consentimento. Se o consentimento em si possuir múltiplas alçadas aprovadoras, a aprovação via jornada representará apenas o primeiro aprovador, sendo necessário recolher as demais aprovações conforme processo interno de cada detentora
+
+Fluxo
+
+Operação
+
+Existe algum prazo máximo para expiração do vínculo do dispositivo?
+
+A IN BCB 509 vigente estabelece que o prazo deve ser de cinco anos e a instituição detentora de contas deve permitir que o cliente possa altera o prazo para indeterminado ou para prazo inferior a cinco anos.
+
+Fluxo
+
+Operação
+
+É possível autorizar consentimentos da API de Pagamentos Automáticos via jornada sem redirecionamento?
+
+Não, na versão atual da API de vínculo de dispositivo não é possível realizar autorização de um consentimento recorrente ("recurringConsent")
+
+Fluxo
+
+Operação
+
+É necessário disponibilizar ao cliente um ambiente de gestão de vínculos de dispositivo tanto na detentora quanto na iniciadora, já que ambas devem possibilitar a revogação de um vínculo?
+
+Sim. A detentoras de contas e iniciadoras de pagamentos devem prover um ambiente para gestão dos vínculos dos dispositivos de modo a facilitar a interação do cliente. Maiores informações podem ser consultadas no Guia de experiência do usuário do Open Finance.
+
+Fluxo
+
+Operação
+
+Em que momento a detentora tem visão de qual plataforma o usuário está utilizando?
+
+No momento do Vínculo de dispositivo, a plataforma é enviada no endpoint POST /enrollments/{enrollmnentId}/fido-registration-options. Durante o pagamento é registrada no POST /enrollments/{enrollmnentId}/fido-sign-options, ambos endpoints da família enrollments.O processo pode ser observado no diagrama de sequência da API de vínculo.
+
+Fluxo
+
+Operação
+
+Posso rejeitar uma tentativa de vínculo de maneira síncrona?
+
+Sim. É possível retornar qualquer um dos erros presentes na especificação, atentando-se sempre em ser coerente entre as razões e os códigos. Para o código HTTP 422, recomendamos o uso com cautela do motivo "CONTA\_INVALIDA", uma vez que esta pode ser alterada pelo usuário durante o processo de autorização, recomendamos seu uso para casos mais extremos, como ISPB não pertencente a instituição, por exemplo.
+
+Fluxo
+
+Operação
+
+Existe alguma forma de coletar o “deviceId” em browsers e/ou desktop? 
+
+Em browsers e/ou desktop, assim como no Android e no iOS, o deviceId deve ser preenchido com um identificador único (fingerprint) que representa a instância da aplicação no dispositivo utilizado pelo usuário.
+
+Fluxo
+
+Operação
+
+Durante a coleta dos sinais de riscos é possível retornar algum erro síncrono no POST /enrollment/{id}/risk-signals?
+
+Sim, é possível! Em linhas gerais, recomenda-se que o processamento de sinais de riscos ocorra de forma assíncrona, favorecendo o cumprimento dos requisitos não funcionais de desempenho dos endpoints de recursos.
+
+Fluxo
+
+Sinais de riscos
+
+A detentora de contas pode negar algum pagamento caso não tenha recebido todos ou um dos Sinais de risco opcionais?
+
+Sim, o apetite a risco fica a cargo da instituição detentora, caso entenda que as informações não são o suficiente para viabilizar o pagamento. 
+
+Fluxo
+
+Sinais de riscos
+
+Quais certificações são necessárias para a detentora participante da Jornada Sem redirecionamento?
+
+1.1 Certificação Funcional JSR (API de Vínculo de Conta) via Open Finance;  
+1.2 Certificação Funcional Pagamentos (API de Pagamentos) via Open Finance;  
+1.3 Certificação de Segurança FAPI OpenID Providers via OIDF;  
+1.4 Certificação FIDO Server via FIDO Alliance:  
+ 1.4.1 Se a instituição já utiliza FIDO Server certificado, não é necessário obter outra certificação;  
+ 1.4.2 Se a instituição não possui ou utiliza FIDO Server certificado, a instituição deve obtê-las conforme passos descritos nesse link ([https://fidoalliance.org/certification/functional-certification/](https://fidoalliance.org/certification/functional-certification/) ).
+
+Regulatório
+
+Certificação
+
+Quais certificações são necessárias para a Iniciadora que deseja participar da Jornada Sem redirecionamento?
+
+Certificação de Segurança FAPI Relying Party.
+
+Regulatório
+
+Certificação
+
+As Detentoras de Conta são obrigadas implementar a Jornada Sem Redirecionamento?
+
+Sim. Com base na Instrução Normativa, [https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=406](data/references/Resolução_BCB_406.md) . Essa Instrução Normativa apresenta as datas da obrigatoriedade.
+
+Regulatório
+
+Obrigatoriedade
+
+Existe algum prazo máximo que pode ser aplicado para o vínculo da conta dentro do campo data/expirationDateTime no fluxo da jornada sem Redirecionamento?
+
+Não, o campo /data/expirationDateTime consiste na data de expiração do vínculo da conta de fato e não é alterado em cada transição de status definido na máquina de estados do vínculo da conta.
+
+Regulatórios
+
+Prazo
+
+Com relação aos limites definidos para vínculo do dispositivo, é permitido o ajuste para um valor menor ou maior?
+
+Embora não exista no manual de UX, não é vedada a implementação por parte da detentora de conta. Existe liberdade para a implementação deste fluxo, de maneira não obrigatória.
+
+Limites
+
+Existe um limite de vínculo de dispositivo(s) ativo(s) para mesmo CPF, instituição iniciadora, e conta de débito?
+
+Não existe limites de dispositivos que podem ser vínculados entre a ITP, cliente e detentora
+
+Limites
+
+Em qual momento o ITP informar ao detentor os limites e prazo de expiração do vínculo?
+
+Essa informação não é enviada da ITP para detentora de contas. Os limites e prazo devem ser definidos pelo usuário em momento de autorização do vínculo
+
+Limites
+
+Onde o iniciador consegue consultar os limites estabelecidos pelo cliente?
+
+No retorno da consulta de vínculo (GET /enrollments/{enrollmnentId}), pós autorização do consentimento, estarão presentes os campos "dailyLimit" e "transactionLimit", preenchidos com os valores definidos pelo usuário durante autorização do vínculo.
+
+Limites
+
+Como funciona a convivência entre limite do arranjo e do dispositivo vinculado?
+
+Ambos limites precisam ser respeitados, ou seja, para uma transação ser permitida, deverá respeitar tanto o limite do arranjo Pix definido entre cliente e detentora, quanto o limite do vínculo definido durante a autorização do vínculo, também entre o cliente e a detentora. Os momentos de validação e erros relacionados a limites devem ser consultados na documentação da versão vigente da API de Pagamentos.
+
+Limites
+
+Haverá algum valor máximo de limites para o vínculo durante o periodo de piloto?
+
+Não. Considerando que o público inicial do piloto deve ser de usuários selecionados pelas próprias instituições e buscando permitir que as instituições testem o máximo de cenários possíveis, a estrutura optou por não definir este teto. Ressaltamos que todo vínculo realizado obrigatoriamente terá um limite, apenas não estamos limitando até quanto pode ser definido. Detalhes sobre a definição de limites podem ser encontrados no Guia de Experiencia do Usuário.
+
+Limites
+
+Existe algum procedimento para manter atualizada a informação dos status dos vínculos, já que eles podem ser revogados tanto na detentora quanto na iniciadora?
+
+Os procedimentos passiveis de serem realizados para manter a informação do vínculo sincronizada, são o polling e Webhook. 
+
+Outros
+
+O que é o campo "Dispositivo Autorizado" presente na tela de autorização de vínculo?
+
+O campo deve permitir que o cliente defina um nome amigável para esse vínculo, permitindo que ele se recorde mais facilmente sobre do que se trata aquela autorização em específico. 
+
+Outros
+
+Existe alguma implementação de referência para ser utilizada no desenvolvimento?
+
+Sim. O próprio motor utiliza o mockbank.
+
+Outros

@@ -1,0 +1,5 @@
+# [Open Finance] Informa #853
+
+Service Desk – Nova Categoria de Notificação |
+
+ Informamos que, em 27/02/2026, será criada uma categoria de notificação no Service Desk, conforme detalhado abaixo:                                        Os chamados classificados como Notificação são abertos exclusivamente pela Associação Open Finance. Após o encaminhamento, esses chamados são encerrados automaticamente no prazo de 5 (cinco) dias úteis.  Eventuais dúvidas relacionadas às notificações deverão ser registradas por meio da abertura de um novo chamado na plataforma.  Ressaltamos que as instituições participantes devem assegurar que suas integrações com o Service Desk estejam devidamente configuradas para receber e consultar os chamados. A FAQ da plataforma contém orientações completas sobre os campos, parâmetros e requisições necessários para a correta utilização das integrações.  Em caso de dúvidas referentes a esta atualização, envie o seu questionamento através da plataforma do Service Desk. |

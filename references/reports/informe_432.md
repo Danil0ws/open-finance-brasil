@@ -1,0 +1,3 @@
+# [Open Finance] Informa #432
+
+Fase 2 – Atualização da lista de problemas conhecidos   O Grupo Técnico de Especificações Dados do cliente comunica que foi incluído um item à lista de problemas conhecidos Fase 2, conforme segue:   1. **BCLOG-F02-231**    1. **API/Sessão:** Todas de Operações de Crédito    2. **Endpoints:** Warranties    3. **Campo:** -    4. **Qual o problema:** A documentação da API não dá clareza de como tratar produtos nos quais não se aplica o produto de garantia    5. **Como deveria ser:** Nos casos em que não haja garantia para o produto deve se enviar lista vazia para o campo data    6. **Orientação:** Enviar lista vazia para o campo data caso não haja garantia    7. **Comentário:** Desconsiderar a orientação dada no BCLOG-F02-222 |

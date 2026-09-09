@@ -1,0 +1,3 @@
+# [Open Finance] Informa #533
+
+Prorrogação do marco de 75% da API de Pagamentos automáticos v1.0.0 (transferências inteligentes) Informamos que **o marco de 75% da API de Pagamentos automáticos v1.0.0 que ocorreria em 23/02/2024 foi prorrogado para 01/03/2024**. As demais datas do cronograma não sofreram alteração.    Após a identificação de uma inconsistência nas especificações através do *issue* 1386, uma nova versão *release candidate 3* será disponibilizada. A nova versão irá tornar opcional o envio do campo ibgeTownCode para transferências inteligentes. Além disso, a nova versão também irá complementar o ENUM de motivo de rejeição na consulta de pagamentos.    O motor será atualizado em 28/02/2024 e tornará 11 dos 17 módulos menos restritivos. |

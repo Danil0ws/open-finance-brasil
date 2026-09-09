@@ -1,0 +1,3 @@
+# [Open Finance] Informa #579
+
+Lançamento da versão beta.2 da API Dados cadastrais (v2.1.0-beta.2) Informamos que a área do desenvolvedor do Portal do Open Finance Brasil foi atualizada, em 13/05/2024, com a documentação da versão beta.2 da API Dados cadastrais (v2.1.0-beta.2).   - A documentação da API Dados cadastrais passou pelas seguintes alterações:   - Correção dos problemas conhecidos: BCLOG-F02-198, BCLOG-F02-216, BCLOG-F02-219, BCLOG-F02-220, BCLOG-F02-223;   - Ajuste na descrição do campo /data/portabilitiesReceived;   - Ajuste na obrigatoriedade e descrição do parâmetro x-fapi-interaction-id.   Para mais detalhes, sugerimos acessar os links de documentação abaixo. |

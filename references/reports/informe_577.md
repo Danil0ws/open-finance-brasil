@@ -1,0 +1,3 @@
+# [Open Finance] Informa #577
+
+Disponibilização de Feed RSS na área do desenvolvedor do Portal Open Finance Brasil Informamos que está disponível na página inicial da área do desenvolvedor do Portal do Open Finance Brasil, **o link de acesso ao Feed RSS.**   - Feed RSS ou *Really Simple Syndication* é um recurso de distribuição de conteúdo em tempo real baseado na linguagem XML. Essa tecnologia permite que os usuários do Portal acompanhem suas atualizações por meio de um *software*, *website* ou *browser* agregador.  Esta é mais uma iniciativa na busca de melhoria da experiência do desenvolvedor do Portal Open Finance Brasil. |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #492
+
+Condições para adição de novos escopos obrigatórios no *endpoint* de descoberta (*.well-known*) Em complemento ao informa #481 (“Inclusão de escopos obrigatórios no .*well-known* dos *authorisation servers*”), comunicamos que os escopos das APIs de Operações de Crédito, Investimentos e Câmbio, a serem adicionados ao *endpoint* de descoberta (.*well-known*) dos *authorisation servers*, passam a ser obrigatórios com o *go live* da v3.0.0 da API Consents, previsto para 15/04/2024.  Por sua vez, a implementação do novo perfil de segurança está prevista para 14/04/2024 e a adição destes escopos não impacta seu plano de testes. |

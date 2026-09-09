@@ -1,0 +1,3 @@
+# [Open Finance] Informa #450
+
+Suspensão da notificação de falha no teste de certificado revogado da FVP 1.0   No Informa #431 (“Atualização de testes nas FVPs”, enviado em 04/08/2023), comunicamos a inclusão de novo módulo na FVP 1.0 que valida quando uma instituição realiza o vínculo de DCR utilizando certificados revogados.    Estamos aguardando novas orientações de segurança, e por esse motivo informamos que **as instituições que falharem exclusivamente no módulo “*dcr\_api\_fvp-revoked-certificate\_test-module”* não serão notificadas**, e que **os chamados abertos especificamente por falha nesse teste serão desconsiderados** até novo comunicado. |

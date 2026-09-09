@@ -1,0 +1,3 @@
+# [Open Finance] Informa #529
+
+Comportamento esperado para pagamentos de múltipla alçada ao final do período de convivência entre v3 e v4 da API de Pagamentos  Conforme o Informa #526 (“Atualização no cronograma da API de Pagamentos v4.0.0”, enviado em 09/02/2024), o período de convivência entre a v3 e a v4 da API está previsto para ocorrer entre os dias 15/04/2024 e 15/07/2024.     Assim, **solicitamos às detentoras de conta que, ao final do período de convivência**:   - Identifiquem os pagamentos originados na v3 que ainda estão em PATC; - Cancelem tais pagamentos; - Notifiquem os clientes sobre o cancelamento dos pagamentos;   - Caberá a cada instituição orientar seus clientes de como proceder para realização do pagamento. |

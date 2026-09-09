@@ -1,0 +1,3 @@
+# [Open Finance] Informa #829
+
+|  |  | | --- | --- | | |  | | --- | | [Clique aqui para acessar o Informa #822](https://bra01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fus5.campaign-archive.com%2F%3Fu%3D49f5ff8910ce85bdb1d9a7864%26id%3Dbde18cd227&data=05%7C02%7Cgovernanca-gt%40openfinancebrasil.org.br%7C2964e37fc205489f9b9708de4c885922%7C8f7a00640d0049c7b6b833cd71b65429%7C0%7C0%7C639032345677379731%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=VLNChAk3rsFSbtRT%2BWPptb26Xr41xT%2FC9gx2V4AKuAE%3D&reserved=0 "Clique aqui para acessar o Informa #822") | |  |  |  | | --- | --- | | |  | | --- | |  | | |

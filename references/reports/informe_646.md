@@ -1,0 +1,11 @@
+# [Open Finance] Informa #646
+
+Nova instituição apta a iniciar serviço de iniciação de pagamentos Pix – Caixa A Estrutura do Open Finance Brasil informa que a seguinte instituição cumpriu todas as etapas do processo de onboarding de iniciadoras com sucesso e, portanto, está apta a iniciar o serviço de iniciação de transações de pagamento Pix no contexto do Open Finance Brasil: **Caixa.**     Com essa atualização, há atualmente 40 instituições que estão aptas a iniciar o serviço de iniciação de transação de pagamento Pix: |
+
+ • B3  • Banco do Brasil  • Banco Genial  • Banco Inter  • Banco Mercantil  • Banco Ribeirão Preto  • Banco Santander  • Banco Semear  • Banco XP  • Banrisul  • Belvo  • Bradesco  • BRB – Banco de Brasília S.A.  • BTG  • BV  • Caixa  • Central Ailos  • Crystal BMC  • Cumbuca  • dLocal  • EBANX |
+
+ • Efí  • Google Pay (exclusivamente via jornada sem redirecionamento)  • Hub Pagamentos  • Iniciador  • Itaú Unibanco  • Lina  • Mercado Pago  • Nubank  • Ótimo SCD  • Parati CFI  • PicPay  • Quanto Network  • Rede Celcoin  • Rendimento  • Safra  • Sicoob  • Sicredi  • U4C  • Unicred |
+
+ Novas instituições serão incluídas na listagem oportunamente. |
+
+ Erro nas especificações das APIs Títulos do Tesouro Direto e Adiantamento a Depositantes O Squad Qualidade de Dados comunica que identificou erro nas especificações das APIs Títulos do Tesouro Direto e Adiantamento a Depositantes, comprometendo o processo de validação do Motor de Qualidade de Dados (MQD). Dessa forma, os tickets abertos referentes às devidas APIs devem ser encerrados se estiverem apontando erro para os seguintes campos:   - API Título do Tesouro Direto   - data.quantity     - pattern “^\d{1,15}\.\d{2,8}$ ”     - Erro na especificação: Existência de espaço em branco após o caractere “$”, afetando na validação do JSON-SCHEMA - API Adiantamento a Depositantes   - data.amortizationScheduledAdditionalInfo     - Erro na especificação: O JSON-SCHEMA não consegue validar a obrigatoriedade com base na descrição do campo, conforme a seguir: “*Description: Campo obrigatório para complementar a informação relativa à amortização quando selecionada a opção OUTROS. Preencher o campo quando não aplicável com string vazia ("")”*   Caso o ticket aberto se refira a outros campos ou outras APIs, o erro deverá ser corrigido. |

@@ -1,0 +1,3 @@
+# [Open Finance] Informa #419
+
+Lançamento de versionamento patch (v1.0.1) das APIs de Capitalização, Seguros e Previdência (Dados Abertos) Informamos que a Área do Desenvolvedor do Portal do Open Finance Brasil foi atualizada hoje (07/07/2023) com a documentação da nova versão v1.0.1 das APIs de Capitalização, Seguros e Previdência. A data final para implementação desta versão em ambiente produtivo é 07/08/2023.    Os ajustes realizados nestas APIs para a nova versão v1.0.1 encontram-se no *changelog* de cada API, na Área do Desenvolvedor.    Como se trata de um versionamento do tipo patch, não será necessária nova certificação para estas APIs, conforme política de versionamento em vigor. |

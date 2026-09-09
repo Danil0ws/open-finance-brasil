@@ -1,0 +1,3 @@
+# [Open Finance] Informa #301
+
+Disponibilização da gravação do workshop sobre a PCM    O GT Arquitetura promoveu um workshop, em 10/01/2023, para apresentar a plataforma de coleta de métricas – PCM ao ecossistema.  A PCM é o mais novo serviço do perímetro central do Open Finance Brasil e a integração dos participantes com este serviço é obrigatória, pois promoverá a observabilidade do ecossistema e o provimento das métricas regulatórias.  O workshop discorreu sobre os objetivos, documentação e integrações já realizadas com a PCM no âmbito do piloto.  O evento foi gravado e encontra-se disponível ao ecossistema no site do youtube. |

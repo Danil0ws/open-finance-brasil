@@ -1,0 +1,3 @@
+# [Open Finance] Informa #668
+
+Rotina de deleção de *clients* pendentes na FVP Manual             Informamos que a exclusão rotineira dos *clients* é executada pelas FVPs. Todavia, podem ocorrer falhas (na resposta do DCR ou na execução do comando DELETE, por exemplo).    Conforme comunicado no Informa #580 (“Nova rotina de execução da FVP 1.0”, enviado em 20/05/2024), **é responsabilidade da Instituição a checagem diária e exclusão de eventuais *clients* remanescentes de execuções anteriores das FVPs**.   - Sugerimos o horário entre 22:00 e 6:00 para evitar interferência na execução dos testes pela Estrutura do Open Finance.   A relação dos *clients* de teste está disponível no item 5 do Guia de Operação da Ferramenta de Validação em Produção. |

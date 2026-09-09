@@ -1,0 +1,11 @@
+# [Open Finance] Informa #468
+
+Service Desk – Alteração no campo “SLA – Tempo Restante”   Visando a melhoria no controle do tempo de atendimento das equipes N2, informamos que serão aplicadas modificações no campo **SLA – Tempo Restante** que está disponível no **painel de atendimento dos chamados** **(Portal do Administrador)** do Service Desk. |
+
+ Atualmente o campo contabiliza os **dias corridos** até a expiração do SLA do chamado. A partir do dia **20/10/2023**, o campo passará a contabilizar os **dias úteis**.  Em caso de dúvidas referente a esta melhoria, recomendamos a abertura de um chamado na plataforma do Service Desk. |
+
+ Atualização da documentação de segurança FAPI para atender à demanda da v3.0.0 das APIs Consents, Resources e Câmbio       Informamos que foi adicionada nova condição à documentação de segurança FAPI 1.0, para atender à especificação do GT Dados do Cliente:    "5.2.2.24. Deve emitir refresh\_tokens exclusivamente do tipo opaco e sem prazo de validade associado."    A alteração visa atender aos requisitos da especificação v3.0.0 das APIs Consents, Resources e Câmbio, com *go-live* previsto para 01/04/2024, que prevê novos consentimentos com prazo indeterminado. |
+
+ [ERRATA] Quantidade de módulos de testes disponibilizados para a jornada de renovação simplificada     No Informa #467 (“Lançamento da versão beta.2 das especificações de renovação de consentimento simplificada”, enviado em 06/10/2023), comunicamos que o Squad Sandbox havia disponibilizado 6 módulos de testes para a jornada de renovação simplificada.    Gostaríamos de retificar que foram disponibilizados 7 módulos de testes pelo Squad Sandbox. Todavia, o módulo consents\_api\_preflight\_test-module\_v2 não será considerado para a contabilização de sucesso de nenhum dos marcos.     Em caso de dúvidas em relação aos testes disponibilizados, consulte o Informa #467 (“Disponibilização do motor funcional da jornada de renovação simplificada”). |
+
+ Melhorias no processo de testes e certificação     O Ecossistema do Open Finance está trabalhando em melhorias no processo de testes e certificações, e gostaria de ouvir comentários das instituições e sugestões de melhoria.     Pedimos que respondam o formulário até 16/10/2023. |
