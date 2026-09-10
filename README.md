@@ -8,6 +8,16 @@ Skill para agentes de IA consultarem especificações OpenAPI/Swagger, guias té
 
 ## Instalação
 
+### Todos
+```bash
+npx skills add Danil0ws/open-finance-brasil -a opencode
+```
+
+### Hermes
+```bash
+hermes skills tap add Danil0ws/open-finance-brasil
+```
+
 ### Claude Code
 ```bash
 mkdir -p ~/.claude/skills/open-finance-brasil
@@ -39,7 +49,7 @@ cp -r . .windsurf/skills/open-finance-brasil/
 ```
 
 ### Outros agentes
-Qualquer agente compatível com o padrão [AgenticSkills.io](https://agenticskills.io) pode usar esta skill. Consulte a documentação do seu agente para o caminho correto de instalação.
+Qualquer agente compatível com o padrão [AgenticSkills.io](https://agenticskills.io)/[agentskills.io](https://agentskills.io/) pode usar esta skill. Consulte a documentação do seu agente para o caminho correto de instalação.
 
 ## O que esta skill faz
 
@@ -125,7 +135,7 @@ Quais os prazos da Resolução BCB 135?
 
 ## Compatibilidade
 
-Esta skill segue o padrão [AgenticSkills.io](https://agenticskills.io) e funciona em:
+Esta skill segue o padrão [AgenticSkills.io](https://agenticskills.io)/[agentskills.io](https://agentskills.io/)  e funciona em:
 
 - ✅ Claude Code (Anthropic)
 - ✅ OpenAI Codex
@@ -137,17 +147,6 @@ Esta skill segue o padrão [AgenticSkills.io](https://agenticskills.io) e funcio
 - ✅ Amp
 - ✅ Goose
 - ✅ Qualquer agente compatível com SKILL.md
-
-## Atualização do acervo
-
-Para atualizar o acervo local:
-
-```bash
-# Na pasta raiz do projeto (auto-docs/)
-node run.js                      # Copia arquivos para data/references/
-node map-external-links.js       # Mapeia links externos
-node update-links-from-mapping.js # Atualiza links nos arquivos
-```
 
 ## Licença
 
