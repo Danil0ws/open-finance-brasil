@@ -116,6 +116,7 @@ Quais os prazos da Resolução BCB 135?
 | Portal do Desenvolvedor | https://openfinancebrasil.atlassian.net/wiki/spaces/OF |
 | Repositório de Especificações | https://github.com/OpenBanking-Brasil/all-services-repo |
 | Estrutura de Governança | https://openfinancebrasil.org.br/governanca/ |
+| Repositório de Certificações | https://gitlab.com/raidiam-conformance/open-finance/certification |
 
 ## Compatibilidade
 
