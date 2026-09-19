@@ -1,0 +1,149 @@
+# Phase 4b Investments APIs
+
+**URL:** [https://gitlab.com/raidiam-conformance/open-finance/certification/-/wikis/Phase-4b-Investments-APIs](https://gitlab.com/raidiam-conformance/open-finance/certification/-/wikis/Phase-4b-Investments-APIs)
+**Slug:** `Phase-4b-Investments-APIs`
+
+---
+
+**The Mock Bank is now ready for Phase 4b testing**.
+
+**We have made available the endpoints for the five APIs, each with also 5 endpoints**.
+
+These APIs are crafted to mimic the behavior of actual investment products in a real banking environment. They provide comprehensive endpoints for developers to integrate, test, and ensure their applications work seamlessly with banking systems.
+
+The APIs are:
+
+- Credit Fixed Income
+- Bank Fixed Income
+- Variable Income
+- Funds
+- Treasure Titles
+
+You can review each API's detailed specifications and endpoints in Open Finance's Swagger documentation available at [APIs - Investimentos](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/103284839/APIs+-+Investimentos).
+
+## Mock Bank Customer Account
+
+The Mock Bank has a few users registered in its environment so, in order to obtain data from the Mock Bank, the client will need to access the Mock Bank using one of the existing set of credentials:
+
+1. Ralph Bragg - PF - All Products
+
+- username: ralph.bragg@gmail.com
+- password: P@ssword01
+- cpf: 76109277673
+- cnpj: 50685362006773 (optional)
+- products: accounts, credit-cards, loans, invoice-financings, unarranged-accounts-overdraft, financings
+
+2. Janice Santana Matos - PF
+
+- username: janice.matos@email.com
+- password: P@ssword01
+- cpf: 96644087000
+- products: accounts, credit-cards, financings
+- notes: This persona has been set to hold 50 transactions on both accounts and credit-cards APIs, and also 20 items on the invoice financings APIs, allowing paging tests to be executed.
+
+3. Lilian Psicologia Familiar - PJ
+- products: accounts, loans
+- the following accounts are supported for this account, each single one capable of giving full consent
+
+### Functional Conformance Suite
+
+It is possible to leverage the functional conformance suite to visualize all steps that should be done by a TPP to connect to access the Mock Bank Resources. The table below provides a list of different test plan executions for the Phase 2 APIs that have been executed against the Mock Bank.
+
+All tests have been done using the set of credentials mentioned at the end of this document.
+
+| API | Test Plan URI |
+|-----|---------------|
+| Bank Fixed Income - Version 1 |  |
+| Credit Fixed Income - Version 1 |  |
+| Variable Income - Version 1 |  |
+| Funds - Version 1 |  |
+| Treasure Titles - Version 1 |  |
+
+
+### Configuration
+
+To run the tests on the Conformance Suite Against the MB, you can use the following configuration:
+
+<details><summary>JSON Configuration</summary>
+```plaintext
+
+{
+    "consent": {
+        "productType": "personal"
+    },
+    "alias": "obbsb",
+    "description": "Mock Bank Phase 4b Testing",
+    "publish": "everything",
+    "server": {
+        "discoveryUrl": "https://auth.mockbank.poc.raidiam.io/.well-known/openid-configuration"
+    },
+    "client": {
+        "client_id": "kaA_8RvZ9CT8xq13KUctq",
+        "jwks": {
+            "keys": [
+                {
+                    "p": "82BeizgUYbNE4lphZMkp0p4AlyteNHiQcfbSKPaJg8T-2mIq4SYOzifvZWRHW6EUPvN136SXAV_k4LL4oWPaRfDRrylMhh0UfD19WjYkV7Uj6d-zY75omCeicLcP7jTceM1cUr2SWEtzS8EW50E8jHoUpnoMBCaVq0mJ-Chp6X8",
+                    "kty": "RSA",
+                    "use": "sig",
+                    "q": "zIE8Li6uhGM_fN89RGM4yqI8NPzA42zpkXthwT93mUJJdcOdzZbAo9dxKAfR_XF-C_q5-Mef5m13xyq3biyVDfn1Qq--qshlut3de36ldQlDSe7TEZVM_cyrCgdgnhcUtj2mmfkTlzf0AaSQaPB45P7MGomrmEkALQmMvUEK9UE",
+                    "d": "Uzu1sCSl964XxA7Er-7LSIIxfRZo1vlmxNBiT71IcsmmpQWPkwG8tQgs6-ptduoPCZgpnqpzs9Tfv4gwO0QMHyJKR1qWFiR4pYV9HDFnTnL7hf5CZ09dndx_supU_SnPfXEzLSO_hioiH_JFdC8vWAbWCoZDFBHQ-Ad7A23ZNeIwXmQX7MuasSLz_B37zR2jo1MHRL-EHKddd3VMpbxbmhnCYsJzvX4RKGaiBN6DoupoauM-7YxhSRH1P9A1taTdDn-9I_kzKWFgARKk9eZSzpgEBsDcruxRT321rCZoc5yNzQSJsh4GFb6xY-U-ufzmtb78rwRRQIO3TidRzHw5gQ",
+                    "e": "AQAB",
+                    "kid": "LCaaPE2qzU_usr9fPh0AfIteozPMAm4ROI1P-aahrdw",
+                    "qi": "hsk3wghNbFjqQmKYxfKyumP8iUE8UlemrmoanZmjQ7azguRjq6lxabRwzrsgXDPJxdCI0MNDojs3-CK1WzBgxOEzUtbGhvwY4ffXAsU7HIJOanyQg9H6WyqLat-fmK7Ny0BZMMDonhAKL9q_bUWcZcT_LHt6Yd7uid3HL0KV-mY",
+                    "dp": "UsSjYpVf2RougwxZsvz2zDoP2VlWYGHgPeHC90tg2P9V7M8V5hwbTOEn-UNxQSg2ynHh1H0VHdKO9Bvpknly8fZEWV2iOLoLDXWb--IN2gYwgIkjaPiIebaA9_RJ5qjzkeHFVB5EduKyA0FXmK4G-X9LJpK7I2472FTaJxsXaeE",
+                    "alg": "PS256",
+                    "dq": "Q5xabB5M3kH9xGf91nVDWmLmqtIBZ28jjVCQUhaMkOPEa6W_ry-vArwAki57s2HpPUaoY2KEL-dzGSq7ODaPFO7VsjVuQQI999jQF7sYMqhcUb4elAqbSLF4vrkPrVSOKW4afX9GhdEe38grYjZWkcbXbdKkI5XG9BzbJdqyJ8E",
+                    "n": "wmuoHRKyWKJC3TbHpUzGEEXfrNvNpYabst-zgM3FxPwr94jXoVah6IWrmelduk3rwllbJmeeZBlAjtlkm8W1X8gGuwA9woHmhmI4M-Km2GTlZLPl4eNEV8t-r3EmPDpBYLbt5DKXUPmR7OW5yJ8WMTMkaL_hSmqsHnqtJpOCTSyufI6jLsnmzBr10m7W-BRoZMSggQ3K3JNe9gc-TPhgGvCBYw-ljIOE2kRMYTyi2vyaTiTW_1ip7z4cTIGfeuzPs08KCvTm0AD1AWlJt6Dm7gC-CZqb1FpDUF3p7l7HiBuR35Lk5AxNgnGF07dqBvLwKzM9zFnhOOmPBNXe_VDUPw"
+                }
+            ]
+        }
+    },
+    "mtls": {
+        "cert": "-----BEGIN CERTIFICATE-----\nMIIHADCCBeigAwIBAgIUHzap6tr22LPCl0gAz6jkUZbszwQwDQYJKoZIhvcNAQEL\nBQAwcTELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEtMCsGA1UEAxMkT3BlbiBCYW5raW5nIFNB\nTkRCT1ggSXNzdWluZyBDQSAtIEcxMB4XDTIyMDgxMjEyNDgwMFoXDTIzMDkxMTEy\nNDgwMFowggEcMQswCQYDVQQGEwJCUjELMAkGA1UECBMCU1AxDzANBgNVBAcTBkxP\nTkRPTjEcMBoGA1UEChMTT3BlbiBCYW5raW5nIEJyYXNpbDEtMCsGA1UECxMkNzRl\nOTI5ZDktMzNiNi00ZDg1LThiYTctYzE0NmM4NjdhODE3MR8wHQYDVQQDExZtb2Nr\nLXRwcC0xLnJhaWRpYW0uY29tMRcwFQYDVQQFEw40MzE0MjY2NjAwMDE5NzEdMBsG\nA1UEDxMUUHJpdmF0ZSBPcmdhbml6YXRpb24xEzARBgsrBgEEAYI3PAIBAxMCVUsx\nNDAyBgoJkiaJk/IsZAEBEyQxMDEyMDM0MC0zMzE4LTRiYWYtOTllMi0wYjU2NzI5\nYzRhYjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5ILYWgl9nlspD\n4+vfoZEPHg9STbCy3YgAYqan4tlIWOYqpgAkcuuma9zfk6f9SD3OCfmYyp4pXpT0\nwdgwjxu9MTgixsuHPHYLMENO7/OGIHbmFXC2tONPId2OVkC9zdBxPTTtQ8tUQM3Y\nrNV6pEWMukOIBYG9RcPklRl0FB+O0gTdkorg9RTkiBRIdDCiEn1h9Tzq+SF4mwpD\nMic85+VpCzot0nGnSx1xb0Wp7WWBPJeDip1pgPm1BL03NBPbyvsAkwklLXU0zZKz\nKfW+vGgkGIvKDHREhr+aZPvTzeQ1oukc4S5yLBfgPXESIa9qyIO9GRozzH8IXNCx\n4agzkTeNAgMBAAGjggLhMIIC3TAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQm8XFu\nPrFYnrEgpmR+Z4hnce2ZWjAfBgNVHSMEGDAWgBSGf1itF/WCtk60BbP7sM4RQ99M\nvjBMBggrBgEFBQcBAQRAMD4wPAYIKwYBBQUHMAGGMGh0dHA6Ly9vY3NwLnNhbmRi\nb3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5icjBLBgNVHR8ERDBCMECgPqA8\nhjpodHRwOi8vY3JsLnNhbmRib3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5i\nci9pc3N1ZXIuY3JsMCEGA1UdEQQaMBiCFm1vY2stdHBwLTEucmFpZGlhbS5jb20w\nDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMCMIIBqAYDVR0gBIIB\nnzCCAZswggGXBgorBgEEAYO6L2QBMIIBhzCCATYGCCsGAQUFBwICMIIBKAyCASRU\naGlzIENlcnRpZmljYXRlIGlzIHNvbGVseSBmb3IgdXNlIHdpdGggUmFpZGlhbSBT\nZXJ2aWNlcyBMaW1pdGVkIGFuZCBvdGhlciBwYXJ0aWNpcGF0aW5nIG9yZ2FuaXNh\ndGlvbnMgdXNpbmcgUmFpZGlhbSBTZXJ2aWNlcyBMaW1pdGVkcyBUcnVzdCBGcmFt\nZXdvcmsgU2VydmljZXMuIEl0cyByZWNlaXB0LCBwb3NzZXNzaW9uIG9yIHVzZSBj\nb25zdGl0dXRlcyBhY2NlcHRhbmNlIG9mIHRoZSBSYWlkaWFtIFNlcnZpY2VzIEx0\nZCBDZXJ0aWNpY2F0ZSBQb2xpY3kgYW5kIHJlbGF0ZWQgZG9jdW1lbnRzIHRoZXJl\naW4uMEsGCCsGAQUFBwIBFj9odHRwOi8vcmVwb3NpdG9yeS5zYW5kYm94LnBraS5v\ncGVuYmFua2luZ2JyYXNpbC5vcmcuYnIvcG9saWNpZXMwDQYJKoZIhvcNAQELBQAD\nggEBAGaESJ0UBfEB0mI8Fh98D6261BWUBdR9vdcD4IX53EubFvOCWE75skpYYyMz\ns0dsoU6q/ivHVudhWUWaXCK9UNDgFHb8hE/YaDOoOJLRYllGq0qEyo8u0tJa0XmW\nBfXMwNajEvlu3RdKWQ09x+KwEDjCIiJE7hK0cXReJuE6cDc5EPVjQ/fM7TBMQza0\nhkZqJgA7555HCi8+k7bovGiV7i9sElvcuWKl2In3AWJke85K0zJaWRXsmkwFTE7i\nnkob4yXb4SyGmCnlFEGUZMhqScAsiIrltE5cgLScRZrwymq+1rvYbqgUVOKLVzov\nJs11ZIb3W0cRkjSGD9nXP3lfU4s=\n-----END CERTIFICATE-----",
+        "key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ILYWgl9nlspD\n4+vfoZEPHg9STbCy3YgAYqan4tlIWOYqpgAkcuuma9zfk6f9SD3OCfmYyp4pXpT0\nwdgwjxu9MTgixsuHPHYLMENO7/OGIHbmFXC2tONPId2OVkC9zdBxPTTtQ8tUQM3Y\nrNV6pEWMukOIBYG9RcPklRl0FB+O0gTdkorg9RTkiBRIdDCiEn1h9Tzq+SF4mwpD\nMic85+VpCzot0nGnSx1xb0Wp7WWBPJeDip1pgPm1BL03NBPbyvsAkwklLXU0zZKz\nKfW+vGgkGIvKDHREhr+aZPvTzeQ1oukc4S5yLBfgPXESIa9qyIO9GRozzH8IXNCx\n4agzkTeNAgMBAAECggEADWo2Z6ko2qvNml/QvtLJXSwTdiZVEJEHAugjJXVFw31V\nqG+BASMmuleEmNrtSGhMujp00MKV9W96IcZOMS6dlvcTF0oKg5E5CJSFvBmdLvH5\nS7DwCv1On3RXxrGvXVGlsh76T9six8cuY24axhlTROBWdmvXu+xrRowbXRL8OnAU\nAlSo2Lvsloe5zBJoQ6GIdu97A30MAsegnDL0UJ9to9PQDOg5RVUfnYMrGutSaIpU\nRt6zP29utki5Z3GLksrlvSEPu747MlELE1NPpXVgtopwt9SForo2OOq3IskSxLvh\nx0tsl7eq0fWgBDb9K/kj9lIjoiCvre4UjFS4xdTq4QKBgQDhaBAVbmDtkvp6+AQe\nZIftGamhOQiJ89NL9489HjPgqQhrHu9kpiOZpMJ/iMPBgTDb2hi53H3O/b4IqhQh\n3Ge/kRdCSImy2pLHQvHySueHu0hLM6LkkzofnLdPZZbHzmxozESj7c/X6WMlZFWZ\ncFFdhSgSraL0Kk6KkT3ymiE5+QKBgQDSQSF44FgH67Ul91HrbQsf3OrZeR6ZysUU\nt109e0YXAqscNn48oKQmBcXqMCAir9kEbKPafL/972w9oBo6996KaA4jpRB9s1LQ\nzyBnde6+BZBp3XKXqEBWS1xFxC8oKkOSoikUkBkNzD4vVTquKETN8wtIvG2wrR86\ng/lOgEevNQKBgQCUFttiSSdzTno0KhgCo8fN1Wtl2eOrRr8OjPHVlK8+ra8zOZrM\nRH7lJaMHSSJbUnZ4KrzN93fMc1bTuHILoROkfz2JtcCJ+iIuuePdbKrauQeRKLaf\nd77bIAorJrI+SXdeDr4V+VrxHoud+GJosaszRxWB2ARUaCs7zJqnde3YeQKBgEHf\noBIUD+Cja8TyYNsm9eZMu9PZC8pZajfcXz0lA0ewUVXsiM6L8gHrqx99ZoQXniGx\nvAB3N1vjCIGiSLWS9Uld4pguXiVT6q17R4bCv0MP0Tgp5n43e7jNsaI2HiQyYatu\nXPqRTxgwlocT5+eqvCveavml96P0CaW2tYRv0oXFAoGAcForns9ksqMK9rshx1Fx\neLu4Uj4qpBWzqc77l0ahAfaazLtym422tR1RJyvAG2FeXcw+7QrrTcVxYNf+BeWw\n8RhbKlQ5S2eLB/F4nI46+LJzqLsfr5jmQGVfiabQssPg7zKvznvu+wPhkz2Tma/G\ntEe5BMZyqdOX6XWGWYedcoU=\n-----END PRIVATE KEY-----\n",
+        "ca": "-----BEGIN CERTIFICATE-----\nMIIEajCCA1KgAwIBAgIUdIYzEFdw7QJcrySyq6IiEwZfTfAwDQYJKoZIhvcNAQEL\nBQAwazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJv\nb3QgU0FOREJPWCAtIEcxMB4XDTIwMTIxMTEwMDAwMFoXDTIzMTIxMTEwMDAwMFow\ncTELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwxFTAT\nBgNVBAsTDE9wZW4gQmFua2luZzEtMCsGA1UEAxMkT3BlbiBCYW5raW5nIFNBTkRC\nT1ggSXNzdWluZyBDQSAtIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEA6fX+272mHX5QAcDaWkVHFWjnDIcORNUJU3OuNyeuOYhlvXJWydrXe3O+cV+P\nS39faMj/nfem3GfJBE7Xn0bWA/8ksxSfrg1BUBJDge4YBBw+VflI3A0g1fk9wJ3H\nGInsvV4serRJ/ISJTfs0uRNugX+RrbkT/T0tup4vGd3Kl2sbwUdDjokuJNJHANeO\nDRkQ+ra+9Wht71FBlc07yPf7qtpaWHm6aS3s47OJD35ixkG4xiZuHsScxcVtlo1V\nW98P2cQfH9H2lll4wWlPTVHpPThB2EYrPhwcxDh8kHkkOHNkyHO/fYM47u7H4VeQ\nV75LXWKa7iWmZg+WhFb8TXSr/wIDAQABo4H/MIH8MA4GA1UdDwEB/wQEAwIBBjAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSGf1itF/WCtk60BbP7sM4RQ99MvjAf\nBgNVHSMEGDAWgBSHE+yWPmLsIRwMSlY68iUM45TpyzBMBggrBgEFBQcBAQRAMD4w\nPAYIKwYBBQUHMAGGMGh0dHA6Ly9vY3NwLnNhbmRib3gucGtpLm9wZW5iYW5raW5n\nYnJhc2lsLm9yZy5icjBLBgNVHR8ERDBCMECgPqA8hjpodHRwOi8vY3JsLnNhbmRi\nb3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5ici9pc3N1ZXIuY3JsMA0GCSqG\nSIb3DQEBCwUAA4IBAQBy4928pVPeiHItbneeOAsDoc4Obv5Q4tn0QpqTlSeCSBbH\nIURfEr/WaS8sv0JTbIPQEfiO/UtaN8Qxh7j5iVqTwTwgVaE/vDkHxGOen5YxAuyV\n1Fpm4W4oQyybiA6puHEBcteuiYZHppGSMus3bmFYTPE+9B0+W914VZeHDujJ2Y3Y\nMc32Q+PC+Zmv8RfaXp7+QCNYSXR5Ts3q3IesWGmlvAM5tLQi75JmzdWXJ1uKU4u3\nNrw5jY4UaOlvB5Re2BSmcjxdLT/5pApzkS+tO6lICnPAtk/Y6dOJ0YxQBMImtliY\np02yfwRaqP8WJ4CnwUHil3ZRt8U9I+psU8b4WV/3\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDpjCCAo6gAwIBAgIUS3mWeRx1uG/SMl/ql55VwRtNz7wwDQYJKoZIhvcNAQEL\nBQAwazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJv\nb3QgU0FOREJPWCAtIEcxMB4XDTIwMTIxMTEwMDAwMFoXDTI1MTIxMDEwMDAwMFow\nazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwxFTAT\nBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJvb3Qg\nU0FOREJPWCAtIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp50j\njNh0wu8ioziC1HuWqOfgXwxeiePiRGw5tKDqKIbC7XV1ghEcDiymTHHWWJSQ1LEs\nmYpZVwaos5Mrz2xJwytg8K5eqFqa7QvfOOul29bnzEFk+1gX/0nOYws3Lba9E7S+\nuPaUmfElF4r2lcCNL2f3F87RozqZf+DQBdGUzAt9n+ipY1JpqfI3KF/5qgRkPoIf\nJD+aj2Y1D6eYjs5uMRLU8FMYt0CCfv/Ak6mq4Y9/7CaMKp5qjlrrDux00IDpxoXG\nKx5cK0KgACb2UBZ98oDQxcGrbRIyp8VGmv68BkEQcm7NljP863uBVxtnVTpRwQ1x\nwYEbmSSyoonXy575wQIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/\nBAUwAwEB/zAdBgNVHQ4EFgQUhxPslj5i7CEcDEpWOvIlDOOU6cswDQYJKoZIhvcN\nAQELBQADggEBAFoYqwoH7zvr4v0SQ/hWx/bWFRIcV/Rf6rEWGyT/moVAEjPbGH6t\nyHhbxh3RdGcPY7Pzn797lXDGRu0pHv+GAHUA1v1PewCp0IHYukmN5D8+Qumem6by\nHyONyUASMlY0lUOzx9mHVBMuj6u6kvn9xjL6xsPS+Cglv/3SUXUR0mMCYf963xnF\nBIRLTRlbykgJomUptVl/F5U/+8cD+lB/fcZPoQVI0kK0VV51jAODSIhS6vqzQzH4\ncpUmcPh4dy+7RzdTTktxOTXTqAy9/Yx+fk18O9qSQw1MKa9dDZ4YLnAQS2fJJqIE\n1DXIta0LpqM4pMoRMXvp9SLU0atVZLEu6Sc=\n-----END CERTIFICATE-----\n"
+    },
+    "client2": {
+        "client_id": "U71UtS1VkQFKqMC19iz-e",
+        "jwks": {
+            "keys": [
+                {
+                    "p": "1E4YgSJnbxqVaSxCX6g_DDfgW4D98VHLOS6A_cHUiysAb9Bx3qk7VyM8JbaAyBxAvy1O5GBw6S1hjZZ1RoCCs9BBUlWnxfCsjNNrNOAoF7ctf-UAvCT2FV6OPCUC7cArwLpuH1fZH9aSKV5KWXVqeIl2lYknLp2iiKjowtvikMc",
+                    "kty": "RSA",
+                    "q": "0yg0YYEXj7yssAW8zlKb5PluI5pFt2TyYNvJUVreln76quxMBTYOQBW2dB7hhAbXTYJlY1V-_xYE8tIXX6PEisbWxNgMMR2lrubDtHdBDqxZ_dqGj-nmmT2ZAGz0gETfCWQex262zpBpp8QowyJ0Sfrchi6WF79E67UaPEvthY8",
+                    "d": "aS8aW1FjBbPzqFmXuDQhsZ3aPggWtcg9UKI6BytUC97PqnSAiuY_UpwXkuB-K6cmyV9xOxpWtoKy14eKvrN_i2QhGy-mEjKFaMQZ-LELWf79gTf0Y9mTrNPlU0KQiPtLnKJgKIFgjEAS0bg6lupsGqzgaKZrZVda5dFspRLDoZV0U4dyLJcriEFTomObsuCiJGplKPXT3q4k7csdRyScJCQTMDhhLcLin3QG6upNNUBty0xslfUNtA5XEECJ7EYbnqzo-n8nYCrtu8VZ5VrYK_4Xv7Ym5KwDn1zvxtZYVQOIxHBTOfHhBiVo0ykIWSWFUMAAPxgcvcXCyxcAKONuJQ",
+                    "e": "AQAB",
+                    "use": "sig",
+                    "kid": "ieqMQKGx1_FacZASqlIxso7QZiPXguPURtarOHkN2WQ",
+                    "qi": "pB3kDu1SvrXrxdEw1LuZfqkH2sFR0Nm5s4luZ4UBjlB2U0aWjq9Bi2sm2B_n2EZEDt6jzLAP4K0RkfoMiZCHz5yplKetZMQRcaC0B26IHTaU7xkt_jHP0aSXF2ittd24H8AfnLSKVITTUUoezvCxmXcNXJQK0XzZNvbud-wYNZs",
+                    "dp": "rkvfOkUwfbppZ4r6guXxvOoyu2zPDsuD-FIBfFMhV4_aL_IFSjPNj-BRhPSsDZ2EWm-sETpL-GNVb5RSe6sNouoadqnzr0HDp2n63dIZmD6-j_1F-TCvByQ1yZLpMJ9QTE3CEuFgVA8ot-W9TGxlGMhiHqoXDOJFicSCM1eqTgk",
+                    "alg": "PS256",
+                    "dq": "Pp8xyajrP-mInTtWXyoIqcN_cneSLW12pFsKPWJhmOhXltE1SmZZm4_U6GMwJmOQ_p-pSehVHXl-RjUgUXDUHQQTNZWNKBPOyywM5jxnwt5CYhKozY1kohWuhn3JlTDXpIVYy3R-KoyRiPuXyycwrbAELpcqVCiZW_39pdwuuOk",
+                    "n": "rx211v0pCTivQFGTu5W_2bS7CEs1Ubgoy0MjIhD35fQfP_KLdu4LxsSHcVhrGKY9GEcwOZ2refbkKT78U8a77GJVC38CirEh9jdIRpEWaRGMivh_zOW3onRiCY8djeSgDqiBCwHIQHbSNZfv6x5A0YPE6JL_3_hNPXbWMaRSaU0LrUpNNRzCIskwge-p2AACwG1JXbUyru_Uh6j1J4vhOnBQgGA6AIT5asRGNT_oucWJaQJJJNWjdAaAZjSl9wQVuPJolQv8Tl-kcMMhkrL3E6AtAllAaNwZQ_q_tN7FRPzVCBa8RbAv5y9Q3k7LXnPD2hC-IVdeN04_mVbj3gFCKQ"
+                }
+            ]
+        }
+    },
+    "mtls2": {
+        "cert": "-----BEGIN CERTIFICATE-----\nMIIHADCCBeigAwIBAgIUHzap6tr22LPCl0gAz6jkUZbszwQwDQYJKoZIhvcNAQEL\nBQAwcTELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEtMCsGA1UEAxMkT3BlbiBCYW5raW5nIFNB\nTkRCT1ggSXNzdWluZyBDQSAtIEcxMB4XDTIyMDgxMjEyNDgwMFoXDTIzMDkxMTEy\nNDgwMFowggEcMQswCQYDVQQGEwJCUjELMAkGA1UECBMCU1AxDzANBgNVBAcTBkxP\nTkRPTjEcMBoGA1UEChMTT3BlbiBCYW5raW5nIEJyYXNpbDEtMCsGA1UECxMkNzRl\nOTI5ZDktMzNiNi00ZDg1LThiYTctYzE0NmM4NjdhODE3MR8wHQYDVQQDExZtb2Nr\nLXRwcC0xLnJhaWRpYW0uY29tMRcwFQYDVQQFEw40MzE0MjY2NjAwMDE5NzEdMBsG\nA1UEDxMUUHJpdmF0ZSBPcmdhbml6YXRpb24xEzARBgsrBgEEAYI3PAIBAxMCVUsx\nNDAyBgoJkiaJk/IsZAEBEyQxMDEyMDM0MC0zMzE4LTRiYWYtOTllMi0wYjU2NzI5\nYzRhYjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5ILYWgl9nlspD\n4+vfoZEPHg9STbCy3YgAYqan4tlIWOYqpgAkcuuma9zfk6f9SD3OCfmYyp4pXpT0\nwdgwjxu9MTgixsuHPHYLMENO7/OGIHbmFXC2tONPId2OVkC9zdBxPTTtQ8tUQM3Y\nrNV6pEWMukOIBYG9RcPklRl0FB+O0gTdkorg9RTkiBRIdDCiEn1h9Tzq+SF4mwpD\nMic85+VpCzot0nGnSx1xb0Wp7WWBPJeDip1pgPm1BL03NBPbyvsAkwklLXU0zZKz\nKfW+vGgkGIvKDHREhr+aZPvTzeQ1oukc4S5yLBfgPXESIa9qyIO9GRozzH8IXNCx\n4agzkTeNAgMBAAGjggLhMIIC3TAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQm8XFu\nPrFYnrEgpmR+Z4hnce2ZWjAfBgNVHSMEGDAWgBSGf1itF/WCtk60BbP7sM4RQ99M\nvjBMBggrBgEFBQcBAQRAMD4wPAYIKwYBBQUHMAGGMGh0dHA6Ly9vY3NwLnNhbmRi\nb3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5icjBLBgNVHR8ERDBCMECgPqA8\nhjpodHRwOi8vY3JsLnNhbmRib3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5i\nci9pc3N1ZXIuY3JsMCEGA1UdEQQaMBiCFm1vY2stdHBwLTEucmFpZGlhbS5jb20w\nDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMCMIIBqAYDVR0gBIIB\nnzCCAZswggGXBgorBgEEAYO6L2QBMIIBhzCCATYGCCsGAQUFBwICMIIBKAyCASRU\naGlzIENlcnRpZmljYXRlIGlzIHNvbGVseSBmb3IgdXNlIHdpdGggUmFpZGlhbSBT\nZXJ2aWNlcyBMaW1pdGVkIGFuZCBvdGhlciBwYXJ0aWNpcGF0aW5nIG9yZ2FuaXNh\ndGlvbnMgdXNpbmcgUmFpZGlhbSBTZXJ2aWNlcyBMaW1pdGVkcyBUcnVzdCBGcmFt\nZXdvcmsgU2VydmljZXMuIEl0cyByZWNlaXB0LCBwb3NzZXNzaW9uIG9yIHVzZSBj\nb25zdGl0dXRlcyBhY2NlcHRhbmNlIG9mIHRoZSBSYWlkaWFtIFNlcnZpY2VzIEx0\nZCBDZXJ0aWNpY2F0ZSBQb2xpY3kgYW5kIHJlbGF0ZWQgZG9jdW1lbnRzIHRoZXJl\naW4uMEsGCCsGAQUFBwIBFj9odHRwOi8vcmVwb3NpdG9yeS5zYW5kYm94LnBraS5v\ncGVuYmFua2luZ2JyYXNpbC5vcmcuYnIvcG9saWNpZXMwDQYJKoZIhvcNAQELBQAD\nggEBAGaESJ0UBfEB0mI8Fh98D6261BWUBdR9vdcD4IX53EubFvOCWE75skpYYyMz\ns0dsoU6q/ivHVudhWUWaXCK9UNDgFHb8hE/YaDOoOJLRYllGq0qEyo8u0tJa0XmW\nBfXMwNajEvlu3RdKWQ09x+KwEDjCIiJE7hK0cXReJuE6cDc5EPVjQ/fM7TBMQza0\nhkZqJgA7555HCi8+k7bovGiV7i9sElvcuWKl2In3AWJke85K0zJaWRXsmkwFTE7i\nnkob4yXb4SyGmCnlFEGUZMhqScAsiIrltE5cgLScRZrwymq+1rvYbqgUVOKLVzov\nJs11ZIb3W0cRkjSGD9nXP3lfU4s=\n-----END CERTIFICATE-----",
+        "key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5ILYWgl9nlspD\n4+vfoZEPHg9STbCy3YgAYqan4tlIWOYqpgAkcuuma9zfk6f9SD3OCfmYyp4pXpT0\nwdgwjxu9MTgixsuHPHYLMENO7/OGIHbmFXC2tONPId2OVkC9zdBxPTTtQ8tUQM3Y\nrNV6pEWMukOIBYG9RcPklRl0FB+O0gTdkorg9RTkiBRIdDCiEn1h9Tzq+SF4mwpD\nMic85+VpCzot0nGnSx1xb0Wp7WWBPJeDip1pgPm1BL03NBPbyvsAkwklLXU0zZKz\nKfW+vGgkGIvKDHREhr+aZPvTzeQ1oukc4S5yLBfgPXESIa9qyIO9GRozzH8IXNCx\n4agzkTeNAgMBAAECggEADWo2Z6ko2qvNml/QvtLJXSwTdiZVEJEHAugjJXVFw31V\nqG+BASMmuleEmNrtSGhMujp00MKV9W96IcZOMS6dlvcTF0oKg5E5CJSFvBmdLvH5\nS7DwCv1On3RXxrGvXVGlsh76T9six8cuY24axhlTROBWdmvXu+xrRowbXRL8OnAU\nAlSo2Lvsloe5zBJoQ6GIdu97A30MAsegnDL0UJ9to9PQDOg5RVUfnYMrGutSaIpU\nRt6zP29utki5Z3GLksrlvSEPu747MlELE1NPpXVgtopwt9SForo2OOq3IskSxLvh\nx0tsl7eq0fWgBDb9K/kj9lIjoiCvre4UjFS4xdTq4QKBgQDhaBAVbmDtkvp6+AQe\nZIftGamhOQiJ89NL9489HjPgqQhrHu9kpiOZpMJ/iMPBgTDb2hi53H3O/b4IqhQh\n3Ge/kRdCSImy2pLHQvHySueHu0hLM6LkkzofnLdPZZbHzmxozESj7c/X6WMlZFWZ\ncFFdhSgSraL0Kk6KkT3ymiE5+QKBgQDSQSF44FgH67Ul91HrbQsf3OrZeR6ZysUU\nt109e0YXAqscNn48oKQmBcXqMCAir9kEbKPafL/972w9oBo6996KaA4jpRB9s1LQ\nzyBnde6+BZBp3XKXqEBWS1xFxC8oKkOSoikUkBkNzD4vVTquKETN8wtIvG2wrR86\ng/lOgEevNQKBgQCUFttiSSdzTno0KhgCo8fN1Wtl2eOrRr8OjPHVlK8+ra8zOZrM\nRH7lJaMHSSJbUnZ4KrzN93fMc1bTuHILoROkfz2JtcCJ+iIuuePdbKrauQeRKLaf\nd77bIAorJrI+SXdeDr4V+VrxHoud+GJosaszRxWB2ARUaCs7zJqnde3YeQKBgEHf\noBIUD+Cja8TyYNsm9eZMu9PZC8pZajfcXz0lA0ewUVXsiM6L8gHrqx99ZoQXniGx\nvAB3N1vjCIGiSLWS9Uld4pguXiVT6q17R4bCv0MP0Tgp5n43e7jNsaI2HiQyYatu\nXPqRTxgwlocT5+eqvCveavml96P0CaW2tYRv0oXFAoGAcForns9ksqMK9rshx1Fx\neLu4Uj4qpBWzqc77l0ahAfaazLtym422tR1RJyvAG2FeXcw+7QrrTcVxYNf+BeWw\n8RhbKlQ5S2eLB/F4nI46+LJzqLsfr5jmQGVfiabQssPg7zKvznvu+wPhkz2Tma/G\ntEe5BMZyqdOX6XWGWYedcoU=\n-----END PRIVATE KEY-----\n",
+        "ca": "-----BEGIN CERTIFICATE-----\nMIIEajCCA1KgAwIBAgIUdIYzEFdw7QJcrySyq6IiEwZfTfAwDQYJKoZIhvcNAQEL\nBQAwazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJv\nb3QgU0FOREJPWCAtIEcxMB4XDTIwMTIxMTEwMDAwMFoXDTIzMTIxMTEwMDAwMFow\ncTELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwxFTAT\nBgNVBAsTDE9wZW4gQmFua2luZzEtMCsGA1UEAxMkT3BlbiBCYW5raW5nIFNBTkRC\nT1ggSXNzdWluZyBDQSAtIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEA6fX+272mHX5QAcDaWkVHFWjnDIcORNUJU3OuNyeuOYhlvXJWydrXe3O+cV+P\nS39faMj/nfem3GfJBE7Xn0bWA/8ksxSfrg1BUBJDge4YBBw+VflI3A0g1fk9wJ3H\nGInsvV4serRJ/ISJTfs0uRNugX+RrbkT/T0tup4vGd3Kl2sbwUdDjokuJNJHANeO\nDRkQ+ra+9Wht71FBlc07yPf7qtpaWHm6aS3s47OJD35ixkG4xiZuHsScxcVtlo1V\nW98P2cQfH9H2lll4wWlPTVHpPThB2EYrPhwcxDh8kHkkOHNkyHO/fYM47u7H4VeQ\nV75LXWKa7iWmZg+WhFb8TXSr/wIDAQABo4H/MIH8MA4GA1UdDwEB/wQEAwIBBjAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSGf1itF/WCtk60BbP7sM4RQ99MvjAf\nBgNVHSMEGDAWgBSHE+yWPmLsIRwMSlY68iUM45TpyzBMBggrBgEFBQcBAQRAMD4w\nPAYIKwYBBQUHMAGGMGh0dHA6Ly9vY3NwLnNhbmRib3gucGtpLm9wZW5iYW5raW5n\nYnJhc2lsLm9yZy5icjBLBgNVHR8ERDBCMECgPqA8hjpodHRwOi8vY3JsLnNhbmRi\nb3gucGtpLm9wZW5iYW5raW5nYnJhc2lsLm9yZy5ici9pc3N1ZXIuY3JsMA0GCSqG\nSIb3DQEBCwUAA4IBAQBy4928pVPeiHItbneeOAsDoc4Obv5Q4tn0QpqTlSeCSBbH\nIURfEr/WaS8sv0JTbIPQEfiO/UtaN8Qxh7j5iVqTwTwgVaE/vDkHxGOen5YxAuyV\n1Fpm4W4oQyybiA6puHEBcteuiYZHppGSMus3bmFYTPE+9B0+W914VZeHDujJ2Y3Y\nMc32Q+PC+Zmv8RfaXp7+QCNYSXR5Ts3q3IesWGmlvAM5tLQi75JmzdWXJ1uKU4u3\nNrw5jY4UaOlvB5Re2BSmcjxdLT/5pApzkS+tO6lICnPAtk/Y6dOJ0YxQBMImtliY\np02yfwRaqP8WJ4CnwUHil3ZRt8U9I+psU8b4WV/3\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDpjCCAo6gAwIBAgIUS3mWeRx1uG/SMl/ql55VwRtNz7wwDQYJKoZIhvcNAQEL\nBQAwazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwx\nFTATBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJv\nb3QgU0FOREJPWCAtIEcxMB4XDTIwMTIxMTEwMDAwMFoXDTI1MTIxMDEwMDAwMFow\nazELMAkGA1UEBhMCQlIxHDAaBgNVBAoTE09wZW4gQmFua2luZyBCcmFzaWwxFTAT\nBgNVBAsTDE9wZW4gQmFua2luZzEnMCUGA1UEAxMeT3BlbiBCYW5raW5nIFJvb3Qg\nU0FOREJPWCAtIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp50j\njNh0wu8ioziC1HuWqOfgXwxeiePiRGw5tKDqKIbC7XV1ghEcDiymTHHWWJSQ1LEs\nmYpZVwaos5Mrz2xJwytg8K5eqFqa7QvfOOul29bnzEFk+1gX/0nOYws3Lba9E7S+\nuPaUmfElF4r2lcCNL2f3F87RozqZf+DQBdGUzAt9n+ipY1JpqfI3KF/5qgRkPoIf\nJD+aj2Y1D6eYjs5uMRLU8FMYt0CCfv/Ak6mq4Y9/7CaMKp5qjlrrDux00IDpxoXG\nKx5cK0KgACb2UBZ98oDQxcGrbRIyp8VGmv68BkEQcm7NljP863uBVxtnVTpRwQ1x\nwYEbmSSyoonXy575wQIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/\nBAUwAwEB/zAdBgNVHQ4EFgQUhxPslj5i7CEcDEpWOvIlDOOU6cswDQYJKoZIhvcN\nAQELBQADggEBAFoYqwoH7zvr4v0SQ/hWx/bWFRIcV/Rf6rEWGyT/moVAEjPbGH6t\nyHhbxh3RdGcPY7Pzn797lXDGRu0pHv+GAHUA1v1PewCp0IHYukmN5D8+Qumem6by\nHyONyUASMlY0lUOzx9mHVBMuj6u6kvn9xjL6xsPS+Cglv/3SUXUR0mMCYf963xnF\nBIRLTRlbykgJomUptVl/F5U/+8cD+lB/fcZPoQVI0kK0VV51jAODSIhS6vqzQzH4\ncpUmcPh4dy+7RzdTTktxOTXTqAy9/Yx+fk18O9qSQw1MKa9dDZ4YLnAQS2fJJqIE\n1DXIta0LpqM4pMoRMXvp9SLU0atVZLEu6Sc=\n-----END CERTIFICATE-----\n"
+    },
+    "resource": {
+        "consentUrl": "https://matls-api.mockbank.poc.raidiam.io/open-banking/consents/v2/consents",
+        "brazilCpf": "76109277673",
+        "brazilOrganizationId": "74e929d9-33b6-4d85-8ba7-c146c867a817",
+        "brazilCpfOperational": "76109277673"
+    },
+    "directory": {
+        "client_id": "QjRzruzFWi_U_tMahlz01",
+        "discoveryUrl": "https://auth.sandbox.directory.openbankingbrasil.org.br/.well-known/openid-configuration",
+        "participants": "https://data.sandbox.directory.openbankingbrasil.org.br/participants"
+    }
+}
+```
+</details>
+
+---
+
+*Conteúdo baixado em 16/09/2026, 15:38:25*

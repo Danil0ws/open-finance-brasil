@@ -1,574 +1,139 @@
 {
-  "generatedAt": "2026-09-09T14:15:49.041Z",
+  "generatedAt": "2026-09-18T14:45:05.049Z",
   "statistics": {
-    "filesProcessed": 5862,
-    "linksUpdated": 87,
+    "filesProcessed": 5827,
+    "linksUpdated": 14,
     "linksUnchanged": 0,
-    "filesModified": 26
+    "filesModified": 12
   },
   "changes": [
     {
-      "file": "add/openfinance_markdown/Cartão de Crédito/Informações Gerais - Cartão de Crédito - v2.1.0-rc.3.md",
+      "file": "add/openfinance_markdown/API Admin/old/Informações Gerais - API Admin - v2.0.0-rc.1.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getMetrics_v2.csv",
+          "to": "data/references/openapi/dictionary-getMetrics_v2.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Cartão de Crédito/old/Informações Gerais - Cartão de Crédito - v2.1.0-rc.1.md",
+      "file": "add/openfinance_markdown/API Admin/old/Informações Gerais - API Admin - v2.0.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getMetrics_v2.csv",
+          "to": "data/references/openapi/dictionary-getMetrics_v2.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Empréstimos/Informações Gerais - Empréstimos - v2.1.0-rc.2.md",
+      "file": "add/openfinance_markdown/Previdência/old/Informações Gerais - Previdência - v1.0.0-rc1.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Empr%C3%A9stimo-\\(Loan\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Empréstimo (Loan)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Encargo-\\(Charge\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Encargo (Charge)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Tarifa-\\(Fee\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Tarifa (Fee)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getPensionRiskCoverages_v1.csv",
+          "to": "data/references/openapi/dictionary-getPensionRiskCoverages_v1.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Financiamento/Informações Gerais - Financiamento - v2.1.0.md",
+      "file": "add/openfinance_markdown/Webhook/Informações Técnicas - Webhook - v1.3.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-\\(Financing\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Financiamento (Financing)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/swagger-apis/webhook/?urls.primaryName=1.3.0-beta.1",
+          "to": "data/references/openapi/webhook-1.3.0.md",
+          "text": "Abrir informação técnica"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Financiamento/old/Informações Gerais - Financiamento - v2.1.0-rc.2.md",
+      "file": "add/openfinance_markdown/[DA] Contas/old/Informações Gerais - [DA] Contas - v1.0.1.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-\\(Financing\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Financiamento (Financing)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getPersonalAccounts_v1.csv",
+          "to": "data/references/openapi/dictionary-getPersonalAccounts_v1.md",
+          "text": "Fazer download do dicionário de dados pessoa natural"
+        },
+        {
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getBusinessAccounts_v1.csv",
+          "to": "data/references/openapi/dictionary-getBusinessAccounts_v1.md",
+          "text": "Fazer download do dicionário de dados pessoa jurídica"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Pix Automático Guia para versão e anteriores/pdfs/Res_Conj_0001_v7_L.md",
+      "file": "add/openfinance_markdown/[DA] Direitos Creditórios Descontados​/old/Informações Gerais - [DA] Direitos Creditórios Descontados​ - v1.0.0-beta.2.md",
       "changes": [
         {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela Resolução Conjunta"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getPersonalInvoiceFinancings_v1.csv",
+          "to": "data/references/openapi/dictionary-getPersonalInvoiceFinancings_v1.md",
+          "text": "Fazer download do dicionário de dados pessoa natural"
         },
         {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela Resolução"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Incluído pela Resolução"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=7",
-          "to": "data/references/Resolução_Conjunta_7.md",
-          "text": "(Redação dada pela Resolução Conjunta nº 7, de 26/10/2023.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Incluído pela Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Redação dada pela Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "2/5/2022, pela Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Incluído, a partir de 2/5/2022, pela Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=3",
-          "to": "data/references/Resolução_Conjunta_3.md",
-          "text": "(Revogado pela Resolução Conjunta nº 3, de 24/6/2021)."
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getBusinessInvoiceFinancings_v1.csv",
+          "to": "data/references/openapi/dictionary-getBusinessInvoiceFinancings_v1.md",
+          "text": "Fazer download do dicionário de dados pessoa jurídica"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/Taxa de Conversão/2.6.2 - Taxa de Conversão.md",
+      "file": "add/openfinance_markdown/[DA] Direitos Creditórios Descontados​/old/Informações Técnicas - [DA] Direitos Creditórios Descontados​- v1.0.0-beta.2.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/2024931348/2.6.2+-+Taxa+de+Convers+o#9.5.-Funil-de-Taxa-de-Convers%C3%A3o---Waterfall",
-          "to": "data/references/guides/2.md",
-          "text": "_seção 9.5._"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/swagger-apis/opendata-invoicefinancings/?urls.primaryName=1.0.0-beta.2",
+          "to": "data/references/openapi/opendata-invoicefinancings-1.0.0.md",
+          "text": "Abrir informação técnica"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/[DC] Cartão de Crédito/old/Informações Gerais - [DC] Cartão de Crédito - v2.1.0.md",
+      "file": "add/openfinance_markdown/[DA] Seguros/old/Informações Gerais - [DA] Seguros - v2.0.0-beta.1.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/getPersonalInsurance_v2.csv",
+          "to": "data/references/openapi/dictionary-getPersonalInsurance_v2.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/[DC] Cartão de Crédito/old/Informações Gerais - [DC] Cartão de Crédito - v2.2.0.md",
+      "file": "add/openfinance_markdown/[DC] Contas/old/Informações Gerais - [DC] Contas - v2.2.1.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/accountsGetAccountsAccountIdTransactionsCurrent_v2.csv",
+          "to": "data/references/openapi/dictionary-accountsGetAccountsAccountIdTransactionsCurrent_v2.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/[DC] Cartão de Crédito/old/Informações Gerais - [DC] Cartão de Crédito - v2.2.1.md",
+      "file": "add/openfinance_markdown/[DC] Empréstimos/old/Informações Gerais - [DC] Empréstimos - v2.3.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/dictionary/loansGetContracts_v2.csv",
+          "to": "data/references/openapi/dictionary-loansGetContracts_v2.md",
+          "text": "Fazer download do dicionário de dados"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/[DC] Cartão de Crédito/old/Informações Gerais - [DC] Cartão de Crédito - v2.3.0.md",
+      "file": "add/openfinance_markdown/[SV] Pagamentos Automáticos/old/Informações Técnicas - [SV] Pagamentos Automáticos - v2.0.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/swagger-apis/automatic-payments/?urls.primaryName=2.0.0",
+          "to": "data/references/openapi/automatic-payments-2.0.0.md",
+          "text": "Abrir informação técnica"
         }
       ]
     },
     {
-      "file": "add/openfinance_markdown/[DC] Cartão de Crédito/old/Informações Gerais - [DC] Cartão de Crédito - v2.3.1.md",
+      "file": "add/openfinance_markdown/[SV] Pagamentos Automáticos/old/Informações Técnicas - [SV] Pagamentos Automáticos - v2.1.0.md",
       "changes": [
         {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-\\(CNPJ-Number\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "CNPJ (CNPJ Number)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Conta-de-Pagamento-P%C3%B3s-paga-\\(Credit-Card\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Conta de pagamento pós-paga (Credit Card)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Cr%C3%A9dito-Rotativo-\\(Overdraft\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Crédito Rotativo (Overdraft)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#MCC-\\(Merchant-Category-Code\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "MCC (Merchant Category Code)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[DC] Empréstimos/old/Informações Gerais - [DC] Empréstimos - v2.1.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Empr%C3%A9stimo-\\(Loan\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Empréstimo (Loan)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Encargo-\\(Charge\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Encargo (Charge)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Tarifa-\\(Fee\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Tarifa (Fee)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[DC] Empréstimos/old/Informações Gerais - [DC] Empréstimos - v2.2.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Empr%C3%A9stimo-\\(Loan\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Empréstimo (Loan)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Encargo-\\(Charge\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Encargo (Charge)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Tarifa-\\(Fee\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Tarifa (Fee)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[DC] Empréstimos/old/Informações Gerais - [DC] Empréstimos - v2.4.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Empr%C3%A9stimo-\\(Loan\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Empréstimo (Loan)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Encargo-\\(Charge\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Encargo (Charge)"
-        },
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Tarifa-\\(Fee\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Tarifa (Fee)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[DC] Financiamento/old/Informações Gerais - [DC] Financiamento - v2.2.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-\\(Financing\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Financiamento (Financing)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[DC] Financiamento/old/Informações Gerais - [DC] Financiamento - v2.3.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-\\(Financing\\",
-          "to": "data/references/guides/Gloss.md",
-          "text": "Financiamento (Financing)"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[EN] Open Finance Brasil Dynamic Client Registration/[EN] Open Finance Brasil Dynamic Client Registration - v2.1.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82051199/EN+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/EN.md",
-          "text": "Client registration - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[EN] Open Finance Brasil Dynamic Client Registration/old/[EN] Open Finance Brasil Dynamic Client Registration - v2.0.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82051199/EN+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/EN.md",
-          "text": "Client registration - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[EN] Open Finance Brasil Financial grade API Dynamic Client Registration Implementers Draft 3/[EN] Open Finance Brasil Financial-grade API Dynamic Client Registration 1.0 Implementers Draft 3.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82051199/EN+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/EN.md",
-          "text": "Client registration - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[PT] Open Finance Brasil Client Initiated Backchannel Authentication/[PT] Open Finance Brasil Client Initiated Backchannel Authentication - v2.1.0-beta2.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82051180/PT+Open+Finance+Brasil+Financial-grade+API+Security+Profile+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/PT.md",
-          "text": "OFB-FAPI-BR"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[PT] Open Finance Brasil Dynamic Client Registration/[PT] Open Finance Brasil Dynamic Client Registration - v2.1.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82215063/PT+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/PT.md",
-          "text": "Registro de cliente - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[PT] Open Finance Brasil Dynamic Client Registration/old/[PT] Open Finance Brasil Dynamic Client Registration - v2.0.0.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82215063/PT+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/PT.md",
-          "text": "Registro de cliente - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/[PT] Open Finance Brasil Financial grade API Dynamic Client Registration Implementers Draft 3/[PT] Open Finance Brasil Financial-grade API Dynamic Client Registration 1.0 Implementers Draft 3.md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82215063/PT+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/PT.md",
-          "text": "Registro de cliente - POST /register"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/_geral/[EN] Guia do Usuário para Instituições Receptores de Dados e Iniciadores de Pagamento (TTP-PISP).md",
-      "changes": [
-        {
-          "from": "https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/82051199/EN+Open+Finance+Brasil+Financial-grade+API+Dynamic+Client+Registration+1.0+Implementers+Draft+3",
-          "to": "data/references/guides/EN.md",
-          "text": "Open Finance Brasil Dynamic Client Registration"
-        }
-      ]
-    },
-    {
-      "file": "add/openfinance_markdown/_geral/pdfs/Res_Conj_0001_v7_L.md",
-      "changes": [
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela Resolução Conjunta"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela Resolução"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Incluído pela Resolução"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=7",
-          "to": "data/references/Resolução_Conjunta_7.md",
-          "text": "(Redação dada pela Resolução Conjunta nº 7, de 26/10/2023.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Incluído pela Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "(Redação dada pela Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=10",
-          "to": "data/references/Resolução_Conjunta_10.md",
-          "text": "Resolução Conjunta nº 10, de 4/7/2024.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "2/5/2022, pela Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Incluído, a partir de 2/5/2022, pela Resolução Conjunta nº 4, de 24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=3",
-          "to": "data/references/Resolução_Conjunta_3.md",
-          "text": "(Revogado pela Resolução Conjunta nº 3, de 24/6/2021)."
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "24/3/2022.)"
-        },
-        {
-          "from": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&numero=4",
-          "to": "data/references/Resolução_Conjunta_4.md",
-          "text": "(Redação dada, a partir de 2/5/2022, pela"
+          "from": "https://openbanking-brasil.github.io/draft-openapi/swagger-apis/automatic-payments/?urls.primaryName=2.0.0",
+          "to": "data/references/openapi/automatic-payments-2.0.0.md",
+          "text": "Abrir informação técnica"
         }
       ]
     }

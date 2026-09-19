@@ -130,6 +130,24 @@ Contém **1.113 arquivos** de Instruções Normativas e Resoluções BCB em Mark
 
 **Sempre confirme a vigência** no Banco Central ou no Portal do Desenvolvedor.
 
+### `references/certification/`
+
+Contém a documentação completa da **Conformance Suite**, procedimentos de certificação funcional e de segurança.
+
+**Estrutura:**
+- `wikis/` - 133 documentos sobre procedimentos de teste, FVP, CIBA, homologação
+- `work-items/` - ~2.810 rastreadores de trabalho, issues e planejamento
+
+**Tópicos principais:**
+- **FVP (Functional Verification Process)** - Automática, Manual Imediata, Manual Agendada, Jornada Otimizada
+- **Conformance Suite** - Setup local (Docker, IDE, Java, Maven), execução, debugging
+- **CIBA** - Client Initiated Backchannel Authentication, fluxos, testes
+- **Módulos de Teste** - Portabilidade, Pagamentos, Consentimentos, DCR, Diretório, etc.
+- **Certificação** - Requisitos funcional e de segurança, procedimentos, checklists
+- **Release Notes** - Histórico de mudanças, breaking changes, novas verificações
+
+**Nomenclatura:** Documentos em Markdown com nomes em slug (ex: `fvp-pt-automatica.md`)
+
 ### `references/reports/`
 
 Contém os informes numerados do ecossistema.
@@ -165,7 +183,16 @@ Procedimento detalhado de:
 - Fallback para repositório GitHub
 - Validação de conteúdo OpenAPI
 
-## Regras para Referências Históricas e Caminhos
+### `references/CERTIFICATION.md`
+
+Documentação especializada sobre certificação e testes de conformidade:
+- Estrutura completa do acervo de certificação
+- Tipos de testes (FVP Automática, Manual Imediata, Manual Agendada, Jornada Otimizada)
+- Procedimento de certificação (pré-requisitos, passos, cronograma)
+- Conformance Suite — configuração local vs. hosted
+- Links para GitLab, Diretório e Portal
+
+---
 
 ### Identificadores de Material Não-Vigente
 
@@ -236,4 +263,4 @@ O acervo local **não é fonte definitiva** para:
 
 ---
 
-**Versão:** 2.0.0 | **Última atualização:** 09/09/2026
+**Versão:** 2.1.0 | **Última atualização:** 09/09/2026

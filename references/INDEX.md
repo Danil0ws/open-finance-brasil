@@ -1,8 +1,8 @@
 # 📑 Índice do Acervo Local - Open Finance Brasil
 
-> **Última atualização:** 09/09/2026, 11:21:50
-> **Total de diretórios:** 789
-> **Total de arquivos:** 5959
+> **Última atualização:** 18/09/2026, 11:44:57
+> **Total de diretórios:** 794
+> **Total de arquivos:** 8934
 
 Este índice lista todos os diretórios disponíveis em `references/`.
 
@@ -10,12 +10,12 @@ Este índice lista todos os diretórios disponíveis em `references/`.
 
 | Categoria | Diretórios | Arquivos |
 |-----------|------------|----------|
-| Outros | 784 | 2 |
+| Outros | 789 | 2964 |
 | Guias | 1 | 4696 |
 | Informes | 2 | 845 |
 | OpenAPI | 1 | 53 |
 | Regulatório | 1 | 267 |
-| **Total** | **789** | **5959** |
+| **Total** | **794** | **8934** |
 
 ## 📁 Estrutura Principal
 
@@ -32,6 +32,11 @@ references/
 
 ## 📂 Lista Completa de Diretórios
 
+- 📂 `certification/`
+  - 📂 `wikis/`
+    - 📄 `_attachments/`
+  - 📂 `work-items/`
+    - 📄 `details/`
 - 📂 `guides/`
   - 📂 `API Admin/`
     - 📄 `images/`

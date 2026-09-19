@@ -1,0 +1,137 @@
+# 📚 Índice de Wikis
+
+**Total:** 132 wikis
+**Gerado em:** 16/09/2026, 15:38:49
+
+- **[A Simplified Way To Validate Json](./A-Simplified-Way-To-Validate-Json.md)**
+- **[Alphanumeric CNPJ](./Alphanumeric-CNPJ.md)**
+- **[Automated Production Tests](./Automated-Production-Tests.md)**
+- **[Browser Control](./Browser-Control.md)**
+- **[CIBA](./CIBA.md)**
+- **[CIBA Flow with the Mock Bank](./CIBA-Flow-with-the-Mock-Bank.md)**
+- **[CIBA Flow with the Mock Bank (PT)](./CIBA-Flow-with-the-Mock-Bank-(PT).md)**
+- **[Customer Data](./CIBA/Customer-Data.md)**
+- **[Certification Automated Process](./Certification-Automated-Process.md)**
+- **[Certification Guide](./Certification-Guide.md)**
+- **[Code and Execution Walkthrough](./Code-and-Execution-Walkthrough.md)**
+- **[Condition](./Condition.md)**
+- **[Credit Portability](./Credit-Portability.md)**
+- **[Credit Portability MB](./Credit-Portability-MB.md)**
+- **[Payroll v1.0.0 rc.1](./Credit-Portability/Payroll-v1.0.0-rc.1.md)**
+- **[Personal v1.0.0](./Credit-Portability/Personal-v1.0.0.md)**
+- **[Personal v1.1.0 rc.1](./Credit-Portability/Personal-v1.1.0-rc.1.md)**
+- **[Customer Consent and Authorisation](./Customer-Consent-and-Authorisation.md)**
+- **[Customer Consent and Authorisation (PT)](./Customer-Consent-and-Authorisation-(PT).md)**
+- **[Customer Data](./Customer-Data.md)**
+- **[DCR](./DCR.md)**
+- **[Discovery and Onboarding with Banks](./Discovery-and-Onboarding-with-Banks.md)**
+- **[Discovery and Onboarding with Banks (PT)](./Discovery-and-Onboarding-with-Banks-(PT).md)**
+- **[Discovery of the Mock Bank](./Discovery-of-the-Mock-Bank.md)**
+- **[Discovery of the Mock Bank (PT)](./Discovery-of-the-Mock-Bank-(PT).md)**
+- **[Enable FAPI Unique](./Enable-FAPI-Unique.md)**
+- **[Executing tests against an AS](./Executing-tests-against-an-AS.md)**
+- **[Execução do Código](./Execução-do-Código.md)**
+- **[Existing Functionalities](./Existing-Functionalities.md)**
+- **[FVP Authorized Orgs](./FVP-Authorized-Orgs.md)**
+- **[FVP Open Production Tests](./FVP-Open-Production-Tests.md)**
+- **[FVP Restricted Test Plans](./FVP-Restricted-Test-Plans.md)**
+- **[EN](./FVP/EN.md)**
+- **[Automatic](./FVP/EN/Automatic.md)**
+- **[DCR](./FVP/EN/Automatic/DCR.md)**
+- **[Directory](./FVP/EN/Automatic/Directory.md)**
+- **[Product](./FVP/EN/Automatic/Product.md)**
+- **[FAQ](./FVP/EN/FAQ.md)**
+- **[Manual](./FVP/EN/Manual.md)**
+- **[Immediate](./FVP/EN/Manual/Immediate.md)**
+- **[Automatic Payments](./FVP/EN/Manual/Immediate/Automatic-Payments.md)**
+- **[Credit Portability](./FVP/EN/Manual/Immediate/Credit-Portability.md)**
+- **[Customer Data](./FVP/EN/Manual/Immediate/Customer-Data.md)**
+- **[Enrollments](./FVP/EN/Manual/Immediate/Enrollments.md)**
+- **[Optimised Journey](./FVP/EN/Manual/Immediate/Optimised-Journey.md)**
+- **[Payments](./FVP/EN/Manual/Immediate/Payments.md)**
+- **[Scheduled](./FVP/EN/Manual/Scheduled.md)**
+- **[Automatic Payments](./FVP/EN/Manual/Scheduled/Automatic-Payments.md)**
+- **[Client Management](./FVP/EN/Manual/Scheduled/Client-Management.md)**
+- **[Credit Portability](./FVP/EN/Manual/Scheduled/Credit-Portability.md)**
+- **[Enrollments](./FVP/EN/Manual/Scheduled/Enrollments.md)**
+- **[Payments](./FVP/EN/Manual/Scheduled/Payments.md)**
+- **[Release Notes](./FVP/EN/Release-Notes.md)**
+- **[PT](./FVP/PT.md)**
+- **[Automatica](./FVP/PT/Automatica.md)**
+- **[DCR](./FVP/PT/Automatica/DCR.md)**
+- **[Diretorio](./FVP/PT/Automatica/Diretorio.md)**
+- **[Produto](./FVP/PT/Automatica/Produto.md)**
+- **[FAQ](./FVP/PT/FAQ.md)**
+- **[Manual](./FVP/PT/Manual.md)**
+- **[Immediate](./FVP/PT/Manual/Immediate.md)**
+- **[Dados](./FVP/PT/Manual/Immediate/Dados.md)**
+- **[Enrollments](./FVP/PT/Manual/Immediate/Enrollments.md)**
+- **[Jornada Otimizada](./FVP/PT/Manual/Immediate/Jornada-Otimizada.md)**
+- **[Pagamentos](./FVP/PT/Manual/Immediate/Pagamentos.md)**
+- **[Pagamentos Automaticos](./FVP/PT/Manual/Immediate/Pagamentos-Automaticos.md)**
+- **[Portabilidade](./FVP/PT/Manual/Immediate/Portabilidade.md)**
+- **[Scheduled](./FVP/PT/Manual/Scheduled.md)**
+- **[Enrollments](./FVP/PT/Manual/Scheduled/Enrollments.md)**
+- **[Gerenciamento de Cliente](./FVP/PT/Manual/Scheduled/Gerenciamento-de-Cliente.md)**
+- **[Pagamentos](./FVP/PT/Manual/Scheduled/Pagamentos.md)**
+- **[Pagamentos Automaticos](./FVP/PT/Manual/Scheduled/Pagamentos-Automaticos.md)**
+- **[Portabilidade](./FVP/PT/Manual/Scheduled/Portabilidade.md)**
+- **[Release Notes](./FVP/PT/Release-Notes.md)**
+- **[Funcionalidades existentes](./Funcionalidades-existentes.md)**
+- **[GitLab Issues Guide](./GitLab-Issues-Guide.md)**
+- **[Guidelines_FVP_Execution_Team](./Guidelines_FVP_Execution_Team.md)**
+- **[Instructions for running Conformance tests](./Instructions-for-running-Conformance-tests.md)**
+- **[Introduction](./Introduction.md)**
+- **[Manual Production Tests](./Manual-Production-Tests.md)**
+- **[Mock Implementations](./Mock-Implementations.md)**
+- **[Mock TPP Source Code](./Mock-TPP-Source-Code.md)**
+- **[Mockbank Portability   Status Transitions](./Mockbank-Portability---Status-Transitions.md)**
+- **[Operational Limits](./Operational-Limits.md)**
+- **[Optimized Journey](./Optimized-Journey.md)**
+- **[Orientacoes_Execucao_FVP](./Orientacoes_Execucao_FVP.md)**
+- **[Overview of the Mock TPP](./Overview-of-the-Mock-TPP.md)**
+- **[Payment](./Payment.md)**
+- **[Payments APIs](./Payments-APIs.md)**
+- **[Phase 1 4A Open Data](./Phase-1-4A-Open-Data.md)**
+- **[Phase 2 and 4B Customer Data](./Phase-2-and-4B-Customer-Data.md)**
+- **[Phase 2](./Phase-2-and-4B-Customer-Data/Phase-2.md)**
+- **[Phase 4B](./Phase-2-and-4B-Customer-Data/Phase-4B.md)**
+- **[Phase 3 Services](./Phase-3-Services.md)**
+- **[Automatic Payments v2.2.0](./Phase-3-Services/Automatic-Payments-v2.2.0.md)**
+- **[Enrollments v2.2.0](./Phase-3-Services/Enrollments-v2.2.0.md)**
+- **[Enrollments v2.3.0 rc.1](./Phase-3-Services/Enrollments-v2.3.0-rc.1.md)**
+- **[Payments v4.0.1](./Phase-3-Services/Payments-v4.0.1.md)**
+- **[Payments v5.0.0](./Phase-3-Services/Payments-v5.0.0.md)**
+- **[Phase 4b Investments APIs](./Phase-4b-Investments-APIs.md)**
+- **[Registering against the Mock Bank (DCR)](./Registering-against-the-Mock-Bank-(DCR).md)**
+- **[Registering against the Mock Bank (DCR) (PT)](./Registering-against-the-Mock-Bank-(DCR)-(PT).md)**
+- **[Registering an Application and Retrieving a Software Statement](./Registering-an-Application-and-Retrieving-a-Software-Statement.md)**
+- **[Registering an Application and Retrieving a Software Statement (PT)](./Registering-an-Application-and-Retrieving-a-Software-Statement-(PT).md)**
+- **[Registering an Application and Retrieving a Software Statement with DCR](./Registering-an-Application-and-Retrieving-a-Software-Statement-with-DCR.md)**
+- **[Release Notes](./Release-Notes.md)**
+- **[Removing sensitive information](./Removing-sensitive-information.md)**
+- **[Running specific tests locally against your own API responses](./Running-specific-tests-locally-against-your-own-API-responses.md)**
+- **[Running the conformance suite locally](./Running-the-conformance-suite-locally.md)**
+- **[Service Desk Submission](./Service-Desk-Submission.md)**
+- **[Service Desk Submission Guide](./Service-Desk-Submission-Guide.md)**
+- **[Setting up Consent](./Setting-up-Consent.md)**
+- **[Setting up request and full code](./Setting-up-request-and-full-code.md)**
+- **[Test Manager   Guia de Utilização](./Test-Manager---Guia-de-Utilização.md)**
+- **[Test Manager Guide](./Test-Manager-Guide.md)**
+- **[Test naming convention](./Test-naming-convention.md)**
+- **[UpStream Design](./UpStream-Design.md)**
+- **[BrowserControl](./UpStream-Design/BrowserControl.md)**
+- **[Condition](./UpStream-Design/Condition.md)**
+- **[Configuration](./UpStream-Design/Configuration.md)**
+- **[Environment](./UpStream-Design/Environment.md)**
+- **[EventLog](./UpStream-Design/EventLog.md)**
+- **[Structure](./UpStream-Design/Structure.md)**
+- **[TestDispatcher](./UpStream-Design/TestDispatcher.md)**
+- **[TestModule](./UpStream-Design/TestModule.md)**
+- **[TestRunner](./UpStream-Design/TestRunner.md)**
+- **[Visão geral do Mock TPP](./Visão-geral-do-Mock-TPP.md)**
+- **[Writing New Tests](./Writing-New-Tests.md)**
+- **[Writing Test Plans for Protected Resources](./Writing-Test-Plans-for-Protected-Resources.md)**
+- **[[OPIN] Customer Data Tests WIP](./[OPIN]-Customer-Data-Tests-WIP.md)**
+- **[_sidebar](./_sidebar.md)**
+- **[home](./home.md)**
